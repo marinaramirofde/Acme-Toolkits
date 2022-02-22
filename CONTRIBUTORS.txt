@@ -15,4 +15,5 @@ This project was contributed by the following people:
 - Raúl Montalbán (raumonmar1@alum.us.es)
 - Angel Lorenzo Casas(anglorcas@alum.us.es)
 - Rafael Avila (rafavisan@alum.us.es)
+- Daniel Suárez (dansuaper@alum.us.es)
 
