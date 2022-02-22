@@ -12,6 +12,7 @@ This project was contributed by the following people:
 
 - Rafael Corchuelo (corchu@us.es)
 - Marina Ramiro (marramfer@alum.us.es)
+- Siamion Danko (siadan@alum.us.es)
 - Raúl Montalbán (raumonmar1@alum.us.es)
 - Angel Lorenzo Casas(anglorcas@alum.us.es)
 - Rafael Avila (rafavisan@alum.us.es)
