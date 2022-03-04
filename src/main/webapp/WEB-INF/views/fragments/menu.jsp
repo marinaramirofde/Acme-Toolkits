@@ -21,6 +21,7 @@
 	
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 
+			<acme:menu-suboption code="47428674Y: Montalban Martin, Raul" action="http://www.twitch.com/"/>
 			<acme:menu-suboption code="X7517297T: Danko, Siamion" action="https://www.youtube.com/"/>
 			<acme:menu-suboption code="75902954X: Ramiro Fernandez, Marina" action="https://www.pinterest.de/"/>
 
