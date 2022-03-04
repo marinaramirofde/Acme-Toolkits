@@ -26,6 +26,9 @@
 	
 
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+
+			<acme:menu-suboption code="54183920Z: Lorenzo Casas, Angel" action="https://www.youtube.com/"/>
+
 			<acme:menu-suboption code="47394372C: Suarez Perea, Daniel" action="http://www.twitter.com/"/>
 			<acme:menu-suboption code="47428674Y: Montalban Martin, Raul" action="http://www.twitch.com/"/>
 			<acme:menu-suboption code="X7517297T: Danko, Siamion" action="https://www.youtube.com/"/>
