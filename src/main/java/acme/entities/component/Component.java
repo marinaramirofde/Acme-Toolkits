@@ -44,3 +44,4 @@ public class Component extends AbstractEntity{
 	@URL
 	protected String link;
 }
+
