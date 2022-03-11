@@ -3,6 +3,8 @@ package acme.entities.chirp;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -21,6 +23,7 @@ public class Chirp extends AbstractEntity{
 	protected static final long  serialVersionUID= 1L;
 
 	@NotNull
+	@Temporal(TemporalType.TIMESTAMP)
 	protected Date creationMoment;
 	
 	@NotBlank
