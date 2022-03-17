@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.entities.patronages.Patronage;
-import acme.forms.Money;
+import acme.framework.datatypes.Money;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
