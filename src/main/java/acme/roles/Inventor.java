@@ -32,3 +32,4 @@ public class Inventor extends UserRole {
 	@URL
 	protected String	info; 
 }
+
