@@ -8,21 +8,22 @@ import javax.persistence.OneToMany;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
-import acme.framework.entities.AbstractEntity;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.entities.component.Component;
+import acme.entities.tool.Tool;
+import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
-
-import acme.entities.component.Component
-import acme.entities.tool.Tool
 
 @Entity
 @Getter
 @Setter
 public class Toolkit extends AbstractEntity {
 	
+	private static final long serialVersionUID = 1L;
+
 	@Column(unique = true)
 	@Pattern(regexp = "^[A-Z]{3}-[0-9]{3}(-[A-Z])?$")
 	protected String code;
