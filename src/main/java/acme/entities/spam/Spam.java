@@ -1,12 +1,6 @@
 package acme.entities.spam;
 
-import java.util.List;
-
-import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
 
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
@@ -23,23 +17,25 @@ public class Spam extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 		
-		@NotNull
-		@Min(1)
-		@Max(100)
-		protected double strongThreshold;
+		// -- CORREGIR ENTERA --
 		
-		@NotNull
-		@ElementCollection()
-		protected List<String> strongTerms;
-		
-		@NotNull
-		@Min(1)
-		@Max(100)
-		protected double weakThreshold;
-		
-		@NotNull
-		@ElementCollection()
-		protected List<String> weakTerms;
+//		@NotNull
+//		@Min(1)
+//		@Max(100)
+//		protected double strongThreshold;
+//		
+//		@NotNull
+//		@ElementCollection()
+//		protected List<String> strongTerms;
+//		
+//		@NotNull
+//		@Min(1)
+//		@Max(100)
+//		protected double weakThreshold;
+//		
+//		@NotNull
+//		@ElementCollection()
+//		protected List<String> weakTerms;
 		
 	// Derived attributes -----------------------------------------------------
 

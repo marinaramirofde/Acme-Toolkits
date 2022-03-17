@@ -1,18 +1,13 @@
 package acme.entities.toolkit;
 
-import java.util.Set;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.OneToMany;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
-import acme.entities.component.Component;
-import acme.entities.tool.Tool;
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -28,11 +23,12 @@ public class Toolkit extends AbstractEntity {
 	@Pattern(regexp = "^[A-Z]{3}-[0-9]{3}(-[A-Z])?$")
 	protected String code;
 	
-	@OneToMany
-	protected Set<Component> components;
-	
-	@OneToMany
-	protected Set<Tool> tools;
+	// CORREGIR!! no se puede ONETOMANY xxxxx
+//	@OneToMany
+//	protected Set<Component> components;
+//	
+//	@OneToMany
+//	protected Set<Tool> tools;
 	
 	@NotEmpty
 	@Length(min=1, max=101)
