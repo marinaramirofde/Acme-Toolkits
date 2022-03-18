@@ -7,23 +7,14 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
-
-import acme.framework.entities.AbstractEntity;
-
-import org.hibernate.annotations.Cascade;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Pattern;
-
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.entities.component.Component;
+import acme.entities.tool.Tool;
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -46,15 +37,15 @@ public class Toolkit extends AbstractEntity {
 	protected Set<Tool> tools;
 	
 	@NotEmpty
-	@Length(min=1, max=101)
+	@Length(min=1, max=100)
 	protected String title;
 	
 	@NotEmpty
-	@Length(min=1, max=256)
+	@Length(min=1, max=255)
 	protected String description;
 	
 	@NotEmpty
-	@Length(min=1, max=256)
+	@Length(min=1, max=255)
 	protected String assemblyNotes;
 	
 	@URL
