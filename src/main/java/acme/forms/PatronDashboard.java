@@ -1,7 +1,10 @@
 package acme.forms;
 
 import java.io.Serializable;
+import java.util.Map;
 
+import acme.entities.patronages.Patronage;
+import acme.framework.datatypes.Money;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -25,13 +28,30 @@ public class PatronDashboard implements Serializable{
 	Double averageBudgetOfAcceptedPatronages;
 	Double averageBudgetOfDeniedPatronages;
 
-	// ----- budget:
+	/**
+	 * Deviation.
+	 */
+	Double budgetDeviationOfProposedPatronages;
+	Double budgetDeviationOfAcceptedPatronages;
+	Double budgetDeviationOfDeniedPatronages;
 	
-	// Deviation ----------> USAR: stddev()
-	// minimum 
-	// maximum  
-	//proposed 
-	//accepted
-	//denied 
-	//       ... patronages grouped by currency.
+	/**
+	 * Minimum.
+	 */
+	Double minimumBudgetOfProposedPatronages;
+	Double minimumBudgetOfAcceptedPatronages;
+	Double minimunBudgetOfAcceptedPatronages;
+	
+	/**
+	 * Maximum.
+	 */
+	Double maximumBudgetOfProposedPatronages;
+	Double maximumBudgetOfAcceptedPatronages;
+	Double maximumBudgetOfDeniedPatronage;
+	
+	/**
+	 * ... patronages grouped by currency.
+	 */	
+	Map<Patronage, Money> patronagesGroupedByCurrency;
+	
 }
