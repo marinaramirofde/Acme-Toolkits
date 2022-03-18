@@ -30,12 +30,6 @@ public class Toolkit extends AbstractEntity {
 	@Pattern(regexp = "^[A-Z]{3}-[0-9]{3}(-[A-Z])?$")
 	protected String code;
 	
-	@ManyToMany(cascade={CascadeType.ALL})
-	protected Set<Component> components;
-	
-	@ManyToMany(cascade={CascadeType.ALL})
-	protected Set<Tool> tools;
-	
 	@NotEmpty
 	@Length(min=1, max=100)
 	protected String title;
@@ -51,5 +45,12 @@ public class Toolkit extends AbstractEntity {
 	@URL
 	protected String link;
 	
+	// Relaciones
+	
+	@ManyToMany(cascade={CascadeType.ALL})
+	protected Set<Component> components;
+	
+	@ManyToMany(cascade={CascadeType.ALL})
+	protected Set<Tool> tools;
 
 }

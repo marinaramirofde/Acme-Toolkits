@@ -22,7 +22,7 @@ public class Component extends AbstractEntity{
 	protected static final long serialVersionUID = 1L;
 	
 	@NotBlank
-	@Length(min=1, max=101)
+	@Length(min=1, max=100)
 	protected String name;
 	
 	@Column(unique = true)
