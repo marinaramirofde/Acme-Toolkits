@@ -34,6 +34,7 @@ public class Toolkit extends AbstractEntity {
 	@Pattern(regexp = "^[A-Z]{3}-[0-9]{3}(-[A-Z])?$")
 	protected String code;
 	
+	@NotEmpty
 	@ManyToOne(optional = false)
 	protected Quantity quantity;
 	
