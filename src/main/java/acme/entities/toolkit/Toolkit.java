@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
@@ -46,16 +47,16 @@ public class Toolkit extends AbstractEntity {
 	
 	protected boolean published;
 	
-	@NotEmpty
-	@Length(min=1, max=101)
+	@NotBlank
+	@Length(min=1, max=100)
 	protected String title;
 	
-	@NotEmpty
-	@Length(min=1, max=256)
+	@NotBlank
+	@Length(min=1, max=255)
 	protected String description;
 	
-	@NotEmpty
-	@Length(min=1, max=256)
+	@NotBlank
+	@Length(min=1, max=255)
 	protected String assemblyNotes;
 	
 	@URL
