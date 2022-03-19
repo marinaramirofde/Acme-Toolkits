@@ -260,22 +260,6 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1470</x>
-      <y>434</y>
-      <w>140</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Enum&gt;&gt;
-FlagStatus
---
-+ CRITICAL
-+ IRRELEVANT
-bg=green</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
       <x>385</x>
       <y>21</y>
       <w>217</w>

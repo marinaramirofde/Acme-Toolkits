@@ -13,19 +13,11 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
-import acme.framework.entities.AbstractEntity;
-
-import org.hibernate.annotations.Cascade;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Pattern;
-
-
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.entities.component.Component;
+import acme.entities.tool.Tool;
 import acme.framework.entities.AbstractEntity;
 import acme.framework.entities.Quantity;
 import lombok.Getter;
