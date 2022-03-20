@@ -3,8 +3,6 @@ package acme.forms;
 import java.io.Serializable;
 import java.util.Map;
 
-import acme.entities.patronages.Patronage;
-import acme.framework.datatypes.Money;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -17,41 +15,35 @@ public class PatronDashboard implements Serializable{
 	/**
 	 * Total number of pro-posed/accepted/denied patronages.
 	 */
-	Integer totalNumberOfProposedPatronages;
-	Integer totalNumberOfAcceptedPatronages; 
-	Integer totalNumberOfDeniedPatronages; 
+	int totalNumberOfProposedPatronages;
+    int totalNumberOfAcceptedPatronages;
+    int totalNumberOfDeniedPatronages;
 
-	/**
-	 * Average.
+    /**
+	 *   PROPOSED PATRONAGES: Average, Deviation, Minimum and Maximum Budget  ByCurrencyAndStatus
 	 */
-	Double averageBudgetOfProposedPatronages;
-	Double averageBudgetOfAcceptedPatronages;
-	Double averageBudgetOfDeniedPatronages;
+    Map<String, Double> averageBudgetOfProposedPatronagesByCurrency;
+    Map<String, Double> deviationBudgetOfProposedPatronagesByCurrency;
+    Map<String, Double> minimumBudgetOfProposedPatronagesByCurrency;
+    Map<String, Double> maximumBudgetOfProposedPatronagesByCurrency;
 
-	/**
-	 * Deviation.
-	 */
-	Double budgetDeviationOfProposedPatronages;
-	Double budgetDeviationOfAcceptedPatronages;
-	Double budgetDeviationOfDeniedPatronages;
+    /**
+   	 *   ACCEPTED PATRONAGES: Average, Deviation, Minimum and Maximum Budget  ByCurrencyAndStatus
+   	 */
+    Map<String, Double> averageBudgetOfAcceptedPatronagesByCurrency;
+    Map<String, Double> deviationBudgetOfAcceptedPatronagesByCurrency;
+    Map<String, Double> minimumBudgetOfAcceptedPatronagesByCurrency;
+    Map<String, Double> maximumBudgetOfAcceptedPatronagesByCurrency;
+
+    /**
+   	 *   DENIED PATRONAGES: Average, Deviation, Minimum and Maximum Budget  ByCurrencyAndStatus
+   	 */
+    Map<String, Double> averageBudgetOfDeniedPatronagesByCurrency;
+    Map<String, Double> deviationBudgetOfDeniedPatronagesByCurrency;
+    Map<String, Double> minimumBudgetOfDeniedPatronagesByCurrency;
+    Map<String, Double> maximumBudgetOfDeniedPatronagesByCurrency;
 	
-	/**
-	 * Minimum.
-	 */
-	Double minimumBudgetOfProposedPatronages;
-	Double minimumBudgetOfAcceptedPatronages;
-	Double minimunBudgetOfAcceptedPatronages;
-	
-	/**
-	 * Maximum.
-	 */
-	Double maximumBudgetOfProposedPatronages;
-	Double maximumBudgetOfAcceptedPatronages;
-	Double maximumBudgetOfDeniedPatronage;
-	
-	/**
-	 * ... patronages grouped by currency.
-	 */	
-	Map<Patronage, Money> patronagesGroupedByCurrency;
-	
+    /**
+     *  POSIBLE OPTIMIZACIÓN: Map<Pair<Status,String>,Double> averageBudgetOfPatronagesByCurrencyAndStatus
+     */
 }

@@ -1,6 +1,9 @@
 package acme.forms;
 
 import java.io.Serializable;
+import java.util.Map;
+
+import org.springframework.data.util.Pair;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,54 +11,61 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AdministratorDashboard implements Serializable{
-	
-protected static final long serialVersionUID = 1L;
+
+	protected static final long serialVersionUID = 1L;
 
 	/**
-	 * Patronages.
+	 * COMPONENTS: Total number, average, deviation, minimum and maximum retail.
 	 */
-	//Total number of proposed/accepted/denied patronages
-	Integer totalNumberOfProposedPatronages; 
-	Integer totalNumberOfAcceptedPatronages;
-	Integer totalNumberOfDeniedPatronages;
-	
-	//PROPOSED patronages: Average, deviation, minimum and maximum budget.
-	
-	Double averageBudgetOfProposedPatronages;
-	Double deviationBudgetOfProposedPatronages;
-	Double minimumBudgetOfProposedPatronages;
-	Double maximumBudgetOfProposedPatronages;
-	
-	//ACCEPTED patronages: Average, deviation, minimum and maximum budget.
-	Double averageBudgetOfAcceptedPatronages;
-	Double deviationBudgetOfAcceptedPatronages;
-	Double minimumBudgetOfAcceptedPatronages;
-	Double maximumBudgetOfAcceptedPatronages;
-	
-	//DENIED patronages: Average, deviation, minimum and maximum budget.
-	Double averageBudgetOfDeniedPatronages;
-	Double deviationBudgetOfDeniedPatronages;
-	Double minimumBudgetOfDeniedPatronages;
-	Double maximumBudgetOfDeniedPatronages;
+	int totalNumberOfComponents;
+	Map<Pair<String,String>,Double> averageRetailPriceOfComponentsByTechnologyAndCurrency;
+	Map<Pair<String,String>,Double> deviationRetailPriceOfComponentsByTechnologyAndCurrency;
+	Map<Pair<String,String>,Double> minimumRetailPriceOfComponentsByTechnologyAndCurrency;
+	Map<Pair<String,String>,Double>  maximumRetailPriceOfComponentsByTechnologyAndCurrency;
+
+
+	/**
+	 * TOOLS: Total number, average, deviation, minimum and maximum retail.
+	 */
+	int totalNumberOfTools;
+	Map<String,Double> averageRetailPriceOfToolsByCurrency;
+	Map<String,Double> deviationRetailPriceOfToolsByCurrency;
+	Map<String,Double> minimumRetailPriceOfToolsByCurrency;
+	Map<String,Double> maximumRetailPriceOfToolsByCurrency;
+
+	/**
+	 * Total number of pro-posed/accepted/denied patronages.
+	 */
+	int totalNumberOfProposedPatronages;
+	int totalNumberOfAcceptedPatronages;
+	int totalNumberOfDeniedPatronages;
+
+	/**
+	 *   PROPOSED PATRONAGES: Average, Deviation, Minimum and Maximum Budget 
+	 */
+	double averageBudgetOfProposedPatronages;
+	double deviationBudgetOfProposedPatronages;
+	double minimumBudgetOfProposedPatronages;
+	double maximumBudgetOfProposedPatronages;
+
+	 /**
+   	 *   ACCEPTED PATRONAGES: Average, Deviation, Minimum and Maximum Budget 
+   	 */
+	double averageBudgetOfAcceptedPatronages;
+	double deviationBudgetOfAcceptedPatronages;
+	double minimumBudgetOfAcceptedPatronages;
+	double maximumBudgetOfAcceptedPatronages;
+
+	/**
+   	 *   DENIED PATRONAGES: Average, Deviation, Minimum and Maximum Budget 
+   	 */
+	double averageBudgetOfDeniedPatronages;
+	double deviationBudgetOfDeniedPatronages;
+	double minimumBudgetOfDeniedPatronages;
+	double maximumBudgetOfDeniedPatronages;
 	
 	/**
-	 * Components.
-	 */
-	// COMPONENTS: Total number, average, deviation, minimum and maximum retail.
-	Integer totalNumberOfComponents;
-	Double averageRetailPriceOfComponents;
-	Double deviationRetailPriceOfComponents;
-	Double minumimRetailPriceOfComponents;
-	Double maximumRetailPriceOfComponents;
-	
-	/**
-	 * Tools.
-	 */
-	// TOOLS: Total number, average, deviation, minimum and maximum retail.
-	Integer totalNumberOfTools;
-	Double averageRetailPriceOfTools;
-	Double deviationRetailPriceOfTools;
-	Double minumimRetailPriceOfTools;
-	Double maximumRetailPriceOfTools;
+     *  POSIBLE OPTIMIZACIÓN: Map<Status, double> averageBudgetOfPatronagesByStatus
+     */
 
 }

@@ -2,16 +2,10 @@ package acme.entities.quantity;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
-
-import javax.validation.Valid;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 
-import acme.entities.item.Item;
+import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
 
 import acme.entities.toolkit.Toolkit;
 import acme.framework.entities.AbstractEntity;
