@@ -1,16 +1,16 @@
-package acme.entities.tool;
-
+package acme.entities.item;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Positive;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.framework.datatypes.Money;
 import acme.framework.entities.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,7 +18,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Tool extends AbstractEntity{
+public class Item extends AbstractEntity{
 	
 	protected static final long serialVersionUID = 1L;
 	
@@ -27,6 +27,7 @@ public class Tool extends AbstractEntity{
 	protected String name;
 	
 	@Column(unique=true)
+	@NotBlank
 	@Pattern(regexp = "^[A-Z]{3}-[0-9]{3}(-[A-Z])?$")
 	protected String code;
 	
@@ -38,11 +39,14 @@ public class Tool extends AbstractEntity{
 	@Length(min=1, max=255)
 	protected String description;
 	
-	@Min(0)
+	@Positive
 	@NotNull
-	protected Double retailPrice;
+	protected Money retailPrice;
 	
 	@URL
 	protected String link;
+	
+	@NotNull
+	protected ItemType type;
 
 }
