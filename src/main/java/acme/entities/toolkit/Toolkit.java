@@ -25,7 +25,7 @@ public class Toolkit extends AbstractEntity {
 	protected String code;
 	
 	protected boolean published;
-	
+
 	@NotBlank
 	@Length(min=1, max=100)
 	protected String title;
