@@ -2,8 +2,9 @@ package acme.entities.quantity;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
+import javax.validation.Valid;
 import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
 
@@ -22,11 +23,13 @@ public class Quantity extends AbstractEntity{
 	@Min(1)
 	protected int amount;
 	
-	@NotEmpty
+	@NotNull
+	@Valid
 	@ManyToOne(optional = false)
 	protected Item item;
 	
-	@NotEmpty
+	@NotNull
+	@Valid
 	@ManyToOne(optional = false)
 	protected Toolkit toolkit;
 
