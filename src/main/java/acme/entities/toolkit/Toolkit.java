@@ -1,25 +1,15 @@
 package acme.entities.toolkit;
 
 
-import java.util.Set;
-
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
-import acme.entities.component.Component;
-import acme.entities.tool.Tool;
 import acme.framework.entities.AbstractEntity;
-import acme.framework.entities.Quantity;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -33,10 +23,6 @@ public class Toolkit extends AbstractEntity {
 	@Column(unique = true)
 	@Pattern(regexp = "^[A-Z]{3}-[0-9]{3}(-[A-Z])?$")
 	protected String code;
-	
-	@NotEmpty
-	@ManyToOne(optional = false)
-	protected Quantity quantity;
 	
 	protected boolean published;
 	
