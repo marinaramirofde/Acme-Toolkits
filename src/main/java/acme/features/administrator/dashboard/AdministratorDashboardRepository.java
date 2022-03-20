@@ -20,44 +20,44 @@ public interface AdministratorDashboardRepository extends AbstractRepository{
 	
 	//Average, deviation, minimum and maximum budget of proposed patronages
 	
-	@Query("select avg(p.budget) from Patronage p where p.status = 'PROPOSED'")
+	@Query("select avg(p.budget.amount) from Patronage p where p.status = 'PROPOSED'")
 	Double averageBudgetOfProposedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p where p.status = 'PROPOSED'")
+	@Query("select stddev(p.budget.amount) from Patronage p where p.status = 'PROPOSED'")
 	Double deviationBudgetOfProposedPatronages();
 
-	@Query("select avg(p.budget) from Patronage p where p.status = 'PROPOSED'")
+	@Query("select min(p.budget.amount) from Patronage p where p.status = 'PROPOSED'")
 	Double minimumBudgetOfProposedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p where p.status = 'PROPOSED'")
+	@Query("select max(p.budget.amount) from Patronage p where p.status = 'PROPOSED'")
 	Double maximumBudgetOfProposedPatronages();
 	
 	//Average, deviation, minimum and maximum budget of accepted patronages
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'ACCEPTED'")
+	@Query("select avg(p.budget.amount) from Patronage p WHERE p.status = 'ACCEPTED'")
 	Double averageBudgetOfAcceptedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'ACCEPTED'")
+	@Query("select stddev(p.budget.amount) from Patronage p WHERE p.status = 'ACCEPTED'")
 	Double deviationBudgetOfAcceptedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'ACCEPTED'")
+	@Query("select min(p.budget.amount) from Patronage p WHERE p.status = 'ACCEPTED'")
 	Double minimumBudgetOfAcceptedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'ACCEPTED'")
+	@Query("select max(p.budget.amount) from Patronage p WHERE p.status = 'ACCEPTED'")
 	Double maximumBudgetOfAcceptedPatronages();
 	
 	//Average, deviation, minimum and maximum budget of denied patronages
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'DENIED'")
+	@Query("select avg(p.budget.amount) from Patronage p WHERE p.status = 'DENIED'")
 	Double averageBudgetOfDeniedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'DENIED'")
+	@Query("select stddev(p.budget.amount) from Patronage p WHERE p.status = 'DENIED'")
 	Double deviationBudgetOfDeniedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'DENIED'")
+	@Query("select min(p.budget.amount) from Patronage p WHERE p.status = 'DENIED'")
 	Double minimumBudgetOfDeniedPatronages();
 	
-	@Query("select avg(p.budget) from Patronage p WHERE p.status = 'DENIED'")
+	@Query("select max(p.budget.amount) from Patronage p WHERE p.status = 'DENIED'")
 	Double maximumBudgetOfDeniedPatronages();
 
 	////
@@ -65,16 +65,16 @@ public interface AdministratorDashboardRepository extends AbstractRepository{
 	@Query("SELECT count(it) FROM Item it WHERE it.type = 'COMPONENT'")
 	Integer totalNumberOfComponents();
 	
-	@Query("SELECT avg(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology and it.retailPrice.currency")
+	@Query("SELECT avg(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology, it.retailPrice.currency")
 	Double averageRetailPriceOfComponents();
 	
-	@Query("SELECT stddev(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology and it.retailPrice.currency")
+	@Query("SELECT stddev(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology, it.retailPrice.currency")
 	Double deviationRetailPriceOfComponents();
 	
-	@Query("SELECT min(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology and it.retailPrice.currency")
+	@Query("SELECT min(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology, it.retailPrice.currency")
 	Double minimumRetailPriceOfComponents();
 	
-	@Query("SELECT max(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology and it.retailPrice.currency")
+	@Query("SELECT max(it.retailPrice.amount) FROM Item it WHERE it.type = 'COMPONENT' GROUP BY it.technology, it.retailPrice.currency")
 	Double maximumRetailPriceOfComponents();
 	
 	////
