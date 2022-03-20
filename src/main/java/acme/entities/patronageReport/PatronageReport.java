@@ -16,9 +16,8 @@ import javax.validation.constraints.Pattern;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.entities.patronages.Patronage;
 import acme.framework.entities.AbstractEntity;
-import acme.roles.Inventor;
-import acme.roles.Patron;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -35,11 +34,13 @@ public class PatronageReport extends AbstractEntity {
 	//Atributtes
 	
 	@Column(unique = true)
+	@NotBlank
 	@Pattern (regexp = "^[A-Z]{3}-[0-9]{3}(-[A-Z])?:[0-9]{4,6}$")
 	protected String sequenceNumber;
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
+	@NotNull
 	protected Date creationMoment;
 	
 	@NotBlank
@@ -49,15 +50,10 @@ public class PatronageReport extends AbstractEntity {
 	@URL
 	protected String info;
 	
-	//Relationships
+	// Relationships ----------------------------------------------------------
 	
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected Inventor inventor;
-	
-	@NotNull
-	@Valid
-	@ManyToOne(optional = false)
-	protected Patron patron;
+	protected Patronage patronage;
 }
