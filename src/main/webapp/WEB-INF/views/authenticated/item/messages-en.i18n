@@ -1,0 +1,16 @@
+# LO MISMO QUE EN EL FORM Y LIST: "title","name", "code", "technology", "description", "retailPrice", "link","type" 
+
+
+authenticated.item.form.label.title = Title:
+authenticated.item.form.label.name = Name:
+authenticated.item.form.label.code = Code:
+authenticated.item.form.label.technology = Technology:
+authenticated.item.form.label.description = Description:
+authenticated.item.form.label.retailPrice = RetailPrice:
+authenticated.item.form.label.link = Link:
+authenticated.item.form.label.type = Type:
+
+
+authenticated.item.list.label.name = Name
+authenticated.item.list.label.code = Code
+authenticated.item.list.label.type = Type
