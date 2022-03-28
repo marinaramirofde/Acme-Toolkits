@@ -1,4 +1,4 @@
-package acme.features.administrator.item;
+package acme.features.anonymous.item;
 
 import java.util.Collection;
 
@@ -9,7 +9,7 @@ import acme.entities.item.Item;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AdministratorItemRepository extends AbstractRepository {
+public interface AnonymousItemRepository extends AbstractRepository {
 
 	@Query("select i from Item i where i.id = :id")
 	Item findOneItemById(int id);

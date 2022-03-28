@@ -1,4 +1,4 @@
-package acme.features.administrator.item;
+package acme.features.inventor.item;
 
 import java.util.Collection;
 
@@ -8,18 +8,18 @@ import org.springframework.stereotype.Service;
 import acme.entities.item.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
-import acme.framework.roles.Administrator;
 import acme.framework.services.AbstractListService;
+import acme.roles.Inventor;
 
 @Service
-public class AdministratorItemListAllService implements AbstractListService<Administrator, Item> {
+public class InventorItemListAllService implements AbstractListService<Inventor, Item> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	protected AdministratorItemRepository repository;
+	protected InventorItemRepository repository;
 
-	// AbstractListService<Administrator, Item> interface --------------
+	// AbstractListService<Inventor, Item> interface --------------
 
 
 	@Override

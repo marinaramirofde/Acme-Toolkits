@@ -1,4 +1,4 @@
-package acme.features.administrator.item;
+package acme.features.authenticated.item;
 
 import java.util.Collection;
 
@@ -8,18 +8,18 @@ import org.springframework.stereotype.Service;
 import acme.entities.item.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
-import acme.framework.roles.Administrator;
+import acme.framework.roles.Authenticated;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AdministratorItemListAllService implements AbstractListService<Administrator, Item> {
+public class AuthenticatedItemListAllService implements AbstractListService<Authenticated, Item> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	protected AdministratorItemRepository repository;
+	protected AuthenticatedItemRepository repository;
 
-	// AbstractListService<Administrator, Item> interface --------------
+	// AbstractListService<Authenticated, Item> interface --------------
 
 
 	@Override
