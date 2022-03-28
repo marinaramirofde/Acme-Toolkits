@@ -35,7 +35,7 @@ public class AnonymousItemListAllService implements AbstractListService<Anonymou
 
 		Collection<Item> result;
 
-		result = this.repository.findAllItems();
+		result = this.repository.findAllTools();
 
 		return result;
 	}

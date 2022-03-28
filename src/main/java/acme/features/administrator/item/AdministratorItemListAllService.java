@@ -35,7 +35,7 @@ public class AdministratorItemListAllService implements AbstractListService<Admi
 
 		Collection<Item> result;
 
-		result = this.repository.findAllItems();
+		result = this.repository.findAllTools();
 
 		return result;
 	}

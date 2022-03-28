@@ -1,4 +1,4 @@
-package acme.features.authenticated.item;
+package acme.features.patron.item;
 
 import javax.annotation.PostConstruct;
 
@@ -7,18 +7,18 @@ import org.springframework.stereotype.Controller;
 
 import acme.entities.item.Item;
 import acme.framework.controllers.AbstractController;
-import acme.framework.roles.Authenticated;
+import acme.roles.Patron;
 
 @Controller
-public class AuthenticatedItemController extends AbstractController<Authenticated, Item> {
+public class PatronItemController extends AbstractController<Patron, Item> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	protected AuthenticatedItemListAllService		listAllService;
+	protected PatronItemListAllService		listAllService;
 
 	@Autowired
-	protected AuthenticatedItemShowService			showService;
+	protected PatronItemShowService			showService;
 
 
 	// Constructors -----------------------------------------------------------

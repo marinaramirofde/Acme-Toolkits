@@ -19,6 +19,17 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 	
+		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
+            <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/patron/item/list-all-tools"/>
+        </acme:menu-option>
+
+        <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
+            <acme:menu-suboption code="master.menu.inventor.item.list-all-tools" action="/inventor/item/list-all-tools"/>
+        <acme:menu-separator/>
+
+
+        </acme:menu-option>
+	
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 
 			<acme:menu-suboption code="54183920Z: Lorenzo Casas, Angel" action="https://www.youtube.com/"/>
@@ -28,14 +39,14 @@
 			<acme:menu-suboption code="X7517297T: Danko, Siamion" action="https://www.youtube.com/"/>
 			<acme:menu-suboption code="75902954X: Ramiro Fernandez, Marina" action="https://www.pinterest.de/"/>
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.item" action="/anonymous/item/list-all"/>
+			<acme:menu-suboption code="master.menu.anonymous.item.list-all-tools" action="/anonymous/item/list-all-tools"/>
 			<acme:menu-separator/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.item" action="/administrator/item/list-all"/>
+			<acme:menu-suboption code="master.menu.administrator.item.list-all-tools" action="/administrator/item/list-all-tools"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-initial" action="/administrator/populate-initial"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
 			<acme:menu-separator/>
@@ -64,7 +75,7 @@
 			<acme:menu-suboption code="master.menu.user-account.become-consumer" action="/authenticated/consumer/create" access="!hasRole('Consumer')"/>
 			<acme:menu-suboption code="master.menu.user-account.consumer" action="/authenticated/consumer/update" access="hasRole('Consumer')"/>
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.authenticated.item" action="/authenticated/item/list-all"/>
+			<acme:menu-suboption code="master.menu.authenticated.item.list-all-tools" action="/authenticated/item/list-all-tools"/>
 			<acme:menu-separator/>
 		</acme:menu-option>
 
