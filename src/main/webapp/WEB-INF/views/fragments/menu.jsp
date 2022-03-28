@@ -1,15 +1,3 @@
-<%--
-- menu.jsp
--
-- Copyright (C) 2012-2022 Rafael Corchuelo.
--
-- In keeping with the traditional purpose of furthering education and research, it is
-- the policy of the copyright owner to permit non-commercial use and redistribution of
-- this software. It has been tested carefully, but it is not guaranteed for any particular
-- purposes.  The copyright owner does not offer any warranties or representations, nor do
-- they accept any liabilities with respect to them.
---%>
-
 <%@page language="java" import="acme.framework.helpers.PrincipalHelper,acme.roles.Provider,acme.roles.Consumer"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -18,7 +6,12 @@
 
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
-	
+		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.item.list-all-tools" action="/authenticated/item/list-all-tools"/>
+			<acme:menu-separator/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
             <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/patron/item/list-all-tools"/>
         </acme:menu-option>
@@ -74,9 +67,6 @@
 			<acme:menu-suboption code="master.menu.user-account.provider" action="/authenticated/provider/update" access="hasRole('Provider')"/>
 			<acme:menu-suboption code="master.menu.user-account.become-consumer" action="/authenticated/consumer/create" access="!hasRole('Consumer')"/>
 			<acme:menu-suboption code="master.menu.user-account.consumer" action="/authenticated/consumer/update" access="hasRole('Consumer')"/>
-			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.authenticated.item.list-all-tools" action="/authenticated/item/list-all-tools"/>
-			<acme:menu-separator/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.sign-out" action="/master/sign-out" access="isAuthenticated()"/>
