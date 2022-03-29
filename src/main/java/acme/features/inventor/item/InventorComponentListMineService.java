@@ -8,18 +8,19 @@ import org.springframework.stereotype.Service;
 import acme.entities.item.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractListService;
 import acme.roles.Inventor;
 
 @Service
-public class InventorItemListAllService implements AbstractListService<Inventor, Item> {
+public class InventorComponentListMineService implements AbstractListService<Inventor, Item> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
 	protected InventorItemRepository repository;
 
-	// AbstractListService<Inventor, Item> interface --------------
+	// AbstractListService<Inventor, Item> interface ---------------------------
 
 
 	@Override
@@ -34,12 +35,14 @@ public class InventorItemListAllService implements AbstractListService<Inventor,
 		assert request != null;
 
 		Collection<Item> result;
+		Principal principal;
 
-		result = this.repository.findAllComponents(); //Components or Tools???
+		principal = request.getPrincipal();
+		result = this.repository.findManyComponentsByInventorId(principal.getActiveRoleId());
 
 		return result;
 	}
-	
+
 	@Override
 	public void unbind(final Request<Item> request, final Item entity, final Model model) {
 		assert request != null;
