@@ -1,0 +1,9 @@
+authenticated.announcement.form.label.title = Title:
+authenticated.announcement.form.label.critical = Critical:
+authenticated.announcement.form.label.body = Text:
+authenticated.announcement.form.label.link = Info:
+
+authenticated.announcement.list.label.creationMoment = Creation Moment
+authenticated.announcement.list.label.critical = Critical
+authenticated.announcement.list.label.title = Title
+authenticated.announcement.list.label.body = Text

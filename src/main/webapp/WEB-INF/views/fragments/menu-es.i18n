@@ -30,12 +30,16 @@ master.menu.administrator.populate-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-down = Parar el sistema
 master.menu.administrator.item.list-all = Listar todo
 
+# master.menu.authenticated ###################################################
+master.menu.authenticated = Autenticado
+master.menu.authenticated.announcement.list = Lista de anuncios recientes
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Enlace favorito
 
-# master.menu.consumer ##########################################################
+# master.menu.consumer #########################################################
 
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
