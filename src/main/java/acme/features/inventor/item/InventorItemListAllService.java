@@ -35,7 +35,7 @@ public class InventorItemListAllService implements AbstractListService<Inventor,
 
 		Collection<Item> result;
 
-		result = this.repository.findAllComponents(); //Components or Tools???
+		result = this.repository.findAllTools();
 
 		return result;
 	}
