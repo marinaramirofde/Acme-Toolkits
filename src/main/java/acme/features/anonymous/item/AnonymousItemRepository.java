@@ -5,7 +5,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.item.Item;
+import acme.entities.items.Item;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
