@@ -1,4 +1,4 @@
-package acme.entities.systemConfiguration;
+package acme.entities.systemConfigurations;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.Digits;

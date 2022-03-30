@@ -1,4 +1,4 @@
-package acme.entities.patronageReport;
+package acme.entities.patronageReports;
 
 import java.util.Date;
 

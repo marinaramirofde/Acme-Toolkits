@@ -1,4 +1,4 @@
-package acme.entities.announcement;
+package acme.entities.announcements;
 
 import java.util.Date;
 

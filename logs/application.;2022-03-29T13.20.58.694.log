@@ -1,0 +1,799 @@
+2022-03-29 13:20:06.308 INFO  [acme.Launcher@main] Starting Launcher using Java 1.8.0_281 on DESKTOP-HACG05I with PID 16212 (C:\Users\MRF\Desktop\Workspace-22.0\Frameworks\Acme-Framework-22.2\target\classes started by MRF in C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits) 
+2022-03-29 13:20:06.310 DEBUG [acme.Launcher@main] Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-03-29 13:20:06.313 INFO  [acme.Launcher@main] The following profiles are active: development,default 
+2022-03-29 13:20:11.628 DEBUG [org.apache.jasper.servlet.JasperInitializer@main] Initializing Jasper for context [application] 
+2022-03-29 13:20:20.219 DEBUG [org.apache.jasper.servlet.JspServlet@main] Scratch dir for the JSP engine is: [C:\Users\MRF\AppData\Local\Temp\tomcat.8081.1227539921671318692\work\Tomcat\localhost\acme-toolkits-22.1] 
+2022-03-29 13:20:20.220 DEBUG [org.apache.jasper.servlet.JspServlet@main] IMPORTANT: Do not modify the generated servlets 
+2022-03-29 13:20:20.233 INFO  [acme.Launcher@main] Started Launcher in 14.899 seconds (JVM running for 15.777) 
+2022-03-29 13:20:20.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/test-classes/' 
+2022-03-29 13:20:20.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/classes/' 
+2022-03-29 13:20:20.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/Desktop/Workspace-22.0/Frameworks/Acme-Framework-22.2/target/classes/' 
+2022-03-29 13:20:20.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/Desktop/Workspace-22.0/Frameworks/Acme-Framework-22.2/target/test-classes/' 
+2022-03-29 13:20:20.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.2/spring-boot-starter-tomcat-2.4.2.jar' 
+2022-03-29 13:20:20.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar' 
+2022-03-29 13:20:20.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.41/tomcat-embed-core-9.0.41.jar' 
+2022-03-29 13:20:20.240 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar' 
+2022-03-29 13:20:20.240 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.41/tomcat-embed-websocket-9.0.41.jar' 
+2022-03-29 13:20:20.240 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.41/tomcat-embed-jasper-9.0.41.jar' 
+2022-03-29 13:20:20.241 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.41/tomcat-embed-el-9.0.41.jar' 
+2022-03-29 13:20:20.241 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/eclipse/jdt/ecj/3.18.0/ecj-3.18.0.jar' 
+2022-03-29 13:20:20.241 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar' 
+2022-03-29 13:20:20.241 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.4.2/spring-boot-starter-test-2.4.2.jar' 
+2022-03-29 13:20:20.242 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.2/spring-boot-starter-2.4.2.jar' 
+2022-03-29 13:20:20.242 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot/2.4.2/spring-boot-2.4.2.jar' 
+2022-03-29 13:20:20.242 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.2/spring-boot-autoconfigure-2.4.2.jar' 
+2022-03-29 13:20:20.242 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.2/spring-boot-starter-logging-2.4.2.jar' 
+2022-03-29 13:20:20.243 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar' 
+2022-03-29 13:20:20.243 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar' 
+2022-03-29 13:20:20.243 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar' 
+2022-03-29 13:20:20.243 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar' 
+2022-03-29 13:20:20.244 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar' 
+2022-03-29 13:20:20.244 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar' 
+2022-03-29 13:20:20.244 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-test/2.4.2/spring-boot-test-2.4.2.jar' 
+2022-03-29 13:20:20.244 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.4.2/spring-boot-test-autoconfigure-2.4.2.jar' 
+2022-03-29 13:20:20.245 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar' 
+2022-03-29 13:20:20.245 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar' 
+2022-03-29 13:20:20.245 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar' 
+2022-03-29 13:20:20.245 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar' 
+2022-03-29 13:20:20.246 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar' 
+2022-03-29 13:20:20.246 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar' 
+2022-03-29 13:20:20.246 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar' 
+2022-03-29 13:20:20.246 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar' 
+2022-03-29 13:20:20.246 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar' 
+2022-03-29 13:20:20.247 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar' 
+2022-03-29 13:20:20.247 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.19/byte-buddy-agent-1.10.19.jar' 
+2022-03-29 13:20:20.247 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar' 
+2022-03-29 13:20:20.247 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.28/mockito-junit-jupiter-3.6.28.jar' 
+2022-03-29 13:20:20.247 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar' 
+2022-03-29 13:20:20.248 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar' 
+2022-03-29 13:20:20.248 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar' 
+2022-03-29 13:20:20.248 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar' 
+2022-03-29 13:20:20.248 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-test/5.3.3/spring-test-5.3.3.jar' 
+2022-03-29 13:20:20.249 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar' 
+2022-03-29 13:20:20.249 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.4.2/spring-boot-starter-security-2.4.2.jar' 
+2022-03-29 13:20:20.249 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar' 
+2022-03-29 13:20:20.249 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/security/spring-security-web/5.4.2/spring-security-web-5.4.2.jar' 
+2022-03-29 13:20:20.250 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/security/spring-security-core/5.4.2/spring-security-core-5.4.2.jar' 
+2022-03-29 13:20:20.250 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar' 
+2022-03-29 13:20:20.250 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-context/5.3.3/spring-context-5.3.3.jar' 
+2022-03-29 13:20:20.250 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-expression/5.3.3/spring-expression-5.3.3.jar' 
+2022-03-29 13:20:20.250 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar' 
+2022-03-29 13:20:20.251 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/security/spring-security-config/5.4.2/spring-security-config-5.4.2.jar' 
+2022-03-29 13:20:20.251 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/security/spring-security-taglibs/5.4.2/spring-security-taglibs-5.4.2.jar' 
+2022-03-29 13:20:20.251 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/security/spring-security-acl/5.4.2/spring-security-acl-5.4.2.jar' 
+2022-03-29 13:20:20.251 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-jdbc/5.3.3/spring-jdbc-5.3.3.jar' 
+2022-03-29 13:20:20.251 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-tx/5.3.3/spring-tx-5.3.3.jar' 
+2022-03-29 13:20:20.252 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.2/spring-boot-starter-web-2.4.2.jar' 
+2022-03-29 13:20:20.252 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.2/spring-boot-starter-json-2.4.2.jar' 
+2022-03-29 13:20:20.252 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar' 
+2022-03-29 13:20:20.252 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar' 
+2022-03-29 13:20:20.253 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar' 
+2022-03-29 13:20:20.253 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar' 
+2022-03-29 13:20:20.253 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar' 
+2022-03-29 13:20:20.253 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar' 
+2022-03-29 13:20:20.253 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar' 
+2022-03-29 13:20:20.254 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-jsp/3.0.8/tiles-jsp-3.0.8.jar' 
+2022-03-29 13:20:20.254 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-servlet/3.0.8/tiles-servlet-3.0.8.jar' 
+2022-03-29 13:20:20.254 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-core/3.0.8/tiles-core-3.0.8.jar' 
+2022-03-29 13:20:20.254 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar' 
+2022-03-29 13:20:20.254 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar' 
+2022-03-29 13:20:20.255 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-request-servlet/1.0.7/tiles-request-servlet-1.0.7.jar' 
+2022-03-29 13:20:20.255 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-template/3.0.8/tiles-template-3.0.8.jar' 
+2022-03-29 13:20:20.255 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-api/3.0.8/tiles-api-3.0.8.jar' 
+2022-03-29 13:20:20.255 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-autotag-core-runtime/1.2/tiles-autotag-core-runtime-1.2.jar' 
+2022-03-29 13:20:20.256 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar' 
+2022-03-29 13:20:20.256 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-request-jsp/1.0.7/tiles-request-jsp-1.0.7.jar' 
+2022-03-29 13:20:20.256 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/tiles/tiles-request-api/1.0.7/tiles-request-api-1.0.7.jar' 
+2022-03-29 13:20:20.256 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.4.2/spring-boot-starter-data-jpa-2.4.2.jar' 
+2022-03-29 13:20:20.256 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.4.2/spring-boot-starter-aop-2.4.2.jar' 
+2022-03-29 13:20:20.257 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar' 
+2022-03-29 13:20:20.257 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.4.2/spring-boot-starter-jdbc-2.4.2.jar' 
+2022-03-29 13:20:20.257 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar' 
+2022-03-29 13:20:20.257 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar' 
+2022-03-29 13:20:20.257 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/hibernate/hibernate-core/5.4.27.Final/hibernate-core-5.4.27.Final.jar' 
+2022-03-29 13:20:20.258 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar' 
+2022-03-29 13:20:20.258 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/javassist/javassist/3.27.0-GA/javassist-3.27.0-GA.jar' 
+2022-03-29 13:20:20.258 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar' 
+2022-03-29 13:20:20.258 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar' 
+2022-03-29 13:20:20.258 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar' 
+2022-03-29 13:20:20.259 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar' 
+2022-03-29 13:20:20.259 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar' 
+2022-03-29 13:20:20.259 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar' 
+2022-03-29 13:20:20.259 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar' 
+2022-03-29 13:20:20.259 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar' 
+2022-03-29 13:20:20.260 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar' 
+2022-03-29 13:20:20.260 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/data/spring-data-jpa/2.4.3/spring-data-jpa-2.4.3.jar' 
+2022-03-29 13:20:20.260 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/data/spring-data-commons/2.4.3/spring-data-commons-2.4.3.jar' 
+2022-03-29 13:20:20.260 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-orm/5.3.3/spring-orm-5.3.3.jar' 
+2022-03-29 13:20:20.260 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/spring-aspects/5.3.3/spring-aspects-5.3.3.jar' 
+2022-03-29 13:20:20.260 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.jar' 
+2022-03-29 13:20:20.261 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar' 
+2022-03-29 13:20:20.261 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar' 
+2022-03-29 13:20:20.261 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar' 
+2022-03-29 13:20:20.261 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar' 
+2022-03-29 13:20:20.261 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar' 
+2022-03-29 13:20:20.261 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar' 
+2022-03-29 13:20:20.262 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar' 
+2022-03-29 13:20:20.262 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar' 
+2022-03-29 13:20:20.262 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar' 
+2022-03-29 13:20:20.262 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar' 
+2022-03-29 13:20:20.262 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar' 
+2022-03-29 13:20:20.262 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar' 
+2022-03-29 13:20:20.263 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar' 
+2022-03-29 13:20:20.263 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar' 
+2022-03-29 13:20:20.263 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar' 
+2022-03-29 13:20:20.263 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar' 
+2022-03-29 13:20:20.263 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar' 
+2022-03-29 13:20:20.263 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar' 
+2022-03-29 13:20:20.264 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar' 
+2022-03-29 13:20:20.264 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar' 
+2022-03-29 13:20:20.264 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar' 
+2022-03-29 13:20:20.264 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar' 
+2022-03-29 13:20:20.265 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar' 
+2022-03-29 13:20:20.265 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar' 
+2022-03-29 13:20:20.265 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar' 
+2022-03-29 13:20:20.265 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar' 
+2022-03-29 13:20:20.265 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar' 
+2022-03-29 13:20:20.265 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar' 
+2022-03-29 13:20:20.265 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar' 
+2022-03-29 13:20:20.266 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar' 
+2022-03-29 13:20:20.266 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar' 
+2022-03-29 13:20:20.266 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar' 
+2022-03-29 13:20:20.266 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar' 
+2022-03-29 13:20:20.266 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar' 
+2022-03-29 13:20:20.266 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar' 
+2022-03-29 13:20:20.266 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar' 
+2022-03-29 13:20:20.267 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar' 
+2022-03-29 13:20:20.267 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar' 
+2022-03-29 13:20:20.267 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar' 
+2022-03-29 13:20:20.267 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar' 
+2022-03-29 13:20:20.267 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar' 
+2022-03-29 13:20:20.267 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/MRF/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar' 
+2022-03-29 13:20:20.356 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.announcement.Announcement 
+2022-03-29 13:20:20.357 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.chirp.Chirp 
+2022-03-29 13:20:20.357 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.item.Item 
+2022-03-29 13:20:20.357 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.patronageReport.PatronageReport 
+2022-03-29 13:20:20.357 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.patronages.Patronage 
+2022-03-29 13:20:20.357 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.quantity.Quantity 
+2022-03-29 13:20:20.357 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.systemConfiguration.SystemConfiguration 
+2022-03-29 13:20:20.357 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.toolkit.Toolkit 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Consumer 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Inventor 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Patron 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Provider 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.entities.UserAccount 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Administrator 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Anonymous 
+2022-03-29 13:20:20.358 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Authenticated 
+2022-03-29 13:20:20.363 INFO  [acme.Launcher@main] Running application (Standalone) 
+2022-03-29 13:20:36.022 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-3] View name 'fragments/welcome', model {} 
+2022-03-29 13:20:36.050 DEBUG [org.apache.tiles.definition.dao.BaseLocaleUrlDefinitionDAO@http-nio-8081-exec-3] File Resource file:/C:/Users/MRF/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/classes/WEB-INF/views/master/tiles_en.xml at file:/C:/Users/MRF/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/classes/WEB-INF/views/master/tiles_en.xml not found, continue 
+2022-03-29 13:20:36.067 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:36.067 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:36.068 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:36.071 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:36.072 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:36.073 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:41.948 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\administrator\item\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.950 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\administrator\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.951 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\anonymous\item\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.953 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\anonymous\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.955 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\authenticated\consumer\messsages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.956 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\authenticated\item\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.957 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\authenticated\provider\messsages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.958 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\authenticated\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.959 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\banner-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.959 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\company-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.961 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\footer-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.961 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\license-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.962 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\menu-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.963 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\messsages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.964 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\title-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.965 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.966 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\inventor\item\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.966 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\defaults-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.967 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\master-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.968 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\throwables-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.970 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\validation-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:41.971 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8081-exec-3] Loading properties [C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\patron\item\messages-en.i18n] with encoding 'utf-8' 
+2022-03-29 13:20:42.199 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-03-29 13:20:42.200 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:42.200 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:42.203 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-03-29 13:20:42.203 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:42.205 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:42.736 DEBUG [org.hibernate.SQL@http-nio-8081-exec-3] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:42.770 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-3] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:42.792 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-3] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:42.832 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-4] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:42.836 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:42.836 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:42.836 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:42.839 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:42.839 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:42.840 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:42.999 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:43 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:43.001 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:43.003 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:43.004 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:43.004 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:45.384 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:45.385 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:45.389 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-4] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:45.399 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-5] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:45.401 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.401 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.402 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:45.404 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:45.404 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.405 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:45.599 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:45.599 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.600 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:45.601 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:45.602 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.603 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:45.796 DEBUG [org.hibernate.SQL@http-nio-8081-exec-5] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:45.797 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-5] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:45.800 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-5] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:45.811 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-6] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:45.813 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.813 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.814 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:45.815 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:45.815 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:45.816 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:46.012 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:46.013 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.014 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:46.014 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:46.015 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.016 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:46.208 DEBUG [org.hibernate.SQL@http-nio-8081-exec-6] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:46.208 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-6] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:46.212 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-6] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:46.224 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-7] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:46.226 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.226 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.226 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:46.227 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:46.227 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.228 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:46.382 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:46.383 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.384 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:46.385 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:46.385 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.387 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:46.511 DEBUG [org.hibernate.SQL@http-nio-8081-exec-7] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:46.512 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-7] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:46.514 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-7] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:46.522 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-8] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:46.523 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.523 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.523 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:46.524 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:46.524 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.524 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:46.689 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:46.692 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.694 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:46.695 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:46.696 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.697 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:46.894 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:46.894 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:46.897 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-8] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:46.907 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-9] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:46.909 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.909 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.910 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:46.910 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:46.910 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:46.911 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:47.049 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:47.049 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.050 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:47.050 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:47.050 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.051 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:47.203 DEBUG [org.hibernate.SQL@http-nio-8081-exec-9] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:47.203 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-9] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:47.205 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-9] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:47.212 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-10] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:47.214 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.214 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.215 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:47.215 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:47.215 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.216 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:47.349 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:47.350 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.350 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:47.351 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:47.352 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.352 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:47.488 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:47.489 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:47.492 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-10] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:47.500 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-1] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:47.502 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.502 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.502 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-03-29 13:20:47.503 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:47.503 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.504 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: null 
+2022-03-29 13:20:47.634 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:47.635 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.635 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-03-29 13:20:47.636 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:47.637 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.637 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: null 
+2022-03-29 13:20:47.803 DEBUG [org.hibernate.SQL@http-nio-8081-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:47.803 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:47.807 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-1] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:47.814 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-2] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:47.816 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.816 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.817 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] PathInfo: null 
+2022-03-29 13:20:47.818 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:47.818 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:47.819 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] QueryString: null 
+2022-03-29 13:20:48.077 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:48.078 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.081 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] PathInfo: null 
+2022-03-29 13:20:48.084 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:48.087 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.090 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] QueryString: null 
+2022-03-29 13:20:48.433 DEBUG [org.hibernate.SQL@http-nio-8081-exec-2] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:48.436 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-2] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:48.443 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-2] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:48.458 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-3] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:48.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.461 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:48.462 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:48.463 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.463 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:48.633 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:48.634 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.634 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:48.636 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:48.636 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.636 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:48.866 DEBUG [org.hibernate.SQL@http-nio-8081-exec-3] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:48.867 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-3] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:48.870 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-3] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:48.879 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-4] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:48.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.882 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:48.883 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:48.884 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:48.884 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:49.059 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:49.061 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.061 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:49.062 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:49.063 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.064 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:49.268 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:49.269 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:49.272 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-4] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:49.280 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-5] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:49.282 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.282 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.283 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:49.283 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:49.284 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.284 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:49.457 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:49.458 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.458 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:49.459 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:49.459 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:49.624 DEBUG [org.hibernate.SQL@http-nio-8081-exec-5] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:49.625 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-5] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:49.627 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-5] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:49.636 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-6] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:49.637 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.638 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.639 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:49.640 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:49.640 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.641 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:49.797 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:49.798 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.799 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:49.799 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:49.800 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.800 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:49.949 DEBUG [org.hibernate.SQL@http-nio-8081-exec-6] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:49.950 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-6] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:49.954 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-6] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:49.963 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-7] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:49.964 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:49.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:49.966 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:49.966 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:50.194 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:50.195 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.196 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:50.197 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:50.198 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.199 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:50.441 DEBUG [org.hibernate.SQL@http-nio-8081-exec-7] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:50.441 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-7] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:50.444 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-7] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:50.452 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-8] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:50.454 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.455 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.455 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:50.455 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:50.456 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.456 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:50.645 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:50.645 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.645 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:50.646 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:50.646 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.647 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:50.839 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:50.840 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:50.843 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-8] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:50.854 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-9] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:50.858 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.858 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.859 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:50.860 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:50.860 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.861 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:50.977 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:50.978 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.978 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:50.979 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:50.980 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:50.980 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:51.167 DEBUG [org.hibernate.SQL@http-nio-8081-exec-9] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:51.169 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-9] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:51.171 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-9] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:51.177 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-10] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:51.178 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:51.179 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:51.179 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:51.179 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:51.180 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:51.180 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:51.277 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:51.277 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:51.278 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:51.279 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:51.279 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:51.280 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:51.482 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:51.483 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:51.486 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-10] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:52.574 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-1] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:52.576 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.577 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.577 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-03-29 13:20:52.578 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:52.579 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.579 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: null 
+2022-03-29 13:20:52.779 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:52.780 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.781 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-03-29 13:20:52.782 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:52.783 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.783 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: null 
+2022-03-29 13:20:52.952 DEBUG [org.hibernate.SQL@http-nio-8081-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:52.954 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:52.958 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-1] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:52.966 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-2] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:52.967 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.968 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.969 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] PathInfo: null 
+2022-03-29 13:20:52.970 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:52.970 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:52.971 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] QueryString: null 
+2022-03-29 13:20:53.063 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:53.063 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.063 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] PathInfo: null 
+2022-03-29 13:20:53.063 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:53.064 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.064 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] QueryString: null 
+2022-03-29 13:20:53.164 DEBUG [org.hibernate.SQL@http-nio-8081-exec-2] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:53.164 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-2] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:53.167 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-2] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:53.175 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-3] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:53.176 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.177 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.177 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:53.177 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:53.178 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.178 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:53.336 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:53.337 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.338 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:53.339 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:53.340 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.340 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:53.662 DEBUG [org.hibernate.SQL@http-nio-8081-exec-3] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:53.663 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-3] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:53.671 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-3] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:53.689 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-4] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:53.692 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.693 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.694 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:53.697 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:53.698 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.699 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:53.936 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:53.937 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.938 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:53.938 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:53.939 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:53.939 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:54.130 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:54.131 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:54.135 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-4] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:54.146 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-5] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:54.147 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.148 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.148 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:54.149 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:54.149 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.150 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:54.355 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:54.356 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.356 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:54.357 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:54.358 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.359 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:54.541 DEBUG [org.hibernate.SQL@http-nio-8081-exec-5] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:54.542 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-5] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:54.545 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-5] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:54.556 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-6] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:54.558 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.558 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.558 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:54.558 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:54.560 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.560 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:54.713 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:54.714 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.715 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:54.715 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:54.716 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.717 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:54.892 DEBUG [org.hibernate.SQL@http-nio-8081-exec-6] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:54.892 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-6] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:54.895 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-6] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:54.903 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-7] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:54.904 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.905 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.905 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:54.906 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:54.906 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:54.907 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:55.062 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:55.063 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.063 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:55.064 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:55.064 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.065 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:55.193 DEBUG [org.hibernate.SQL@http-nio-8081-exec-7] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:55.194 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-7] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:55.195 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-7] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:55.200 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-8] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:55.201 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.202 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.202 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:55.202 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:55.202 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.203 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:55.275 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:55.276 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.277 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:55.277 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:55.278 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.279 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:55.448 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:55.449 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:55.450 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-8] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:55.459 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-9] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:55.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:55.461 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:55.461 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.461 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:55.600 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:55.601 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.602 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:55.602 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:55.603 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.604 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:55.763 DEBUG [org.hibernate.SQL@http-nio-8081-exec-9] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:55.764 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-9] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:55.766 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-9] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:55.773 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-10] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:55.775 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.775 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.776 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:55.776 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:55.777 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.777 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:55.916 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:55.916 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.917 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:55.917 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:55.918 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:55.918 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:56.038 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:56.038 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:56.042 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-10] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:56.050 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-1] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:56.052 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.052 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.053 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-03-29 13:20:56.054 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:56.055 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.055 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: null 
+2022-03-29 13:20:56.231 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:56.232 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.232 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-03-29 13:20:56.233 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:56.234 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.234 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: null 
+2022-03-29 13:20:56.415 DEBUG [org.hibernate.SQL@http-nio-8081-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:56.416 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:56.420 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-1] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:56.428 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-2] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:56.430 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.430 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.431 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] PathInfo: null 
+2022-03-29 13:20:56.431 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:56.432 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.432 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] QueryString: null 
+2022-03-29 13:20:56.518 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:56.518 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] PathInfo: null 
+2022-03-29 13:20:56.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:56.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-2] QueryString: null 
+2022-03-29 13:20:56.637 DEBUG [org.hibernate.SQL@http-nio-8081-exec-2] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:56.637 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-2] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:56.641 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-2] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:56.649 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-3] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:56.651 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.651 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.653 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:56.653 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:56.654 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.654 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:56.731 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:56.731 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.731 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-03-29 13:20:56.731 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:56.732 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.732 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-03-29 13:20:56.800 DEBUG [org.hibernate.SQL@http-nio-8081-exec-3] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:56.800 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-3] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:56.802 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-3] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:56.807 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-4] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:56.808 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.808 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.809 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:56.809 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:56.809 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.809 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:56.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:56.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-03-29 13:20:56.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:56.882 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.882 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: null 
+2022-03-29 13:20:56.957 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:56.958 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:56.959 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-4] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:56.964 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-5] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:56.964 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:56.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:56.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:56.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:57.080 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:57.081 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.082 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-03-29 13:20:57.082 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:57.083 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.083 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-03-29 13:20:57.237 DEBUG [org.hibernate.SQL@http-nio-8081-exec-5] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:57.237 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-5] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:57.239 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-5] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:57.243 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-6] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:57.244 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.244 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.244 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:57.244 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:57.245 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.245 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:57.307 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:57.307 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.308 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] PathInfo: null 
+2022-03-29 13:20:57.308 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:57.308 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.308 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-6] QueryString: null 
+2022-03-29 13:20:57.396 DEBUG [org.hibernate.SQL@http-nio-8081-exec-6] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:57.396 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-6] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:57.398 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-6] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:57.406 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-7] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:57.407 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.407 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.407 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:57.407 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:57.407 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.408 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:57.494 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:57.494 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.494 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] PathInfo: null 
+2022-03-29 13:20:57.495 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:57.495 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.495 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-7] QueryString: null 
+2022-03-29 13:20:57.580 DEBUG [org.hibernate.SQL@http-nio-8081-exec-7] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:57.580 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-7] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:57.581 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-7] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:57.590 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-8] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:57.593 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.593 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.593 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:57.594 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:57.594 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.594 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:57.666 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:57.667 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.667 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-03-29 13:20:57.667 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:57.668 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.668 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-03-29 13:20:57.811 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:57.811 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:57.814 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-8] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:57.824 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-9] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:57.825 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.826 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.826 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:57.827 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:57.827 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.827 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:57.991 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:57.992 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.992 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-03-29 13:20:57.993 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:57.993 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:57.994 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-03-29 13:20:58.197 DEBUG [org.hibernate.SQL@http-nio-8081-exec-9] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:58.199 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-9] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:58.204 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-9] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
+2022-03-29 13:20:58.216 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-10] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-03-29 13:20:58.220 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:58.222 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:58.222 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:58.223 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-03-29 13:20:58.224 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:58.225 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:58.413 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-03-29 13:20:58.413 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:58.414 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-03-29 13:20:58.417 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\MRF\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-03-29 13:20:58.419 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-03-29 13:20:58.421 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-03-29 13:20:58.691 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-03-29 13:20:58.691 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-03-29 13:20:58.694 ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-toolkits-22.1].[jsp]@http-nio-8081-exec-10] Servlet.service() for servlet [jsp] threw exception at acme.framework.services.AuthenticationService.loadUserByUsername(AuthenticationService.java:51): anonymous
