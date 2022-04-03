@@ -1,4 +1,4 @@
-package acme.features.patron.item;
+package acme.features.any.item;
 
 import java.util.Collection;
 
@@ -8,18 +8,18 @@ import org.springframework.stereotype.Service;
 import acme.entities.items.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.roles.Any;
 import acme.framework.services.AbstractListService;
-import acme.roles.Patron;
 
 @Service
-public class PatronItemListAllService implements AbstractListService<Patron, Item> {
+public class AnyItemListAllService implements AbstractListService<Any, Item> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	protected PatronItemRepository repository;
+	protected AnyItemRepository repository;
 
-	// AbstractListService<Patron, Item> interface --------------
+	// AbstractListService<Administrator, Item> interface --------------
 
 
 	@Override
