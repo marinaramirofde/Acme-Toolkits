@@ -10,15 +10,20 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.item.list-all-tools" action="/any/item/list-all-tools"/>
 			<acme:menu-separator/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+			<acme:menu-separator/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
             <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/any/item/list-all-tools"/>
+            <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
         </acme:menu-option>
 
         <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
             <acme:menu-suboption code="master.menu.inventor.item.list-all-tools" action="/any/item/list-all-tools"/>
              <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-components" action="/inventor/item/list-all-mine-components"/>
+             <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
         <acme:menu-separator/>
 
 
@@ -35,12 +40,16 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.item.list-all-tools" action="/any/item/list-all-tools"/>
 			<acme:menu-separator/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+			<acme:menu-separator/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.item.list-all-tools" action="/any/item/list-all-tools"/>
+			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-initial" action="/administrator/populate-initial"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
 			<acme:menu-separator/>
