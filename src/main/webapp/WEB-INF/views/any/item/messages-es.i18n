@@ -1,7 +1,6 @@
-# LO MISMO QUE EN EL FORM Y LIST: "title","name", "code", "technology", "description", "retailPrice", "link","type" 
+# LO MISMO QUE EN EL FORM Y LIST: "name", "code", "technology", "description", "retailPrice", "link","type" 
 
 
-any.item.form.label.title = Título:
 any.item.form.label.name = Nombre:
 any.item.form.label.code = Código:
 any.item.form.label.technology = Tecnología:
