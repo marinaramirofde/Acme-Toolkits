@@ -5,8 +5,7 @@
 
 <acme:form readonly="${readonly}">
 
-	<!--  "title","name", "code", "technology", "description", "retailPrice", "link","type" -->
-	<acme:input-textbox code="any.item.form.label.title" path="title"/>	
+	<!-- "name", "code", "technology", "description", "retailPrice", "link","type" -->
 	<acme:input-textbox code="any.item.form.label.name" path="name"/>
 	<acme:input-textbox code="any.item.form.label.code" path="code"/>		
 	<acme:input-textbox code="any.item.form.label.technology" path="technology"/>	
@@ -14,8 +13,8 @@
 	<acme:input-money code="any.item.form.label.retailPrice" path="retailPrice"/>
 	<acme:input-url code="any.item.form.label.link" path="link"/>	
 	<acme:input-select code="any.item.form.label.type" path="type">
-		<acme:input-option code="TOOL" value="TOOL" selected="${status == 'TOOL'}"/>
-		<acme:input-option code="COMPONENT" value="COMPONENT" selected="${status == 'COMPONENT'}"/>
+		<acme:input-option code="TOOL" value="TOOL" selected="${type == 'TOOL'}"/>
+		<acme:input-option code="COMPONENT" value="COMPONENT" selected="${type == 'COMPONENT'}"/>
 	</acme:input-select>
 	
 </acme:form>
