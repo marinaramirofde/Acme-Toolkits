@@ -1,7 +1,6 @@
-# LO MISMO QUE EN EL FORM Y LIST: "title","name", "code", "technology", "description", "retailPrice", "link","type" 
+# LO MISMO QUE EN EL FORM Y LIST: "name", "code", "technology", "description", "retailPrice", "link","type" 
 
 
-inventor.item.form.label.title = Título:
 inventor.item.form.label.name = Nombre:
 inventor.item.form.label.code = Código:
 inventor.item.form.label.technology = Tecnología:
