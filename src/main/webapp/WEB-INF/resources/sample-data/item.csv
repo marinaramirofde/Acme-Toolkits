@@ -1,5 +1,5 @@
-key,name,code,technology,description,retail-price,link,type
-item-01,Tool 01,ABC-123,Technology 1,Description of tool 1,"EUR 20.00",null,TOOL
-item-02,Tool 02,ABC-123-A,Technology 2,Description of tool 2,"EUR 40.00",www.example.com,TOOL
-item-03,Component 01,BCD-234,Technology 3,Description of component 1,"EUR 5.00",null,COMPONENT
-item-04,Component 02,BCD-234-Z,Technology 3,Description of component 2,"EUR 3.50",www.example.com,COMPONENT
+key,name,code,technology,description,retail-price,link,type,key:inventor
+item-01,Tool 01,ABC-123,Technology 1,Description of tool 1,"EUR 20.00",null,TOOL,inventor-02
+item-02,Tool 02,ABC-123-A,Technology 2,Description of tool 2,"EUR 40.00",https://www.example.com,TOOL,inventor-01
+item-03,Component 01,BCD-234,Technology 3,Description of component 1,"EUR 5.00",null,COMPONENT,inventor-02
+item-04,Component 02,BCD-234-Z,Technology 4,Description of component 2,"EUR 3.50",https://www.example.com,COMPONENT,inventor-01

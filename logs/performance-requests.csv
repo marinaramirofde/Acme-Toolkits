@@ -1,6 +1,9 @@
 timestamp,simple-path,time
-2022-03-05 11:18:49.868,/master/welcome,9453
-2022-03-05 11:18:51.004,/master/welcome,1075
-2022-03-05 11:18:58.441,https://www.youtube.com,7043
-2022-03-05 11:18:59.637,/master/welcome,1153
-2022-03-05 11:19:02.242,https://es.wikipedia.org/wiki/Wikipedia:Portada,2324
+"2022-04-04 14:17:04.514","/master/welcome",8668
+"2022-04-04 14:17:05.26","/master/welcome",665
+"2022-04-04 14:17:08.868","/master/sign-in",3230
+"2022-04-04 14:17:10.785","/master/welcome",1099
+"2022-04-04 14:17:13.361","/inventor/item/list-all-mine-components",1652
+"2022-04-04 14:17:17.621","/inventor/item/show",2692
+"2022-04-04 14:17:19.128","/master/welcome",758
+"2022-04-04 14:17:20.417","/master/welcome",1101

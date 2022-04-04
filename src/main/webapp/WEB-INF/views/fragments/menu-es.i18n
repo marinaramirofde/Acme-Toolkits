@@ -19,6 +19,7 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.item.list-all-tools = Listar todas las herramientas
 
 # master.menu.administrator ###################################################
 
@@ -28,6 +29,23 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.populate-initial = Poblar BD (inicial)
 master.menu.administrator.populate-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-down = Parar el sistema
+master.menu.administrator.item.list-all-tools = Listar todas las herramientas
+
+# master.menu.authenticated ########################################################
+
+master.menu.authenticated = Autentificado
+master.menu.authenticated.item.list-all-tools = Listar todas las herramientas
+
+# master.menu.inventor ########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.item.list-all-tools = Listar todas las herramientas
+master.menu.inventor.item.list-all-mine-components = Listar todos mis componentes
+
+# master.menu.patron ########################################################
+
+master.menu.patron = Patron
+master.menu.patron.item.list-all-tools = Listar todas las herramientas
 
 # master.menu.provider ########################################################
 
