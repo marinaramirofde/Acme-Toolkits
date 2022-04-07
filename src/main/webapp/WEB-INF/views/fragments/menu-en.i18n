@@ -35,6 +35,7 @@ master.menu.administrator.item.list-all-tools= List All Tools
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.item.list-all-tools = List All Tools
+master.menu.authenticated.system-configuration = System Configuration
 
 # master.menu.inventor ########################################################
 
