@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-06 19:02:46.81","acme.testing.administrator.toolkit.AdministratorToolkitListAllTest","positiveTest",13404,""[1] recordIndex=0, title=Title 1, code=ABC-123, assemblyNotes=true, description=Description 1, link=null, published=Assembly Notes 1, reference=Component 01"","Cannot find 'By.name: title'"

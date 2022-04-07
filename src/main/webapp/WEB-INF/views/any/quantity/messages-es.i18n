@@ -1,0 +1,16 @@
+# LO MISMO QUE EN EL FORM Y LIST: "assemblyNotes", "code","description","link","published","title" 
+
+
+any.quantity.form.label.assemblyNotes = Notas de ensamblaje:
+any.quantity.form.label.code = Codigo:
+any.quantity.form.label.description = Descripcion:
+any.quantity.form.label.link = Enlace:
+any.quantity.form.label.published = Publicado:
+any.quantity.form.label.title = Titulo:
+any.quantity.form.label.item.name = Nombre del Objeto:
+any.quantity.form.label.item = Objeto
+
+any.quantity.list.label.title = Titulo
+any.quantity.list.label.code = Codigo
+any.quantity.list.label.description = Descripcion
+any.quantity.list.label.item.name = Nombre del Objeto

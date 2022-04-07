@@ -1,0 +1,987 @@
+2022-04-06 18:53:52.834 INFO  [acme.Launcher@main] Starting Launcher using Java 1.8.0_281 on DESKTOP-N8OS56S with PID 16080 (started by usuario in C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits) 
+2022-04-06 18:53:52.836 DEBUG [acme.Launcher@main] Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-04-06 18:53:52.838 INFO  [acme.Launcher@main] The following profiles are active: testing 
+2022-04-06 18:53:56.813 DEBUG [org.apache.jasper.servlet.JasperInitializer@main] Initializing Jasper for context [application] 
+2022-04-06 18:54:04.194 DEBUG [org.apache.jasper.servlet.JspServlet@main] Scratch dir for the JSP engine is: [C:\Users\usuario\AppData\Local\Temp\tomcat.8081.4505324730683964300\work\Tomcat\localhost\acme-toolkits-22.1] 
+2022-04-06 18:54:04.195 DEBUG [org.apache.jasper.servlet.JspServlet@main] IMPORTANT: Do not modify the generated servlets 
+2022-04-06 18:54:04.206 INFO  [acme.Launcher@main] Started Launcher in 12.201 seconds (JVM running for 13.524) 
+2022-04-06 18:54:04.211 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/test-classes/' 
+2022-04-06 18:54:04.211 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/classes/' 
+2022-04-06 18:54:04.211 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/Desktop/Workspace-22.0/Frameworks/Acme-Framework-22.3/target/classes/' 
+2022-04-06 18:54:04.211 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/Desktop/Workspace-22.0/Frameworks/Acme-Framework-22.3/target/test-classes/' 
+2022-04-06 18:54:04.211 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.2/spring-boot-starter-tomcat-2.4.2.jar' 
+2022-04-06 18:54:04.212 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar' 
+2022-04-06 18:54:04.212 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.41/tomcat-embed-core-9.0.41.jar' 
+2022-04-06 18:54:04.212 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar' 
+2022-04-06 18:54:04.212 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.41/tomcat-embed-websocket-9.0.41.jar' 
+2022-04-06 18:54:04.213 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.41/tomcat-embed-jasper-9.0.41.jar' 
+2022-04-06 18:54:04.213 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.41/tomcat-embed-el-9.0.41.jar' 
+2022-04-06 18:54:04.213 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/eclipse/jdt/ecj/3.18.0/ecj-3.18.0.jar' 
+2022-04-06 18:54:04.213 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar' 
+2022-04-06 18:54:04.214 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.4.2/spring-boot-starter-test-2.4.2.jar' 
+2022-04-06 18:54:04.214 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.2/spring-boot-starter-2.4.2.jar' 
+2022-04-06 18:54:04.214 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot/2.4.2/spring-boot-2.4.2.jar' 
+2022-04-06 18:54:04.214 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.2/spring-boot-autoconfigure-2.4.2.jar' 
+2022-04-06 18:54:04.215 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.2/spring-boot-starter-logging-2.4.2.jar' 
+2022-04-06 18:54:04.215 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar' 
+2022-04-06 18:54:04.215 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar' 
+2022-04-06 18:54:04.215 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar' 
+2022-04-06 18:54:04.216 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar' 
+2022-04-06 18:54:04.216 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar' 
+2022-04-06 18:54:04.216 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar' 
+2022-04-06 18:54:04.216 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-test/2.4.2/spring-boot-test-2.4.2.jar' 
+2022-04-06 18:54:04.217 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.4.2/spring-boot-test-autoconfigure-2.4.2.jar' 
+2022-04-06 18:54:04.217 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar' 
+2022-04-06 18:54:04.217 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar' 
+2022-04-06 18:54:04.217 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar' 
+2022-04-06 18:54:04.218 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar' 
+2022-04-06 18:54:04.218 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar' 
+2022-04-06 18:54:04.218 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar' 
+2022-04-06 18:54:04.218 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar' 
+2022-04-06 18:54:04.219 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar' 
+2022-04-06 18:54:04.219 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar' 
+2022-04-06 18:54:04.219 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar' 
+2022-04-06 18:54:04.219 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.19/byte-buddy-agent-1.10.19.jar' 
+2022-04-06 18:54:04.219 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar' 
+2022-04-06 18:54:04.220 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.28/mockito-junit-jupiter-3.6.28.jar' 
+2022-04-06 18:54:04.220 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar' 
+2022-04-06 18:54:04.220 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar' 
+2022-04-06 18:54:04.220 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar' 
+2022-04-06 18:54:04.221 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar' 
+2022-04-06 18:54:04.221 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-test/5.3.3/spring-test-5.3.3.jar' 
+2022-04-06 18:54:04.221 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar' 
+2022-04-06 18:54:04.221 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.4.2/spring-boot-starter-security-2.4.2.jar' 
+2022-04-06 18:54:04.221 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar' 
+2022-04-06 18:54:04.222 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/security/spring-security-web/5.4.2/spring-security-web-5.4.2.jar' 
+2022-04-06 18:54:04.222 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/security/spring-security-core/5.4.2/spring-security-core-5.4.2.jar' 
+2022-04-06 18:54:04.222 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar' 
+2022-04-06 18:54:04.222 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-context/5.3.3/spring-context-5.3.3.jar' 
+2022-04-06 18:54:04.223 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-expression/5.3.3/spring-expression-5.3.3.jar' 
+2022-04-06 18:54:04.223 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar' 
+2022-04-06 18:54:04.223 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/security/spring-security-config/5.4.2/spring-security-config-5.4.2.jar' 
+2022-04-06 18:54:04.223 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/security/spring-security-taglibs/5.4.2/spring-security-taglibs-5.4.2.jar' 
+2022-04-06 18:54:04.224 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/security/spring-security-acl/5.4.2/spring-security-acl-5.4.2.jar' 
+2022-04-06 18:54:04.224 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-jdbc/5.3.3/spring-jdbc-5.3.3.jar' 
+2022-04-06 18:54:04.224 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-tx/5.3.3/spring-tx-5.3.3.jar' 
+2022-04-06 18:54:04.224 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.2/spring-boot-starter-web-2.4.2.jar' 
+2022-04-06 18:54:04.224 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.2/spring-boot-starter-json-2.4.2.jar' 
+2022-04-06 18:54:04.225 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar' 
+2022-04-06 18:54:04.225 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar' 
+2022-04-06 18:54:04.225 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar' 
+2022-04-06 18:54:04.225 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar' 
+2022-04-06 18:54:04.226 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar' 
+2022-04-06 18:54:04.226 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar' 
+2022-04-06 18:54:04.226 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar' 
+2022-04-06 18:54:04.226 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-jsp/3.0.8/tiles-jsp-3.0.8.jar' 
+2022-04-06 18:54:04.226 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-servlet/3.0.8/tiles-servlet-3.0.8.jar' 
+2022-04-06 18:54:04.227 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-core/3.0.8/tiles-core-3.0.8.jar' 
+2022-04-06 18:54:04.227 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar' 
+2022-04-06 18:54:04.227 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar' 
+2022-04-06 18:54:04.227 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-request-servlet/1.0.7/tiles-request-servlet-1.0.7.jar' 
+2022-04-06 18:54:04.227 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-template/3.0.8/tiles-template-3.0.8.jar' 
+2022-04-06 18:54:04.228 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-api/3.0.8/tiles-api-3.0.8.jar' 
+2022-04-06 18:54:04.228 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-autotag-core-runtime/1.2/tiles-autotag-core-runtime-1.2.jar' 
+2022-04-06 18:54:04.228 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar' 
+2022-04-06 18:54:04.228 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-request-jsp/1.0.7/tiles-request-jsp-1.0.7.jar' 
+2022-04-06 18:54:04.228 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/tiles/tiles-request-api/1.0.7/tiles-request-api-1.0.7.jar' 
+2022-04-06 18:54:04.228 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.4.2/spring-boot-starter-data-jpa-2.4.2.jar' 
+2022-04-06 18:54:04.229 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.4.2/spring-boot-starter-aop-2.4.2.jar' 
+2022-04-06 18:54:04.229 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar' 
+2022-04-06 18:54:04.229 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.4.2/spring-boot-starter-jdbc-2.4.2.jar' 
+2022-04-06 18:54:04.229 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar' 
+2022-04-06 18:54:04.229 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar' 
+2022-04-06 18:54:04.230 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/hibernate/hibernate-core/5.4.27.Final/hibernate-core-5.4.27.Final.jar' 
+2022-04-06 18:54:04.230 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar' 
+2022-04-06 18:54:04.230 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/javassist/javassist/3.27.0-GA/javassist-3.27.0-GA.jar' 
+2022-04-06 18:54:04.231 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar' 
+2022-04-06 18:54:04.231 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar' 
+2022-04-06 18:54:04.231 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar' 
+2022-04-06 18:54:04.231 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar' 
+2022-04-06 18:54:04.231 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar' 
+2022-04-06 18:54:04.231 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar' 
+2022-04-06 18:54:04.231 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar' 
+2022-04-06 18:54:04.232 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar' 
+2022-04-06 18:54:04.232 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar' 
+2022-04-06 18:54:04.232 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/data/spring-data-jpa/2.4.3/spring-data-jpa-2.4.3.jar' 
+2022-04-06 18:54:04.232 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/data/spring-data-commons/2.4.3/spring-data-commons-2.4.3.jar' 
+2022-04-06 18:54:04.232 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-orm/5.3.3/spring-orm-5.3.3.jar' 
+2022-04-06 18:54:04.232 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/spring-aspects/5.3.3/spring-aspects-5.3.3.jar' 
+2022-04-06 18:54:04.233 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.jar' 
+2022-04-06 18:54:04.233 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar' 
+2022-04-06 18:54:04.233 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar' 
+2022-04-06 18:54:04.233 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar' 
+2022-04-06 18:54:04.233 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar' 
+2022-04-06 18:54:04.233 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar' 
+2022-04-06 18:54:04.233 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar' 
+2022-04-06 18:54:04.234 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar' 
+2022-04-06 18:54:04.234 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar' 
+2022-04-06 18:54:04.234 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar' 
+2022-04-06 18:54:04.234 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar' 
+2022-04-06 18:54:04.234 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar' 
+2022-04-06 18:54:04.234 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar' 
+2022-04-06 18:54:04.235 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar' 
+2022-04-06 18:54:04.235 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar' 
+2022-04-06 18:54:04.235 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar' 
+2022-04-06 18:54:04.235 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar' 
+2022-04-06 18:54:04.235 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar' 
+2022-04-06 18:54:04.236 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar' 
+2022-04-06 18:54:04.236 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar' 
+2022-04-06 18:54:04.236 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar' 
+2022-04-06 18:54:04.236 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar' 
+2022-04-06 18:54:04.236 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar' 
+2022-04-06 18:54:04.236 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar' 
+2022-04-06 18:54:04.236 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar' 
+2022-04-06 18:54:04.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar' 
+2022-04-06 18:54:04.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar' 
+2022-04-06 18:54:04.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar' 
+2022-04-06 18:54:04.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar' 
+2022-04-06 18:54:04.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar' 
+2022-04-06 18:54:04.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar' 
+2022-04-06 18:54:04.237 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar' 
+2022-04-06 18:54:04.238 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar' 
+2022-04-06 18:54:04.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar' 
+2022-04-06 18:54:04.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar' 
+2022-04-06 18:54:04.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar' 
+2022-04-06 18:54:04.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/Desktop/Workspace-22.0/Tools/IDEs/eclipse-jee-2021-12-R/configuration/org.eclipse.osgi/417/0/.cp/' 
+2022-04-06 18:54:04.239 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/usuario/Desktop/Workspace-22.0/Tools/IDEs/eclipse-jee-2021-12-R/configuration/org.eclipse.osgi/415/0/.cp/' 
+2022-04-06 18:54:04.383 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.announcements.Announcement 
+2022-04-06 18:54:04.383 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.chirps.Chirp 
+2022-04-06 18:54:04.384 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.items.Item 
+2022-04-06 18:54:04.384 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.patronageReports.PatronageReport 
+2022-04-06 18:54:04.384 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.patronages.Patronage 
+2022-04-06 18:54:04.384 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.quantities.Quantity 
+2022-04-06 18:54:04.384 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.systemConfigurations.SystemConfiguration 
+2022-04-06 18:54:04.384 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.toolkits.Toolkit 
+2022-04-06 18:54:04.385 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Consumer 
+2022-04-06 18:54:04.385 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Inventor 
+2022-04-06 18:54:04.385 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Patron 
+2022-04-06 18:54:04.385 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Provider 
+2022-04-06 18:54:04.385 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.entities.UserAccount 
+2022-04-06 18:54:04.385 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Administrator 
+2022-04-06 18:54:04.385 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Anonymous 
+2022-04-06 18:54:04.386 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Any 
+2022-04-06 18:54:04.386 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Authenticated 
+2022-04-06 18:54:04.391 INFO  [acme.Launcher@main] Running application (JUnit) 
+2022-04-06 18:54:04.391 INFO  [acme.framework.testing.Junit5Extension@main] Starting browser in marionette mode 
+2022-04-06 18:54:10.526 INFO  [acme.framework.testing.Junit5Extension@main] Initialising performance logs 
+2022-04-06 18:54:10.564 INFO  [acme.framework.testing.Junit5Extension@main] Starting test cases in test class 'AdministratorToolkitListAllTest' 
+2022-04-06 18:54:10.565 INFO  [acme.Launcher@main] Populating (sample data) 
+2022-04-06 18:54:10.566 INFO  [acme.framework.components.database.DatabasePopulator@main] Building database schema 
+2022-04-06 18:54:10.636 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script. 
+2022-04-06 18:54:10.636 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting new transaction. 
+2022-04-06 18:54:10.648 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing command 'set transaction isolation level read uncommitted;'. 
+2022-04-06 18:54:10.654 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting transaction '1845927081'. 
+2022-04-06 18:54:10.655 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'set foreign_key_checks=0'. 
+2022-04-06 18:54:10.656 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists administrator'. 
+2022-04-06 18:54:10.681 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists announcement'. 
+2022-04-06 18:54:10.728 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists anonymous'. 
+2022-04-06 18:54:10.752 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists any'. 
+2022-04-06 18:54:10.776 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists authenticated'. 
+2022-04-06 18:54:10.798 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists chirp'. 
+2022-04-06 18:54:10.821 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists consumer'. 
+2022-04-06 18:54:10.844 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists hibernate_sequence'. 
+2022-04-06 18:54:10.868 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists inventor'. 
+2022-04-06 18:54:10.891 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists item'. 
+2022-04-06 18:54:10.916 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists patron'. 
+2022-04-06 18:54:10.938 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists patronage'. 
+2022-04-06 18:54:10.962 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists patronage_report'. 
+2022-04-06 18:54:10.985 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists provider'. 
+2022-04-06 18:54:11.008 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists quantity'. 
+2022-04-06 18:54:11.052 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists system_configuration'. 
+2022-04-06 18:54:11.075 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists toolkit'. 
+2022-04-06 18:54:11.098 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'drop table if exists user_account'. 
+2022-04-06 18:54:11.142 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'set foreign_key_checks=1'. 
+2022-04-06 18:54:11.142 DEBUG [acme.framework.components.database.DatabaseUtil@main] Committing transaction '1845927081'. 
+2022-04-06 18:54:11.153 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script. 
+2022-04-06 18:54:11.153 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting new transaction. 
+2022-04-06 18:54:11.154 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing command 'set transaction isolation level read uncommitted;'. 
+2022-04-06 18:54:11.154 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting transaction '1386938427'. 
+2022-04-06 18:54:11.154 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'set foreign_key_checks=0'. 
+2022-04-06 18:54:11.155 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table administrator (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.181 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table announcement (id integer not null, version integer not null, body varchar(255), creation_moment datetime, critical bit not null, link varchar(255), title varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.210 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table anonymous (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.266 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table any (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.293 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table authenticated (id integer not null, version integer not null, user_account_id integer, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.319 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table chirp (id integer not null, version integer not null, author varchar(255), body varchar(255), creation_moment datetime, email varchar(255), title varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.375 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table consumer (id integer not null, version integer not null, user_account_id integer, company varchar(255), sector varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.400 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table hibernate_sequence (next_val bigint) engine=InnoDB'. 
+2022-04-06 18:54:11.426 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'insert into hibernate_sequence values ( 1 )'. 
+2022-04-06 18:54:11.428 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table inventor (id integer not null, version integer not null, user_account_id integer, company varchar(255), info varchar(255), statement varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.455 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table item (id integer not null, version integer not null, code varchar(255), description varchar(255), link varchar(255), name varchar(255), retail_price_amount double precision, retail_price_currency varchar(255), technology varchar(255), type integer, inventor_id integer not null, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.491 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table patron (id integer not null, version integer not null, user_account_id integer, company varchar(255), info varchar(255), statement varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.517 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table patronage (id integer not null, version integer not null, budget_amount double precision, budget_currency varchar(255), code varchar(255), creation_moment datetime, end_moment datetime, info varchar(255), legal_stuff varchar(255), start_moment datetime, status integer, inventor_id integer not null, patron_id integer not null, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.543 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table patronage_report (id integer not null, version integer not null, creation_moment datetime, info varchar(255), memorandum varchar(255), sequence_number varchar(255), patronage_id integer not null, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.597 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table provider (id integer not null, version integer not null, user_account_id integer, company varchar(255), sector varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.625 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table quantity (id integer not null, version integer not null, amount integer not null, item_id integer not null, toolkit_id integer not null, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.651 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table system_configuration (id integer not null, version integer not null, accepted_currencies varchar(255), strong_terms varchar(255), strong_threshold double precision not null, system_currency varchar(255), weak_terms varchar(255), weak_threshold double precision not null, primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.681 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table toolkit (id integer not null, version integer not null, assembly_notes varchar(255), code varchar(255), description varchar(255), link varchar(255), published bit not null, title varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.709 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'create table user_account (id integer not null, version integer not null, enabled bit not null, identity blob, password varchar(255), username varchar(255), primary key (id)) engine=InnoDB'. 
+2022-04-06 18:54:11.748 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table item add constraint UK_6cgogdarkq48dlg1lbnv4q1oq unique (code)'. 
+2022-04-06 18:54:11.821 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table patronage add constraint UK_7s289l63ihnn85qwyna5cqbfh unique (code)'. 
+2022-04-06 18:54:11.890 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table patronage_report add constraint UK_138f2dgicdjhonrucx287hva6 unique (sequence_number)'. 
+2022-04-06 18:54:11.978 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table toolkit add constraint UK_qvml9bbjdvicrw1wt0e1bej3c unique (code)'. 
+2022-04-06 18:54:12.029 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table user_account add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (username)'. 
+2022-04-06 18:54:12.073 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table administrator add constraint FK_2a5vcjo3stlfcwadosjfq49l1 foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.118 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table anonymous add constraint FK_6lnbc6fo3om54vugoh8icg78m foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.162 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table any add constraint FK_26yflnlk4xrrxtkiwkag1l7lf foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.203 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table authenticated add constraint FK_h52w0f3wjoi68b63wv9vwon57 foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.243 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table consumer add constraint FK_6cyha9f1wpj0dpbxrrjddrqed foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.284 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table inventor add constraint FK_2upmsx50p5pou2l4uy8trxor6 foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.325 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table item add constraint FKaq1a05jpovg1rv6q65awp7ho1 foreign key (inventor_id) references inventor (id)'. 
+2022-04-06 18:54:12.366 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table patron add constraint FK_8xx5nujhuio3advxc2freyu65 foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.407 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table patronage add constraint FKgkbt6mel1m6joiypsbc2ko6mi foreign key (inventor_id) references inventor (id)'. 
+2022-04-06 18:54:12.446 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table patronage add constraint FK7d5o2dlu1d9orplkn5g91lsgc foreign key (patron_id) references patron (id)'. 
+2022-04-06 18:54:12.488 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table patronage_report add constraint FKli7rh2qb2q6bjix6b8o2dpt41 foreign key (patronage_id) references patronage (id)'. 
+2022-04-06 18:54:12.528 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table provider add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd foreign key (user_account_id) references user_account (id)'. 
+2022-04-06 18:54:12.569 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table quantity add constraint FK6v7ckbce1j36j4b7mubnk66bx foreign key (item_id) references item (id)'. 
+2022-04-06 18:54:12.609 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'alter table quantity add constraint FKr1l7hfxuemn7o9d0qi4kawlmg foreign key (toolkit_id) references toolkit (id)'. 
+2022-04-06 18:54:12.649 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing script command 'set foreign_key_checks=1'. 
+2022-04-06 18:54:12.649 DEBUG [acme.framework.components.database.DatabaseUtil@main] Committing transaction '1386938427'. 
+2022-04-06 18:54:12.652 INFO  [acme.framework.components.database.DatabasePopulator@main] Reading entities from 'classpath:/WEB-INF/resources/initial-data' 
+2022-04-06 18:54:12.657 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\administrator.csv' 
+2022-04-06 18:54:12.841 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-administrator-01, key=administrator-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\administrator.csv' 
+2022-04-06 18:54:12.843 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\anonymous.csv' 
+2022-04-06 18:54:12.844 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-anonymous-01, key=anonymous-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\anonymous.csv' 
+2022-04-06 18:54:12.845 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\system-configuration.csv' 
+2022-04-06 18:54:12.846 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{accepted-currencies=EUR,USD,GBP, system-currency=EUR, weak-threshold=25.0, key=system-configuration-01, weak-terms=sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón, strong-threshold=10.0, strong-terms=sex,hard core,viagra,cialis,sexo}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\system-configuration.csv' 
+2022-04-06 18:54:12.847 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-04-06 18:54:12.848 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=HIDDEN-PASSWORD, identity=UserIdentity{name: 'John', surname: 'Doe', email: 'john.doe@acme.com'}, key=user-account-anonymous-01, enabled=false, username=anonymous}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-04-06 18:54:12.848 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=administrator, identity=UserIdentity{name: 'Administrator', surname: 'Acme', email: 'administrator@acme.com'}, key=user-account-administrator-01, enabled=true, username=administrator}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-04-06 18:54:12.849 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=patron1, identity=UserIdentity{name: 'Patron', surname: 'One', email: 'patron1@mail.com'}, key=user-account-patron-01, enabled=true, username=patron1}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-04-06 18:54:12.849 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=patron2, identity=UserIdentity{name: 'Patron', surname: 'Two', email: 'patron2@mail.com'}, key=user-account-patron-02, enabled=true, username=patron2}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-04-06 18:54:12.849 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=inventor1, identity=UserIdentity{name: 'Inventor', surname: 'One', email: 'inventor1@mail.com'}, key=user-account-inventor-01, enabled=true, username=inventor1}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-04-06 18:54:12.849 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{password=inventor2, identity=UserIdentity{name: 'Inventor', surname: 'Two', email: 'inventor2@mail.com'}, key=user-account-inventor-02, enabled=true, username=inventor2}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\initial-data\user-account.csv' 
+2022-04-06 18:54:12.850 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.framework.roles.Administrator 
+2022-04-06 18:54:12.850 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.framework.roles.Anonymous 
+2022-04-06 18:54:12.851 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.systemConfigurations.SystemConfiguration 
+2022-04-06 18:54:12.873 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.framework.entities.UserAccount 
+2022-04-06 18:54:13.149 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.framework.roles.Administrator 
+2022-04-06 18:54:13.157 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.framework.roles.Anonymous 
+2022-04-06 18:54:13.161 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.systemConfigurations.SystemConfiguration 
+2022-04-06 18:54:13.161 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.framework.entities.UserAccount 
+2022-04-06 18:54:13.161 INFO  [acme.framework.components.database.DatabasePopulator@main] Reading entities from 'classpath:/WEB-INF/resources/sample-data' 
+2022-04-06 18:54:13.162 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\announcement.csv' 
+2022-04-06 18:54:13.163 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{critical=true, link=null, creation-moment=2022/01/12 20:00, title=Title 1, body=Announcement Body 1, key=announcement-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\announcement.csv' 
+2022-04-06 18:54:13.163 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{critical=false, link=http://www.example.com, creation-moment=2022/01/13 00:00, title=Title 2, body=Announcement Body 2, key=announcement-02}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\announcement.csv' 
+2022-04-06 18:54:13.163 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\chirp.csv' 
+2022-04-06 18:54:13.164 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{author=Juan Miguel, creation-moment=2022/01/12 20:00, title=Title 1, body=Chirp Body 1, key=chirp-01, email=juanmiguel@mail.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\chirp.csv' 
+2022-04-06 18:54:13.164 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{author=Antonio, creation-moment=2022/01/13 00:00, title=Title 2, body=Chirp Body 2, key=chirp-02, email=tony@mail.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\chirp.csv' 
+2022-04-06 18:54:13.165 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\consumer.csv' 
+2022-04-06 18:54:13.166 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-administrator-01, company=Macarena, Inc., sector=Telecommunications, key=consumer-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\consumer.csv' 
+2022-04-06 18:54:13.166 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\inventor.csv' 
+2022-04-06 18:54:13.167 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-inventor-01, statement=Statement inventor 1, company=University of Seville, key=inventor-01, info=http://www.example.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\inventor.csv' 
+2022-04-06 18:54:13.167 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-inventor-02, statement=Statement inventor 2, company=University of Cordoba, key=inventor-02, info=http://www.example.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\inventor.csv' 
+2022-04-06 18:54:13.168 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-04-06 18:54:13.169 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-02, code=ABC-123, link=null, description=Description of tool 1, technology=Technology 1, type=TOOL, retail-price=EUR 20.00, name=Tool 01, key=item-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-04-06 18:54:13.169 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-01, code=ABC-123-A, link=https://www.example.com, description=Description of tool 2, technology=Technology 2, type=TOOL, retail-price=EUR 40.00, name=Tool 02, key=item-02}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-04-06 18:54:13.170 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-02, code=BCD-234, link=null, description=Description of component 1, technology=Technology 3, type=COMPONENT, retail-price=EUR 5.00, name=Component 01, key=item-03}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-04-06 18:54:13.170 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:inventor=inventor-01, code=BCD-234-Z, link=https://www.example.com, description=Description of component 2, technology=Technology 4, type=COMPONENT, retail-price=EUR 3.50, name=Component 02, key=item-04}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\item.csv' 
+2022-04-06 18:54:13.170 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patron.csv' 
+2022-04-06 18:54:13.171 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-patron-01, statement=Statement patron 1, company=University of Seville, key=patron-01, info=https://www.example.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patron.csv' 
+2022-04-06 18:54:13.172 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-patron-02, statement=Statement patron 2, company=University of Cordoba, key=patron-02, info=https://www.example.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patron.csv' 
+2022-04-06 18:54:13.172 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patronage-report.csv' 
+2022-04-06 18:54:13.173 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:patronage=patronage-01, sequence-number=ABC-123:0000, creation-moment=2022/01/12 20:00, memorandum=This is a memorandum 1, key=patronage-report-01, info=null}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patronage-report.csv' 
+2022-04-06 18:54:13.173 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:patronage=patronage-02, sequence-number=ABC-123-Z:1111, creation-moment=2022/01/13 20:00, memorandum=This is a memorandum 2, key=patronage-report-02, info=http://www.example.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patronage-report.csv' 
+2022-04-06 18:54:13.174 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patronage.csv' 
+2022-04-06 18:54:13.174 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{start-moment=2022/01/13 20:00, key:inventor=inventor-01, code=ABC-123, legal-stuff=This is a test, end-moment=2022/01/14 20:00, creation-moment=2022/01/12 20:00, key:patron=patron-01, key=patronage-01, status=PROPOSED, budget=EUR 1000.00, info=null}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patronage.csv' 
+2022-04-06 18:54:13.175 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{start-moment=2022/01/16 20:00, key:inventor=inventor-02, code=ABC-123-A, legal-stuff=This is a test, end-moment=2022/01/17 20:00, creation-moment=2022/01/15 20:00, key:patron=patron-01, key=patronage-02, status=ACCEPTED, budget=EUR 2000.00, info=null}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patronage.csv' 
+2022-04-06 18:54:13.175 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{start-moment=2022/01/19 20:00, key:inventor=inventor-01, code=BCD-123, legal-stuff=This is a test, end-moment=2022/01/20 20:00, creation-moment=2022/01/18 20:00, key:patron=patron-02, key=patronage-03, status=DENIED, budget=EUR 3500.25, info=http://www.example.com}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\patronage.csv' 
+2022-04-06 18:54:13.176 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\provider.csv' 
+2022-04-06 18:54:13.177 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{key:user-account=user-account-administrator-01, company=Terra Nets, S.A., sector=Internet, key=provider-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\provider.csv' 
+2022-04-06 18:54:13.178 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\quantity.csv' 
+2022-04-06 18:54:13.179 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{amount=20, key:toolkit=toolkit-01, key=quantity-01, key:item=item-03}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\quantity.csv' 
+2022-04-06 18:54:13.179 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{amount=1, key:toolkit=toolkit-02, key=quantity-02, key:item=item-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\quantity.csv' 
+2022-04-06 18:54:13.179 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\system-configuration.csv' 
+2022-04-06 18:54:13.181 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{accepted-currencies=EUR,USD,GBP, system-currency=EUR, weak-threshold=25.0, key=system-configuration-02, weak-terms=sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón, strong-threshold=10.0, strong-terms=sex,hard core,viagra,cialis,sexo}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\system-configuration.csv' 
+2022-04-06 18:54:13.181 DEBUG [acme.framework.components.database.Dataset@main] Reading dataset from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\toolkit.csv' 
+2022-04-06 18:54:13.182 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{code=ABC-123, assembly-notes=Assembly Notes 1, link=null, description=Description 1, published=true, title=Title 1, key=toolkit-01}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\toolkit.csv' 
+2022-04-06 18:54:13.183 DEBUG [acme.framework.components.database.Dataset@main] Reading mapping '{code=ABC-123-A, assembly-notes=Assembly Notes 2, link=https://www.example.com, description=Description 2, published=false, title=Title 2, key=toolkit-02}' from 'C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\resources\sample-data\toolkit.csv' 
+2022-04-06 18:54:13.184 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.quantities.Quantity 
+2022-04-06 18:54:13.190 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Provider 
+2022-04-06 18:54:13.196 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Inventor 
+2022-04-06 18:54:13.203 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.patronageReports.PatronageReport 
+2022-04-06 18:54:13.219 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\administrator\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.221 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\anonymous\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.224 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\any\item\messages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.225 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\any\quantity\messages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.226 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\authenticated\consumer\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.228 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\authenticated\provider\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.229 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\authenticated\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.230 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\banner-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.231 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\company-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.232 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\footer-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.233 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\license-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.234 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\menu-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.235 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\messages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.236 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\messsages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.237 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\title-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.238 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.239 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\inventor\item\messages-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.239 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\defaults-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.240 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\master-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.241 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\throwables-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.248 DEBUG [acme.framework.configuration.ExtendedMessageSource@main] Loading properties [C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\validation-en.i18n] with encoding 'utf-8' 
+2022-04-06 18:54:13.251 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.chirps.Chirp 
+2022-04-06 18:54:13.259 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Consumer 
+2022-04-06 18:54:13.268 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.toolkits.Toolkit 
+2022-04-06 18:54:13.275 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.items.Item 
+2022-04-06 18:54:13.287 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.patronages.Patronage 
+2022-04-06 18:54:13.298 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.roles.Patron 
+2022-04-06 18:54:13.305 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.systemConfigurations.SystemConfiguration 
+2022-04-06 18:54:13.306 DEBUG [acme.framework.components.database.EntityWeb@main] Setting attributes of entities of class acme.entities.announcements.Announcement 
+2022-04-06 18:54:13.313 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.quantities.Quantity 
+2022-04-06 18:54:13.314 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Provider 
+2022-04-06 18:54:13.314 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Inventor 
+2022-04-06 18:54:13.314 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.patronageReports.PatronageReport 
+2022-04-06 18:54:13.315 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.chirps.Chirp 
+2022-04-06 18:54:13.315 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Consumer 
+2022-04-06 18:54:13.315 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.toolkits.Toolkit 
+2022-04-06 18:54:13.316 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.items.Item 
+2022-04-06 18:54:13.316 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.patronages.Patronage 
+2022-04-06 18:54:13.318 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.roles.Patron 
+2022-04-06 18:54:13.319 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.systemConfigurations.SystemConfiguration 
+2022-04-06 18:54:13.319 DEBUG [acme.framework.components.database.EntityWeb@main] Linking entities of class acme.entities.announcements.Announcement 
+2022-04-06 18:54:13.320 INFO  [acme.framework.components.database.DatabasePopulator@main] Validating your entities 
+2022-04-06 18:54:13.406 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.announcements.Announcement@announcement-02' ... PASS 
+2022-04-06 18:54:13.425 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.systemConfigurations.SystemConfiguration@system-configuration-01' ... PASS 
+2022-04-06 18:54:13.426 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.systemConfigurations.SystemConfiguration@system-configuration-02' ... PASS 
+2022-04-06 18:54:13.451 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-administrator-01' ... PASS 
+2022-04-06 18:54:13.500 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.quantities.Quantity@quantity-02' ... PASS 
+2022-04-06 18:54:13.507 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Patron@patron-01' ... PASS 
+2022-04-06 18:54:13.513 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Provider@provider-01' ... PASS 
+2022-04-06 18:54:13.525 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.patronages.Patronage@patronage-01' ... PASS 
+2022-04-06 18:54:13.534 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Patron@patron-02' ... PASS 
+2022-04-06 18:54:13.543 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.chirps.Chirp@chirp-02' ... PASS 
+2022-04-06 18:54:13.550 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.patronages.Patronage@patronage-02' ... PASS 
+2022-04-06 18:54:13.551 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.announcements.Announcement@announcement-01' ... PASS 
+2022-04-06 18:54:13.556 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.roles.Administrator@administrator-01' ... PASS 
+2022-04-06 18:54:13.558 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.quantities.Quantity@quantity-01' ... PASS 
+2022-04-06 18:54:13.560 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.chirps.Chirp@chirp-01' ... PASS 
+2022-04-06 18:54:13.562 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.patronages.Patronage@patronage-03' ... PASS 
+2022-04-06 18:54:13.564 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-patron-01' ... PASS 
+2022-04-06 18:54:13.565 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-patron-02' ... PASS 
+2022-04-06 18:54:13.567 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.items.Item@item-01' ... PASS 
+2022-04-06 18:54:13.568 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.items.Item@item-03' ... PASS 
+2022-04-06 18:54:13.571 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.items.Item@item-02' ... PASS 
+2022-04-06 18:54:13.579 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.items.Item@item-04' ... PASS 
+2022-04-06 18:54:13.581 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-anonymous-01' ... PASS 
+2022-04-06 18:54:13.590 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-inventor-02' ... PASS 
+2022-04-06 18:54:13.619 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Consumer@consumer-01' ... PASS 
+2022-04-06 18:54:13.625 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.roles.Anonymous@anonymous-01' ... PASS 
+2022-04-06 18:54:13.629 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.framework.entities.UserAccount@user-account-inventor-01' ... PASS 
+2022-04-06 18:54:13.632 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.toolkits.Toolkit@toolkit-01' ... PASS 
+2022-04-06 18:54:13.634 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.toolkits.Toolkit@toolkit-02' ... PASS 
+2022-04-06 18:54:13.635 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Inventor@inventor-02' ... PASS 
+2022-04-06 18:54:13.643 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.patronageReports.PatronageReport@patronage-report-01' ... PASS 
+2022-04-06 18:54:13.644 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.roles.Inventor@inventor-01' ... PASS 
+2022-04-06 18:54:13.646 DEBUG [acme.framework.components.database.DatabasePopulator@main] Validating 'acme.entities.patronageReports.PatronageReport@patronage-report-02' ... PASS 
+2022-04-06 18:54:13.646 INFO  [acme.framework.components.database.DatabasePopulator@main] Sorting your entity classes 
+2022-04-06 18:54:13.646 DEBUG [acme.framework.components.database.DatabasePopulator@main] Best topological order for your entity clazzes: 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.framework.entities.UserAccount 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Inventor 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Patron 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.patronages.Patronage 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.patronageReports.PatronageReport 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.items.Item 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.framework.roles.Administrator 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.framework.roles.Anonymous 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.toolkits.Toolkit 
+2022-04-06 18:54:13.647 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.quantities.Quantity 
+2022-04-06 18:54:13.648 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Provider 
+2022-04-06 18:54:13.648 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.chirps.Chirp 
+2022-04-06 18:54:13.648 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.roles.Consumer 
+2022-04-06 18:54:13.648 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.systemConfigurations.SystemConfiguration 
+2022-04-06 18:54:13.648 DEBUG [acme.framework.components.database.DatabasePopulator@main] - acme.entities.announcements.Announcement 
+2022-04-06 18:54:13.648 INFO  [acme.framework.components.database.DatabasePopulator@main] Persisting your entities 
+2022-04-06 18:54:13.648 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting new transaction. 
+2022-04-06 18:54:13.650 DEBUG [acme.framework.components.database.DatabaseUtil@main] Executing command 'set transaction isolation level read uncommitted;'. 
+2022-04-06 18:54:13.653 DEBUG [acme.framework.components.database.DatabaseUtil@main] Starting transaction '571101539'. 
+2022-04-06 18:54:13.653 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.framework.entities.UserAccount' 
+2022-04-06 18:54:13.674 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.723 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.794 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=anonymous) 
+2022-04-06 18:54:13.825 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.903 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.919 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=patron1) 
+2022-04-06 18:54:13.920 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.921 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.931 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=patron2) 
+2022-04-06 18:54:13.931 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.932 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.937 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=inventor2) 
+2022-04-06 18:54:13.938 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.939 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.945 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=administrator) 
+2022-04-06 18:54:13.946 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.947 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.952 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserAccount(username=inventor1) 
+2022-04-06 18:54:13.953 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Inventor' 
+2022-04-06 18:54:13.953 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.955 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.962 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=inventor2)) 
+2022-04-06 18:54:13.963 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.965 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.970 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=inventor1)) 
+2022-04-06 18:54:13.970 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Patron' 
+2022-04-06 18:54:13.971 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.973 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.977 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=patron1)) 
+2022-04-06 18:54:13.978 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.980 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.986 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=patron2)) 
+2022-04-06 18:54:13.987 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.patronages.Patronage' 
+2022-04-06 18:54:13.987 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.988 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:13.993 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.patronages.Patronage{id=11, version=0} 
+2022-04-06 18:54:13.994 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:13.995 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.patronages.Patronage{id=12, version=0} 
+2022-04-06 18:54:14.001 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.002 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.005 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.patronages.Patronage{id=13, version=0} 
+2022-04-06 18:54:14.006 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.patronageReports.PatronageReport' 
+2022-04-06 18:54:14.006 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.007 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.010 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.patronageReports.PatronageReport{id=14, version=0} 
+2022-04-06 18:54:14.011 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.011 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.015 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.patronageReports.PatronageReport{id=15, version=0} 
+2022-04-06 18:54:14.015 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.items.Item' 
+2022-04-06 18:54:14.016 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.016 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.019 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.items.Item{id=16, version=0} 
+2022-04-06 18:54:14.020 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.020 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.023 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.items.Item{id=17, version=0} 
+2022-04-06 18:54:14.024 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.025 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.027 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.items.Item{id=18, version=0} 
+2022-04-06 18:54:14.028 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.029 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.032 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.items.Item{id=19, version=0} 
+2022-04-06 18:54:14.032 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.framework.roles.Administrator' 
+2022-04-06 18:54:14.032 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.033 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.036 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=administrator)) 
+2022-04-06 18:54:14.036 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.framework.roles.Anonymous' 
+2022-04-06 18:54:14.037 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.037 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.041 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=anonymous)) 
+2022-04-06 18:54:14.041 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.toolkits.Toolkit' 
+2022-04-06 18:54:14.042 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.042 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.045 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.toolkits.Toolkit{id=22, version=0} 
+2022-04-06 18:54:14.046 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.047 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.050 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.toolkits.Toolkit{id=23, version=0} 
+2022-04-06 18:54:14.050 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.quantities.Quantity' 
+2022-04-06 18:54:14.051 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.051 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.054 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.quantities.Quantity{id=24, version=0} 
+2022-04-06 18:54:14.055 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.056 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.058 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.quantities.Quantity{id=25, version=0} 
+2022-04-06 18:54:14.059 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Provider' 
+2022-04-06 18:54:14.059 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.060 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.063 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=administrator)) 
+2022-04-06 18:54:14.063 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.chirps.Chirp' 
+2022-04-06 18:54:14.063 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.064 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.067 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.chirps.Chirp{id=27, version=0} 
+2022-04-06 18:54:14.067 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.068 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.071 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.chirps.Chirp{id=28, version=0} 
+2022-04-06 18:54:14.072 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.roles.Consumer' 
+2022-04-06 18:54:14.072 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.073 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.076 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity UserRole(userAccount=UserAccount(username=administrator)) 
+2022-04-06 18:54:14.076 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.systemConfigurations.SystemConfiguration' 
+2022-04-06 18:54:14.076 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.077 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.080 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.systemConfigurations.SystemConfiguration{id=30, version=0} 
+2022-04-06 18:54:14.080 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.081 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.084 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.systemConfigurations.SystemConfiguration{id=31, version=0} 
+2022-04-06 18:54:14.084 DEBUG [acme.framework.components.database.DatabasePopulator@main] Persising entities of clazz 'acme.entities.announcements.Announcement' 
+2022-04-06 18:54:14.084 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.085 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.089 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.announcements.Announcement{id=32, version=0} 
+2022-04-06 18:54:14.089 DEBUG [org.hibernate.SQL@main] select next_val as id_val from hibernate_sequence for update 
+2022-04-06 18:54:14.090 DEBUG [org.hibernate.SQL@main] update hibernate_sequence set next_val= ? where next_val=? 
+2022-04-06 18:54:14.093 DEBUG [acme.framework.components.database.DatabaseUtil@main] Persisting entity acme.entities.announcements.Announcement{id=33, version=0} 
+2022-04-06 18:54:14.093 DEBUG [acme.framework.components.database.DatabaseUtil@main] Committing transaction '571101539'. 
+2022-04-06 18:54:14.126 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.128 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.129 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [false] 
+2022-04-06 18:54:14.130 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=John, surname=Doe, email=john.doe@acme.com)] 
+2022-04-06 18:54:14.132 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$SrUqgvZVtqWiDxEsQe6N8OtqOzODRJAqqRnRBl1nuUUj0jkgaYbnS] 
+2022-04-06 18:54:14.133 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [anonymous] 
+2022-04-06 18:54:14.133 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [1] 
+2022-04-06 18:54:14.137 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.139 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.139 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-04-06 18:54:14.139 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=Patron, surname=One, email=patron1@mail.com)] 
+2022-04-06 18:54:14.140 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$/FjKaIemgOWFnr0y.rSU/u.z5rlrH0fuGOK15y36GcyXknR1FycW.] 
+2022-04-06 18:54:14.140 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [patron1] 
+2022-04-06 18:54:14.140 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [2] 
+2022-04-06 18:54:14.141 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.142 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.142 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-04-06 18:54:14.142 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=Patron, surname=Two, email=patron2@mail.com)] 
+2022-04-06 18:54:14.142 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$7w6UL7tnYvXjqd5qOHibZO9KvFT0aEU4KQsVsouLBCgrdu17hcpJK] 
+2022-04-06 18:54:14.142 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [patron2] 
+2022-04-06 18:54:14.142 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [3] 
+2022-04-06 18:54:14.143 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.144 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.144 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-04-06 18:54:14.144 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=Inventor, surname=Two, email=inventor2@mail.com)] 
+2022-04-06 18:54:14.144 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$jnZbD7rtAvvzE0WIkD4Z.OqxSI8B8dNHKL.bpkmNekfHn/4DQQ9NO] 
+2022-04-06 18:54:14.144 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [inventor2] 
+2022-04-06 18:54:14.144 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [4] 
+2022-04-06 18:54:14.146 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.146 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.146 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-04-06 18:54:14.146 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=Administrator, surname=Acme, email=administrator@acme.com)] 
+2022-04-06 18:54:14.147 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$1M2irkPUp70NaJhq//H9ye2s27t1SETDqLy4yVw8SuIF74XbxJcA2] 
+2022-04-06 18:54:14.147 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [administrator] 
+2022-04-06 18:54:14.147 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [5] 
+2022-04-06 18:54:14.151 DEBUG [org.hibernate.SQL@main] insert into user_account (version, enabled, identity, password, username, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.151 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.152 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [BOOLEAN] - [true] 
+2022-04-06 18:54:14.152 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [BLOB] - [DefaultUserIdentity(name=Inventor, surname=One, email=inventor1@mail.com)] 
+2022-04-06 18:54:14.152 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [$2a$05$zVrCR.EAHVM/9HiFlGAhieyfjbHVBUx1OC1GHExMirhcgLxU/88IW] 
+2022-04-06 18:54:14.152 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [inventor1] 
+2022-04-06 18:54:14.152 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [6] 
+2022-04-06 18:54:14.153 DEBUG [org.hibernate.SQL@main] insert into inventor (version, user_account_id, company, info, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.154 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.154 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [4] 
+2022-04-06 18:54:14.154 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [University of Cordoba] 
+2022-04-06 18:54:14.154 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.example.com] 
+2022-04-06 18:54:14.154 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [Statement inventor 2] 
+2022-04-06 18:54:14.154 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [7] 
+2022-04-06 18:54:14.158 DEBUG [org.hibernate.SQL@main] insert into inventor (version, user_account_id, company, info, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.159 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.159 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [6] 
+2022-04-06 18:54:14.159 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [University of Seville] 
+2022-04-06 18:54:14.159 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [http://www.example.com] 
+2022-04-06 18:54:14.159 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [Statement inventor 1] 
+2022-04-06 18:54:14.159 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [8] 
+2022-04-06 18:54:14.160 DEBUG [org.hibernate.SQL@main] insert into patron (version, user_account_id, company, info, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.160 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.160 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [2] 
+2022-04-06 18:54:14.161 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [University of Seville] 
+2022-04-06 18:54:14.161 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [https://www.example.com] 
+2022-04-06 18:54:14.161 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [Statement patron 1] 
+2022-04-06 18:54:14.161 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [9] 
+2022-04-06 18:54:14.164 DEBUG [org.hibernate.SQL@main] insert into patron (version, user_account_id, company, info, statement, id) values (?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.165 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.165 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [3] 
+2022-04-06 18:54:14.165 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [University of Cordoba] 
+2022-04-06 18:54:14.165 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [https://www.example.com] 
+2022-04-06 18:54:14.165 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [Statement patron 2] 
+2022-04-06 18:54:14.165 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [INTEGER] - [10] 
+2022-04-06 18:54:14.167 DEBUG [org.hibernate.SQL@main] insert into patronage (version, budget_amount, budget_currency, code, creation_moment, end_moment, info, inventor_id, legal_stuff, patron_id, start_moment, status, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.167 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.168 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [DOUBLE] - [1000.0] 
+2022-04-06 18:54:14.168 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.168 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [ABC-123] 
+2022-04-06 18:54:14.169 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [TIMESTAMP] - [Wed Jan 12 20:00:00 CET 2022] 
+2022-04-06 18:54:14.171 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [TIMESTAMP] - [Fri Jan 14 20:00:00 CET 2022] 
+2022-04-06 18:54:14.171 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [VARCHAR] - [null] 
+2022-04-06 18:54:14.172 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [8] 
+2022-04-06 18:54:14.172 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [This is a test] 
+2022-04-06 18:54:14.172 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [9] 
+2022-04-06 18:54:14.172 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [TIMESTAMP] - [Thu Jan 13 20:00:00 CET 2022] 
+2022-04-06 18:54:14.172 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [12] as [INTEGER] - [0] 
+2022-04-06 18:54:14.172 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [13] as [INTEGER] - [11] 
+2022-04-06 18:54:14.175 DEBUG [org.hibernate.SQL@main] insert into patronage (version, budget_amount, budget_currency, code, creation_moment, end_moment, info, inventor_id, legal_stuff, patron_id, start_moment, status, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.176 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.176 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [DOUBLE] - [2000.0] 
+2022-04-06 18:54:14.176 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.176 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [ABC-123-A] 
+2022-04-06 18:54:14.176 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [TIMESTAMP] - [Sat Jan 15 20:00:00 CET 2022] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [TIMESTAMP] - [Mon Jan 17 20:00:00 CET 2022] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [VARCHAR] - [null] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [7] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [This is a test] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [9] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [TIMESTAMP] - [Sun Jan 16 20:00:00 CET 2022] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [12] as [INTEGER] - [1] 
+2022-04-06 18:54:14.177 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [13] as [INTEGER] - [12] 
+2022-04-06 18:54:14.181 DEBUG [org.hibernate.SQL@main] insert into patronage (version, budget_amount, budget_currency, code, creation_moment, end_moment, info, inventor_id, legal_stuff, patron_id, start_moment, status, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.182 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.182 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [DOUBLE] - [3500.25] 
+2022-04-06 18:54:14.182 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.182 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [BCD-123] 
+2022-04-06 18:54:14.182 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [TIMESTAMP] - [Tue Jan 18 20:00:00 CET 2022] 
+2022-04-06 18:54:14.182 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [TIMESTAMP] - [Thu Jan 20 20:00:00 CET 2022] 
+2022-04-06 18:54:14.183 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [VARCHAR] - [http://www.example.com] 
+2022-04-06 18:54:14.183 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [8] 
+2022-04-06 18:54:14.183 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [This is a test] 
+2022-04-06 18:54:14.183 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [10] 
+2022-04-06 18:54:14.183 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [TIMESTAMP] - [Wed Jan 19 20:00:00 CET 2022] 
+2022-04-06 18:54:14.183 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [12] as [INTEGER] - [2] 
+2022-04-06 18:54:14.183 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [13] as [INTEGER] - [13] 
+2022-04-06 18:54:14.184 DEBUG [org.hibernate.SQL@main] insert into patronage_report (version, creation_moment, info, memorandum, patronage_id, sequence_number, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.184 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.184 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [TIMESTAMP] - [Wed Jan 12 20:00:00 CET 2022] 
+2022-04-06 18:54:14.185 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [null] 
+2022-04-06 18:54:14.185 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [This is a memorandum 1] 
+2022-04-06 18:54:14.185 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [11] 
+2022-04-06 18:54:14.185 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [ABC-123:0000] 
+2022-04-06 18:54:14.185 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [14] 
+2022-04-06 18:54:14.188 DEBUG [org.hibernate.SQL@main] insert into patronage_report (version, creation_moment, info, memorandum, patronage_id, sequence_number, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.188 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.188 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [TIMESTAMP] - [Thu Jan 13 20:00:00 CET 2022] 
+2022-04-06 18:54:14.189 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [http://www.example.com] 
+2022-04-06 18:54:14.189 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [This is a memorandum 2] 
+2022-04-06 18:54:14.189 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [12] 
+2022-04-06 18:54:14.189 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [ABC-123-Z:1111] 
+2022-04-06 18:54:14.189 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [15] 
+2022-04-06 18:54:14.190 DEBUG [org.hibernate.SQL@main] insert into item (version, code, description, inventor_id, link, name, retail_price_amount, retail_price_currency, technology, type, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.191 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.191 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [ABC-123] 
+2022-04-06 18:54:14.191 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Description of tool 1] 
+2022-04-06 18:54:14.191 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [7] 
+2022-04-06 18:54:14.192 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [null] 
+2022-04-06 18:54:14.192 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Tool 01] 
+2022-04-06 18:54:14.192 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [20.0] 
+2022-04-06 18:54:14.192 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.192 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [Technology 1] 
+2022-04-06 18:54:14.192 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [0] 
+2022-04-06 18:54:14.192 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [16] 
+2022-04-06 18:54:14.196 DEBUG [org.hibernate.SQL@main] insert into item (version, code, description, inventor_id, link, name, retail_price_amount, retail_price_currency, technology, type, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.197 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.197 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [BCD-234] 
+2022-04-06 18:54:14.197 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Description of component 1] 
+2022-04-06 18:54:14.197 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [7] 
+2022-04-06 18:54:14.197 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [null] 
+2022-04-06 18:54:14.197 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Component 01] 
+2022-04-06 18:54:14.198 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [5.0] 
+2022-04-06 18:54:14.198 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.198 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [Technology 3] 
+2022-04-06 18:54:14.198 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [1] 
+2022-04-06 18:54:14.198 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [17] 
+2022-04-06 18:54:14.199 DEBUG [org.hibernate.SQL@main] insert into item (version, code, description, inventor_id, link, name, retail_price_amount, retail_price_currency, technology, type, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.199 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [ABC-123-A] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Description of tool 2] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [8] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [https://www.example.com] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Tool 02] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [40.0] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [Technology 2] 
+2022-04-06 18:54:14.200 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [0] 
+2022-04-06 18:54:14.201 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [18] 
+2022-04-06 18:54:14.202 DEBUG [org.hibernate.SQL@main] insert into item (version, code, description, inventor_id, link, name, retail_price_amount, retail_price_currency, technology, type, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.202 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.202 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [BCD-234-Z] 
+2022-04-06 18:54:14.202 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Description of component 2] 
+2022-04-06 18:54:14.202 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [8] 
+2022-04-06 18:54:14.202 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [https://www.example.com] 
+2022-04-06 18:54:14.203 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Component 02] 
+2022-04-06 18:54:14.203 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [3.5] 
+2022-04-06 18:54:14.203 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.203 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [9] as [VARCHAR] - [Technology 4] 
+2022-04-06 18:54:14.203 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [10] as [INTEGER] - [1] 
+2022-04-06 18:54:14.203 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [11] as [INTEGER] - [19] 
+2022-04-06 18:54:14.204 DEBUG [org.hibernate.SQL@main] insert into administrator (version, user_account_id, id) values (?, ?, ?) 
+2022-04-06 18:54:14.204 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.204 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [5] 
+2022-04-06 18:54:14.204 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [INTEGER] - [20] 
+2022-04-06 18:54:14.208 DEBUG [org.hibernate.SQL@main] insert into anonymous (version, user_account_id, id) values (?, ?, ?) 
+2022-04-06 18:54:14.209 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.209 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [1] 
+2022-04-06 18:54:14.209 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [INTEGER] - [21] 
+2022-04-06 18:54:14.214 DEBUG [org.hibernate.SQL@main] insert into toolkit (version, assembly_notes, code, description, link, published, title, id) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.214 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.215 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Assembly Notes 1] 
+2022-04-06 18:54:14.215 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [ABC-123] 
+2022-04-06 18:54:14.215 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Description 1] 
+2022-04-06 18:54:14.215 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [null] 
+2022-04-06 18:54:14.215 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [BOOLEAN] - [true] 
+2022-04-06 18:54:14.215 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [VARCHAR] - [Title 1] 
+2022-04-06 18:54:14.215 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [22] 
+2022-04-06 18:54:14.219 DEBUG [org.hibernate.SQL@main] insert into toolkit (version, assembly_notes, code, description, link, published, title, id) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Assembly Notes 2] 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [ABC-123-A] 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Description 2] 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [https://www.example.com] 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [BOOLEAN] - [false] 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [VARCHAR] - [Title 2] 
+2022-04-06 18:54:14.220 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [23] 
+2022-04-06 18:54:14.221 DEBUG [org.hibernate.SQL@main] insert into quantity (version, amount, item_id, toolkit_id, id) values (?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.222 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.222 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [1] 
+2022-04-06 18:54:14.222 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [INTEGER] - [16] 
+2022-04-06 18:54:14.222 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [23] 
+2022-04-06 18:54:14.222 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [24] 
+2022-04-06 18:54:14.226 DEBUG [org.hibernate.SQL@main] insert into quantity (version, amount, item_id, toolkit_id, id) values (?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.226 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.226 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [20] 
+2022-04-06 18:54:14.226 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [INTEGER] - [17] 
+2022-04-06 18:54:14.226 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [INTEGER] - [22] 
+2022-04-06 18:54:14.227 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [25] 
+2022-04-06 18:54:14.227 DEBUG [org.hibernate.SQL@main] insert into provider (version, user_account_id, company, sector, id) values (?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.228 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.228 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [5] 
+2022-04-06 18:54:14.228 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Terra Nets, S.A.] 
+2022-04-06 18:54:14.228 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Internet] 
+2022-04-06 18:54:14.228 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [26] 
+2022-04-06 18:54:14.231 DEBUG [org.hibernate.SQL@main] insert into chirp (version, author, body, creation_moment, email, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.232 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.232 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Antonio] 
+2022-04-06 18:54:14.232 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Chirp Body 2] 
+2022-04-06 18:54:14.232 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [TIMESTAMP] - [Thu Jan 13 00:00:00 CET 2022] 
+2022-04-06 18:54:14.232 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [tony@mail.com] 
+2022-04-06 18:54:14.232 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Title 2] 
+2022-04-06 18:54:14.233 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [27] 
+2022-04-06 18:54:14.235 DEBUG [org.hibernate.SQL@main] insert into chirp (version, author, body, creation_moment, email, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.236 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.236 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Juan Miguel] 
+2022-04-06 18:54:14.236 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Chirp Body 1] 
+2022-04-06 18:54:14.236 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [TIMESTAMP] - [Wed Jan 12 20:00:00 CET 2022] 
+2022-04-06 18:54:14.236 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [juanmiguel@mail.com] 
+2022-04-06 18:54:14.236 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Title 1] 
+2022-04-06 18:54:14.236 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [28] 
+2022-04-06 18:54:14.237 DEBUG [org.hibernate.SQL@main] insert into consumer (version, user_account_id, company, sector, id) values (?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.238 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.238 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [INTEGER] - [5] 
+2022-04-06 18:54:14.238 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [Macarena, Inc.] 
+2022-04-06 18:54:14.238 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [VARCHAR] - [Telecommunications] 
+2022-04-06 18:54:14.238 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [INTEGER] - [29] 
+2022-04-06 18:54:14.241 DEBUG [org.hibernate.SQL@main] insert into system_configuration (version, accepted_currencies, strong_terms, strong_threshold, system_currency, weak_terms, weak_threshold, id) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.242 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.242 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [EUR,USD,GBP] 
+2022-04-06 18:54:14.242 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [sex,hard core,viagra,cialis,sexo] 
+2022-04-06 18:54:14.242 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [DOUBLE] - [10.0] 
+2022-04-06 18:54:14.242 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.242 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón] 
+2022-04-06 18:54:14.243 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [25.0] 
+2022-04-06 18:54:14.243 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [30] 
+2022-04-06 18:54:14.246 DEBUG [org.hibernate.SQL@main] insert into system_configuration (version, accepted_currencies, strong_terms, strong_threshold, system_currency, weak_terms, weak_threshold, id) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.246 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.246 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [EUR,USD,GBP] 
+2022-04-06 18:54:14.246 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [VARCHAR] - [sex,hard core,viagra,cialis,sexo] 
+2022-04-06 18:54:14.246 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [DOUBLE] - [10.0] 
+2022-04-06 18:54:14.246 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [EUR] 
+2022-04-06 18:54:14.247 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón] 
+2022-04-06 18:54:14.247 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [DOUBLE] - [25.0] 
+2022-04-06 18:54:14.247 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [8] as [INTEGER] - [31] 
+2022-04-06 18:54:14.247 DEBUG [org.hibernate.SQL@main] insert into announcement (version, body, creation_moment, critical, link, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.248 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.248 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Announcement Body 2] 
+2022-04-06 18:54:14.248 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [TIMESTAMP] - [Thu Jan 13 00:00:00 CET 2022] 
+2022-04-06 18:54:14.248 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [BOOLEAN] - [false] 
+2022-04-06 18:54:14.248 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [http://www.example.com] 
+2022-04-06 18:54:14.248 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Title 2] 
+2022-04-06 18:54:14.248 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [32] 
+2022-04-06 18:54:14.251 DEBUG [org.hibernate.SQL@main] insert into announcement (version, body, creation_moment, critical, link, title, id) values (?, ?, ?, ?, ?, ?, ?) 
+2022-04-06 18:54:14.251 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [1] as [INTEGER] - [0] 
+2022-04-06 18:54:14.251 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [2] as [VARCHAR] - [Announcement Body 1] 
+2022-04-06 18:54:14.251 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [3] as [TIMESTAMP] - [Wed Jan 12 20:00:00 CET 2022] 
+2022-04-06 18:54:14.252 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [4] as [BOOLEAN] - [true] 
+2022-04-06 18:54:14.252 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [5] as [VARCHAR] - [null] 
+2022-04-06 18:54:14.252 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [6] as [VARCHAR] - [Title 1] 
+2022-04-06 18:54:14.252 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@main] binding parameter [7] as [INTEGER] - [33] 
+2022-04-06 18:54:15.301 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-1] View name 'fragments/welcome', model {} 
+2022-04-06 18:54:15.331 DEBUG [org.apache.tiles.definition.dao.BaseLocaleUrlDefinitionDAO@http-nio-8081-exec-1] File Resource file:/C:/Users/usuario/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/classes/WEB-INF/views/master/tiles_en.xml at file:/C:/Users/usuario/Desktop/Workspace-22.0/Projects/Acme-Toolkits/target/classes/WEB-INF/views/master/tiles_en.xml not found, continue 
+2022-04-06 18:54:15.344 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:15.345 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:15.345 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-04-06 18:54:15.348 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:15.348 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:15.349 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: language=en&debug=true 
+2022-04-06 18:54:21.337 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-06 18:54:21.338 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:21.338 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-04-06 18:54:21.340 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-06 18:54:21.341 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:21.341 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: language=en&debug=true 
+2022-04-06 18:54:21.779 DEBUG [org.hibernate.SQL@http-nio-8081-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:21.782 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-06 18:54:21.826 DEBUG [org.hibernate.SQL@http-nio-8081-exec-1] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:21.827 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-1] binding parameter [1] as [INTEGER] - [1] 
+2022-04-06 18:54:22.368 INFO  [acme.framework.testing.Junit5Extension@main] Running test case '[1] recordIndex=0, title=ABC-123, code=true, assemblyNotes=Title 1, description=Description 1, link=Assembly Notes 1, published=null, reference=TOOLKIT01-ITEM01' 
+2022-04-06 18:54:22.426 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-1] View name 'fragments/welcome', model {} 
+2022-04-06 18:54:22.427 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:22.427 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:22.428 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-04-06 18:54:22.430 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:22.431 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:22.431 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: language=en&debug=true 
+2022-04-06 18:54:22.666 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-06 18:54:22.666 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:22.666 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] PathInfo: null 
+2022-04-06 18:54:22.669 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-06 18:54:22.669 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:22.670 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-1] QueryString: language=en&debug=true 
+2022-04-06 18:54:22.784 DEBUG [org.hibernate.SQL@http-nio-8081-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:22.785 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-06 18:54:22.788 DEBUG [org.hibernate.SQL@http-nio-8081-exec-1] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:22.788 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-1] binding parameter [1] as [INTEGER] - [1] 
+2022-04-06 18:54:23.299 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-10] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-04-06 18:54:23.300 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:23.301 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:23.301 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-04-06 18:54:23.302 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:23.302 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:23.303 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-04-06 18:54:23.458 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-04-06 18:54:23.458 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:23.458 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] PathInfo: null 
+2022-04-06 18:54:23.459 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-04-06 18:54:23.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:23.460 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-10] QueryString: null 
+2022-04-06 18:54:26.108 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:26.108 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-06 18:54:26.110 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:26.111 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [INTEGER] - [1] 
+2022-04-06 18:54:27.255 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:27.256 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [VARCHAR] - [administrator] 
+2022-04-06 18:54:27.258 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:27.258 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [INTEGER] - [5] 
+2022-04-06 18:54:27.289 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-3] View name 'fragments/welcome', model {} 
+2022-04-06 18:54:27.291 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:27.291 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:27.292 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-04-06 18:54:27.293 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:27.294 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:27.294 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-04-06 18:54:27.515 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-06 18:54:27.515 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:27.516 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] PathInfo: null 
+2022-04-06 18:54:27.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-06 18:54:27.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:27.520 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-3] QueryString: null 
+2022-04-06 18:54:28.137 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-5] DISPATCHING GET /acme-toolkits-22.1/any/quantity/list-all-toolkits 
+2022-04-06 18:54:28.137 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-5] Command: list-all-toolkits 
+2022-04-06 18:54:28.137 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-5] Model:   {} 
+2022-04-06 18:54:28.137 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-5] Locale:  en 
+2022-04-06 18:54:28.162 DEBUG [org.hibernate.SQL@http-nio-8081-exec-5] select quantity0_.id as id1_0_, quantity0_.version as version2_0_, quantity0_.amount as amount1_14_, quantity0_.item_id as item_id2_14_, quantity0_.toolkit_id as toolkit_3_14_ from quantity quantity0_ cross join toolkit toolkit1_ where quantity0_.toolkit_id=toolkit1_.id and toolkit1_.published=1 
+2022-04-06 18:54:28.163 DEBUG [org.hibernate.SQL@http-nio-8081-exec-5] select item0_.id as id1_0_0_, item0_.version as version2_0_0_, item0_.code as code1_9_0_, item0_.description as descript2_9_0_, item0_.inventor_id as inventor9_9_0_, item0_.link as link3_9_0_, item0_.name as name4_9_0_, item0_.retail_price_amount as retail_p5_9_0_, item0_.retail_price_currency as retail_p6_9_0_, item0_.technology as technolo7_9_0_, item0_.type as type8_9_0_, inventor1_.id as id1_0_1_, inventor1_.version as version2_0_1_, inventor1_.user_account_id as user_acc1_18_1_, inventor1_.company as company1_8_1_, inventor1_.info as info2_8_1_, inventor1_.statement as statemen3_8_1_, useraccoun2_.id as id1_0_2_, useraccoun2_.version as version2_0_2_, useraccoun2_.enabled as enabled1_17_2_, useraccoun2_.identity as identity2_17_2_, useraccoun2_.password as password3_17_2_, useraccoun2_.username as username4_17_2_ from item item0_ inner join inventor inventor1_ on item0_.inventor_id=inventor1_.id inner join user_account useraccoun2_ on inventor1_.user_account_id=useraccoun2_.id where item0_.id=? 
+2022-04-06 18:54:28.164 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-5] binding parameter [1] as [INTEGER] - [17] 
+2022-04-06 18:54:28.174 DEBUG [org.hibernate.SQL@http-nio-8081-exec-5] select toolkit0_.id as id1_0_0_, toolkit0_.version as version2_0_0_, toolkit0_.assembly_notes as assembly1_16_0_, toolkit0_.code as code2_16_0_, toolkit0_.description as descript3_16_0_, toolkit0_.link as link4_16_0_, toolkit0_.published as publishe5_16_0_, toolkit0_.title as title6_16_0_ from toolkit toolkit0_ where toolkit0_.id=? 
+2022-04-06 18:54:28.174 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-5] binding parameter [1] as [INTEGER] - [22] 
+2022-04-06 18:54:28.196 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-5] SERVING GET /acme-toolkits-22.1/any/quantity/list-all-toolkits 
+2022-04-06 18:54:28.196 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-5] Result: ModelAndView [view="any/quantity/list"; model={item.name[0]=Component 01, toolkit.code[0]=ABC-123, toolkit.description[0]=Description 1, toolkit.title[0]=Title 1, version[0]=0, id[0]=25, list$size=1, command=list-all-toolkits, principal=acme.framework.entities.Principal@4873d1d7}] 
+2022-04-06 18:54:28.203 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-5] View name 'any/quantity/list', model {item.name[0]=Component 01, toolkit.code[0]=ABC-123, toolkit.description[0]=Description 1, toolkit.title[0]=Title 1, version[0]=0, id[0]=25, list$size=1, command=list-all-toolkits, principal=acme.framework.entities.Principal@4873d1d7, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-04-06 18:54:28.206 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:28.207 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:28.207 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-04-06 18:54:28.208 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:28.209 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:28.210 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-04-06 18:54:28.411 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] JspEngine --> /WEB-INF/views/any/quantity/list.jsp 
+2022-04-06 18:54:28.412 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:28.412 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] PathInfo: null 
+2022-04-06 18:54:28.413 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\any\quantity\list.jsp 
+2022-04-06 18:54:28.413 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:28.414 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-5] QueryString: null 
+2022-04-06 18:54:30.219 INFO  [acme.framework.testing.Junit5Extension@main] Test case '[1] recordIndex=0, title=ABC-123, code=true, assemblyNotes=Title 1, description=Description 1, link=Assembly Notes 1, published=null, reference=TOOLKIT01-ITEM01' threw exception acme.framework.testing.AbstractTest.checkColumnHasValue(AbstractTest.java:414): Expected value 'ABC-123' in attribute 0 of record 0, but found 'Title 1' 
+2022-04-06 18:54:30.287 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-4] View name 'fragments/welcome', model {} 
+2022-04-06 18:54:30.289 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.289 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.290 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-04-06 18:54:30.291 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:30.292 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.292 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: language=en&debug=true 
+2022-04-06 18:54:30.461 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-06 18:54:30.461 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.461 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-04-06 18:54:30.462 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-06 18:54:30.462 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.462 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: language=en&debug=true 
+2022-04-06 18:54:30.525 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:30.525 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-06 18:54:30.527 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:30.527 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [INTEGER] - [1] 
+2022-04-06 18:54:30.797 INFO  [acme.framework.testing.Junit5Extension@main] Running test case '[2] recordIndex=1, title=ABC-123-A, code=false, assemblyNotes=Title 2, description=Description 2, link=Assembly Notes 2, published=https://www.example.com, reference=TOOLKIT02-ITEM02' 
+2022-04-06 18:54:30.823 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-4] View name 'fragments/welcome', model {} 
+2022-04-06 18:54:30.824 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.824 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.824 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-04-06 18:54:30.825 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:30.825 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:30.825 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: language=en&debug=true 
+2022-04-06 18:54:31.006 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-06 18:54:31.006 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:31.006 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] PathInfo: null 
+2022-04-06 18:54:31.006 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-06 18:54:31.007 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:31.007 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-4] QueryString: language=en&debug=true 
+2022-04-06 18:54:31.070 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:31.070 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-06 18:54:31.071 DEBUG [org.hibernate.SQL@http-nio-8081-exec-4] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:31.072 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-4] binding parameter [1] as [INTEGER] - [1] 
+2022-04-06 18:54:31.425 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-8] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-04-06 18:54:31.426 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:31.426 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:31.427 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-04-06 18:54:31.427 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:31.427 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:31.427 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-04-06 18:54:31.564 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-04-06 18:54:31.565 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:31.565 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-04-06 18:54:31.567 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-04-06 18:54:31.568 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:31.568 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-04-06 18:54:31.707 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:31.707 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-04-06 18:54:31.709 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:31.709 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [INTEGER] - [1] 
+2022-04-06 18:54:32.709 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_17_, useraccoun0_.identity as identity2_17_, useraccoun0_.password as password3_17_, useraccoun0_.username as username4_17_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-04-06 18:54:32.709 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [VARCHAR] - [administrator] 
+2022-04-06 18:54:32.711 DEBUG [org.hibernate.SQL@http-nio-8081-exec-10] select roles0_.user_account_id as user_acc1_18_0_, roles0_.id as id1_18_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_18_1_, roles0_.company as company1_7_1_, roles0_.sector as sector2_7_1_, roles0_.company as company1_8_1_, roles0_.info as info2_8_1_, roles0_.statement as statemen3_8_1_, roles0_.company as company1_10_1_, roles0_.info as info2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_13_1_, roles0_.sector as sector2_13_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, sector, null as info, null as statement, 10 as clazz_ from consumer union all select id, version, user_account_id, company, null as sector, info, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, null as sector, info, statement, 12 as clazz_ from patron union all select id, version, user_account_id, company, sector, null as info, null as statement, 13 as clazz_ from provider union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 15 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 16 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 17 as clazz_ from any union all select id, version, user_account_id, null as company, null as sector, null as info, null as statement, 18 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-04-06 18:54:32.712 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-10] binding parameter [1] as [INTEGER] - [5] 
+2022-04-06 18:54:32.727 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-9] View name 'fragments/welcome', model {} 
+2022-04-06 18:54:32.727 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:32.728 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:32.728 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-04-06 18:54:32.729 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:32.730 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:32.730 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-04-06 18:54:32.880 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-04-06 18:54:32.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:32.881 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] PathInfo: null 
+2022-04-06 18:54:32.882 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-04-06 18:54:32.882 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:32.882 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-9] QueryString: null 
+2022-04-06 18:54:33.525 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-8] DISPATCHING GET /acme-toolkits-22.1/any/quantity/list-all-toolkits 
+2022-04-06 18:54:33.525 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-8] Command: list-all-toolkits 
+2022-04-06 18:54:33.525 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-8] Model:   {} 
+2022-04-06 18:54:33.525 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-8] Locale:  en 
+2022-04-06 18:54:33.526 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select quantity0_.id as id1_0_, quantity0_.version as version2_0_, quantity0_.amount as amount1_14_, quantity0_.item_id as item_id2_14_, quantity0_.toolkit_id as toolkit_3_14_ from quantity quantity0_ cross join toolkit toolkit1_ where quantity0_.toolkit_id=toolkit1_.id and toolkit1_.published=1 
+2022-04-06 18:54:33.526 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select item0_.id as id1_0_0_, item0_.version as version2_0_0_, item0_.code as code1_9_0_, item0_.description as descript2_9_0_, item0_.inventor_id as inventor9_9_0_, item0_.link as link3_9_0_, item0_.name as name4_9_0_, item0_.retail_price_amount as retail_p5_9_0_, item0_.retail_price_currency as retail_p6_9_0_, item0_.technology as technolo7_9_0_, item0_.type as type8_9_0_, inventor1_.id as id1_0_1_, inventor1_.version as version2_0_1_, inventor1_.user_account_id as user_acc1_18_1_, inventor1_.company as company1_8_1_, inventor1_.info as info2_8_1_, inventor1_.statement as statemen3_8_1_, useraccoun2_.id as id1_0_2_, useraccoun2_.version as version2_0_2_, useraccoun2_.enabled as enabled1_17_2_, useraccoun2_.identity as identity2_17_2_, useraccoun2_.password as password3_17_2_, useraccoun2_.username as username4_17_2_ from item item0_ inner join inventor inventor1_ on item0_.inventor_id=inventor1_.id inner join user_account useraccoun2_ on inventor1_.user_account_id=useraccoun2_.id where item0_.id=? 
+2022-04-06 18:54:33.527 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [INTEGER] - [17] 
+2022-04-06 18:54:33.529 DEBUG [org.hibernate.SQL@http-nio-8081-exec-8] select toolkit0_.id as id1_0_0_, toolkit0_.version as version2_0_0_, toolkit0_.assembly_notes as assembly1_16_0_, toolkit0_.code as code2_16_0_, toolkit0_.description as descript3_16_0_, toolkit0_.link as link4_16_0_, toolkit0_.published as publishe5_16_0_, toolkit0_.title as title6_16_0_ from toolkit toolkit0_ where toolkit0_.id=? 
+2022-04-06 18:54:33.529 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8081-exec-8] binding parameter [1] as [INTEGER] - [22] 
+2022-04-06 18:54:33.539 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-8] SERVING GET /acme-toolkits-22.1/any/quantity/list-all-toolkits 
+2022-04-06 18:54:33.539 DEBUG [acme.framework.controllers.AbstractController@http-nio-8081-exec-8] Result: ModelAndView [view="any/quantity/list"; model={item.name[0]=Component 01, toolkit.code[0]=ABC-123, toolkit.description[0]=Description 1, toolkit.title[0]=Title 1, version[0]=0, id[0]=25, list$size=1, command=list-all-toolkits, principal=acme.framework.entities.Principal@6e8f9e6e}] 
+2022-04-06 18:54:33.540 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8081-exec-8] View name 'any/quantity/list', model {item.name[0]=Component 01, toolkit.code[0]=ABC-123, toolkit.description[0]=Description 1, toolkit.title[0]=Title 1, version[0]=0, id[0]=25, list$size=1, command=list-all-toolkits, principal=acme.framework.entities.Principal@6e8f9e6e, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-04-06 18:54:33.541 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:33.541 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:33.541 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-04-06 18:54:33.542 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\master\page.jsp 
+2022-04-06 18:54:33.543 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:33.543 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-04-06 18:54:33.733 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] JspEngine --> /WEB-INF/views/any/quantity/list.jsp 
+2022-04-06 18:54:33.733 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:33.734 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] PathInfo: null 
+2022-04-06 18:54:33.735 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RealPath: C:\Users\usuario\Desktop\Workspace-22.0\Projects\Acme-Toolkits\target\classes\WEB-INF\views\any\quantity\list.jsp 
+2022-04-06 18:54:33.735 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] RequestURI: /acme-toolkits-22.1/WEB-INF/views/master/page.jsp 
+2022-04-06 18:54:33.736 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8081-exec-8] QueryString: null 
+2022-04-06 18:54:34.366 INFO  [acme.framework.testing.Junit5Extension@main] Test case '[2] recordIndex=1, title=ABC-123-A, code=false, assemblyNotes=Title 2, description=Description 2, link=Assembly Notes 2, published=https://www.example.com, reference=TOOLKIT02-ITEM02' threw exception acme.framework.testing.AbstractTest.getListingRecord(AbstractTest.java:559): Record index 1 is out of range 
+2022-04-06 18:54:34.372 INFO  [acme.framework.testing.Junit5Extension@main] Finishing test cases in test class 'AdministratorToolkitListAllTest' finished 
+2022-04-06 18:54:34.997 INFO  [acme.framework.configuration.ShutdownConfiguration@SpringContextShutdownHook] The system is shutting down... 

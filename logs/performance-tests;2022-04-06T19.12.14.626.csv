@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-06 19:07:56.846","acme.testing.administrator.toolkit.AdministratorToolkitListAllTest","positiveTest",14318,""[1] recordIndex=0, title=Title 1, code=ABC-123, published=true, description=Description 1, link=null, assemblyNotes=Assembly Notes 1, reference=Component 01"","OK"
