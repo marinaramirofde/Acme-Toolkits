@@ -48,12 +48,16 @@ master.menu.inventor.item.list-all-mine-components = Listar todos mis componente
 master.menu.patron = Patron
 master.menu.patron.item.list-all-tools = Listar todas las herramientas
 
+# master.menu.authenticated ###################################################
+master.menu.authenticated = Autenticado
+master.menu.authenticated.announcement.list = Lista de anuncios recientes
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Enlace favorito
 
-# master.menu.consumer ##########################################################
+# master.menu.consumer #########################################################
 
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito

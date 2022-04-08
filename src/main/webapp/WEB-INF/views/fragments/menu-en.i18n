@@ -21,6 +21,10 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.item.list-all-tools = List All Tools
 
+# master.menu.authenticated ###################################################
+master.menu.authenticated = Authenticated
+master.menu.authenticated.announcement.list = List Recent Announcements
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
