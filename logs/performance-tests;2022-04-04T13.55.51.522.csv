@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-04 13:52:08.091","acme.testing.anonymous.item.AnonymousToolListAllTest","positiveTest",8491,""[1] recordIndex=0, name=Tool 01, code=ABC-123, technology=Technology 1, description=Description of tool 1, retailPrice=EUR 20.00, link=null, type=TOOL"","OK"
+"2022-04-04 13:52:14.612","acme.testing.anonymous.item.AnonymousToolListAllTest","positiveTest",5063,""[2] recordIndex=1, name=Tool 02, code=ABC-123-A, technology=Technology 2, description=Description of tool 2, retailPrice=EUR 40.00, link=https://www.example.com, type=TOOL"","OK"
