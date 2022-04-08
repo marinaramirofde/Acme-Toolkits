@@ -50,6 +50,7 @@ public class AnyQuantityShowService implements AbstractShowService<Any, Quantity
 		assert entity != null;
 		assert model != null;
         model.setAttribute("ItemId", entity.getItem().getId());
+        model.setAttribute("ToolkitId", entity.getToolkit().getId());
 		request.unbind(entity, model,"toolkit.assemblyNotes", "toolkit.code","toolkit.description","toolkit.link","toolkit.published","toolkit.title","item.name","item.id");
 		
 		
