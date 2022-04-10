@@ -9,6 +9,7 @@ any.quantity.form.label.published = Published:
 any.quantity.form.label.title = Title:
 any.quantity.form.label.item.name = Item Name:
 any.quantity.form.label.item = Item
+any.quantity.form.label.price = Price
 
 
 any.quantity.list.label.title = Title

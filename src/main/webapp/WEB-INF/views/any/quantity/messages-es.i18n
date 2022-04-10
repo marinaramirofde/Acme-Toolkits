@@ -9,6 +9,7 @@ any.quantity.form.label.published = Publicado:
 any.quantity.form.label.title = Titulo:
 any.quantity.form.label.item.name = Nombre del Objeto:
 any.quantity.form.label.item = Objeto
+any.quantity.form.label.price = Precio
 
 any.quantity.list.label.title = Titulo
 any.quantity.list.label.code = Codigo

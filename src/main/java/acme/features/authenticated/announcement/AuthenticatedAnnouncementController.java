@@ -5,7 +5,7 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import acme.entities.announcement.Announcement;
+import acme.entities.announcements.Announcement;
 import acme.framework.controllers.AbstractController;
 import acme.framework.roles.Authenticated;
 

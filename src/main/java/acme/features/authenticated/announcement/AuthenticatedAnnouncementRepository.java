@@ -6,7 +6,7 @@ import java.util.Date;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.announcement.Announcement;
+import acme.entities.announcements.Announcement;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository

@@ -14,6 +14,7 @@
 	<acme:input-textbox code="any.quantity.form.label.title" path="toolkit.title"/>	
 	<acme:input-textbox code="any.quantity.form.label.item.name" path="item.name"/>	
 	<acme:input-textbox code="any.quantity.form.label.item" path="item.id"/>
+	<acme:input-money code="any.quantity.form.label.price" path="price"/>
 	<acme:button code="any.quantity.form.label.item" action="/any/item/list-all-item-toolkit?id=${ToolkitId}"/>
 		
 	

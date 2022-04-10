@@ -1,2 +1,2 @@
-recordIndex,title,code,published,description,link,assemblyNotes,reference
-0,Title 1,ABC-123,true,Description 1,,Assembly Notes 1,Component 01
+recordIndex,title,code,published,description,link,assemblyNotes,reference,price
+0,Title 1,ABC-123,true,Description 1,,Assembly Notes 1,Component 01,"EUR 100.00"

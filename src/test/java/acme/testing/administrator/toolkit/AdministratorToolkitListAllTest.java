@@ -14,7 +14,7 @@ public class AdministratorToolkitListAllTest extends TestHarness {
 	@CsvFileSource(resources = "/any/toolkit/list-all-toolkits.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int recordIndex, final String title, final String code, final String published,
-		final String description, final String link,final String assemblyNotes ,final String reference) {
+		final String description, final String link,final String assemblyNotes ,final String reference, final String price) {
 		super.signIn("administrator", "administrator");
 
 		super.clickOnMenu("Administrator", "List All Toolkits");
@@ -36,6 +36,7 @@ public class AdministratorToolkitListAllTest extends TestHarness {
 		super.checkInputBoxHasValue("toolkit.published", published);
 		super.checkInputBoxHasValue("toolkit.link", link);
 		super.checkInputBoxHasValue("item.name", reference);
+		super.checkInputBoxHasValue("price", price);
 
 		super.signOut();
 	}
