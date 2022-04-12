@@ -46,6 +46,7 @@ master.menu.authenticated.system-configuration = System Configuration
 master.menu.inventor = Inventor 
 master.menu.inventor.item.list-all-tools = List All Tools
 master.menu.inventor.item.list-all-mine-components = List All Mine Components
+master.menu.inventor.item.list-all-mine-tools = List All Mine Tools
 
 # master.menu.patron ########################################################
 

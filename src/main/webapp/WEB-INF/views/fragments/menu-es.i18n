@@ -42,6 +42,7 @@ master.menu.authenticated.system-configuration = Configuración del sistema
 master.menu.inventor = Inventor
 master.menu.inventor.item.list-all-tools = Listar todas las herramientas
 master.menu.inventor.item.list-all-mine-components = Listar todos mis componentes
+master.menu.inventor.item.list-all-mine-tools = Listar todas mis herramientas
 
 # master.menu.patron ########################################################
 
