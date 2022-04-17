@@ -20,5 +20,6 @@
 	</acme:input-select>
 	<acme:input-textbox code="inventor.patronage.form.label.patron.id" path="patron.id"/>
 	<acme:input-textbox code="inventor.patronage.form.label.patron.company" path="patron.company"/>
+	<acme:button code="inventor.patronage.form.label.patron" action="/any/patron/show?id=${PatronId}"/>
 	
 </acme:form>
