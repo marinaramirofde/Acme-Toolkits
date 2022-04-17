@@ -11,6 +11,7 @@ inventor.patronage.form.label.status = Status:
 inventor.patronage.form.label.patron.id = Patron Id:
 inventor.patronage.form.label.patron.company = Company:
 inventor.patronage.form.label.legalStuff = Legal Stuff:
+inventor.patronage.form.label.patron = Patron
 
 
 inventor.patronage.list.label.info = Info
