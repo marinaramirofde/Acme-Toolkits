@@ -43,6 +43,7 @@ master.menu.inventor = Inventor
 master.menu.inventor.item.list-all-tools = Listar todas las herramientas
 master.menu.inventor.item.list-all-mine-components = Listar todos mis componentes
 master.menu.inventor.patronage.list-all-mine-patronages = Listar todos los patrocinios
+master.menu.inventor.item.list-all-mine-tools = Listar todas mis herramientas
 
 # master.menu.patron ########################################################
 
