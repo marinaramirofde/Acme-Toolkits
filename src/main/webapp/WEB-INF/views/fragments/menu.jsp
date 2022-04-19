@@ -30,6 +30,8 @@
              <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-tools" action="/inventor/item/list-all-mine-tools"/>
 
              <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+             
+             <acme:menu-suboption code="master.menu.inventor.toolkits.list" action="/inventor/toolkit/list"/>
         <acme:menu-separator/>
 
 
