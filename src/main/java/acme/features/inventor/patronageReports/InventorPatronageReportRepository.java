@@ -6,9 +6,11 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.entities.patronageReports.PatronageReport;
+import acme.entities.patronages.Patronage;
+import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface InventorPatronageReportRepository {
+public interface InventorPatronageReportRepository extends AbstractRepository {
 
 	@Query("select p from PatronageReport p where p.patronage.id = :masterId")
 	Collection<PatronageReport> findManyPatronageReportsByMasterId(int masterId);
@@ -16,7 +18,7 @@ public interface InventorPatronageReportRepository {
 	@Query("select p from PatronageReport p where p.id = :id")
 	PatronageReport findOne(int id);
 	
-	@Query("select p.patronage from PatronageReport p where p.id = :masterId")
-	PatronageReport findOnePatronageReportByPatronageId(int masterId);
+	@Query("select p.patronage from PatronageReport p where p.patronage.id = :masterId")
+	Patronage findOnePatronageByPatronageId(int masterId);
 
 }
