@@ -17,3 +17,5 @@ inventor.patronage.form.label.patron = Patron
 inventor.patronage.list.label.info = Info
 inventor.patronage.list.label.code = Code
 inventor.patronage.list.label.legalStuff = Legal Stuff
+
+inventor.patronage.form.button.patronageReports = Patronage Reports
