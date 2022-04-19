@@ -1,0 +1,19 @@
+# LO MISMO QUE EN EL FORM Y LIST: "budget", "code", "creationMoment", "endMoment", "info", "legalStuff","startMoment","status","patron.id","company" 
+
+
+inventor.patronage.form.label.budget = Budget:
+inventor.patronage.form.label.code = Code:
+inventor.patronage.form.label.creationMoment = Creation Moment:
+inventor.patronage.form.label.startMoment = Start Moment:
+inventor.patronage.form.label.endMoment = End Moment:
+inventor.patronage.form.label.info = Info:
+inventor.patronage.form.label.status = Status:
+inventor.patronage.form.label.patron.id = Patron Id:
+inventor.patronage.form.label.patron.company = Company:
+inventor.patronage.form.label.legalStuff = Legal Stuff:
+inventor.patronage.form.label.patron = Patron
+
+
+inventor.patronage.list.label.info = Info
+inventor.patronage.list.label.code = Code
+inventor.patronage.list.label.legalStuff = Legal Stuff

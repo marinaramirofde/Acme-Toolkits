@@ -36,9 +36,13 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>acme-framework</name>
+			<name>classes</name>
 			<type>2</type>
+
 			<locationURI>WORKSPACE_LOC/Frameworks/Acme-Framework-22.3/target/classes</locationURI>
+
+			<location>C:/Users/usuario/Desktop/Workspace-22.0/Frameworks/Acme-Framework-22.2/target/classes</location>
+
 		</link>
 	</linkedResources>
 </projectDescription>

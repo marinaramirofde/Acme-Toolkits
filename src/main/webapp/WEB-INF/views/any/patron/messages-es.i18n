@@ -1,0 +1,11 @@
+# LO MISMO QUE EN EL FORM Y LIST: "company", "info", "statement"
+
+
+any.patron.form.label.company = Compañia:
+any.patron.form.label.info = Informacion:
+any.patron.form.label.statement = Declaracion:
+
+
+any.patron.list.label.company = Compañia:
+any.patron.list.label.info = Informacion:
+any.patron.list.label.statement = Declaracion:

@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-10 19:38:56.716","acme.testing.inventor.toolkit.InventorToolkitListAllTest","positiveTest",14853,""[1] recordIndex=0, title=Title 1, code=ABC-123, published=true, description=Description 1, link=null, assemblyNotes=Assembly Notes 1, reference=Component 01, price=EUR 100.0"","Expected value 'EUR 100.0' in input box 'price', but 'EUR 100.00' was found"
