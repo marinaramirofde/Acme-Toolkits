@@ -57,7 +57,7 @@ public class AnyQuantityShowService implements AbstractShowService<Any, Quantity
         //model.setAttribute("ItemId", entity.getItem().getId());
 		final Double NPrice=this.repository.findPriceOfToolkitByToolkitId(ToolkitId);
 		final List<String> LSPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(ToolkitId);
-		final Map<String,Integer> amountq=this.repository.findQuantityOfToolkitByToolkitId(ToolkitId);
+		final Map<String,Integer> amount=this.repository.findQuantityOfToolkitByToolkitId(ToolkitId);
 		final String SPrice=LSPrice.get(0);
 		final Money price=new Money();
 		price.setAmount(NPrice);
