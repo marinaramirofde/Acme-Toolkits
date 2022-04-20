@@ -10,6 +10,7 @@ any.quantity.form.label.title = Title:
 any.quantity.form.label.item.name = Item Name:
 any.quantity.form.label.item = Item
 any.quantity.form.label.price = Price
+any.quantity.form.label.amountq = Map with Item Name & Amount:
 
 
 any.quantity.list.label.title = Title

@@ -9,7 +9,7 @@ any.item.form.label.retailPrice = Precio al por menor:
 any.item.form.label.link = Link:
 any.item.form.label.type = Tipo:
 
-
+any.item.list.label.amount = Cantidad
 any.item.list.label.name = Nombre
 any.item.list.label.code = Código
 any.item.list.label.type = Tipo

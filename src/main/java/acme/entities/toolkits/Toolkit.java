@@ -50,8 +50,6 @@ public class Toolkit extends AbstractEntity {
 	@ManyToOne(optional=false)
 	protected Inventor inventor;
 	
-	/// Derived Attribute
-	Double retailPrice;
 	
 
 }

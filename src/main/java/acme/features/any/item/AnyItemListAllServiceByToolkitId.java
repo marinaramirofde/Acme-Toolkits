@@ -38,7 +38,6 @@ public class AnyItemListAllServiceByToolkitId implements AbstractListService<Any
 
 		id = request.getModel().getInteger("id");
 		result = this.repository.findAllItemsFromToolkitId(id);
-
 		return result;
 	}
 	
@@ -47,7 +46,10 @@ public class AnyItemListAllServiceByToolkitId implements AbstractListService<Any
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-
+		final Integer toolkitId = request.getModel().getInteger("id");
+		final Integer itemId=entity.getId();
+		final Integer amount=this.repository.findAmountFromItemIdAndToolkitId(itemId, toolkitId);
+		model.setAttribute("amount", amount);
 		request.unbind(entity, model, "name", "code", "type");
 	}
 
