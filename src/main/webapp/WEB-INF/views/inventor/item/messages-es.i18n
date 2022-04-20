@@ -10,6 +10,7 @@ inventor.item.form.label.link = Link:
 inventor.item.form.label.type = Tipo:
 
 
+inventor.item.list.label.amount = Cantidad
 inventor.item.list.label.name = Nombre
 inventor.item.list.label.code = Código
 inventor.item.list.label.type = Tipo
