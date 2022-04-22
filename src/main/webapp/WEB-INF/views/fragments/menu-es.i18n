@@ -20,6 +20,7 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.item.list-all-tools = Listar todas las herramientas
+master.menu.any.chirp.list-recent-chirps = Listar los chirridos recientes
 
 # master.menu.administrator ###################################################
 
@@ -36,6 +37,7 @@ master.menu.administrator.item.list-all-tools = Listar todas las herramientas
 master.menu.authenticated = Autentificado
 master.menu.authenticated.item.list-all-tools = Listar todas las herramientas
 master.menu.authenticated.system-configuration = Configuración del sistema
+master.menu.any.chirp.list-recent-chirps = Listar los chirridos recientes
 
 # master.menu.inventor ########################################################
 
