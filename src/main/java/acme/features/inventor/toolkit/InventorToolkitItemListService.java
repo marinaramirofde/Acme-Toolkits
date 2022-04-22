@@ -62,6 +62,11 @@ public class InventorToolkitItemListService implements AbstractListService<Inven
 		assert entity != null; 
 		assert model != null; 
 		
+		final Integer toolkitId = request.getModel().getInteger("id");
+		final Integer itemId=entity.getId();
+		final Integer amount=this.repository.findAmountFromItemIdAndToolkitId(itemId, toolkitId);
+		model.setAttribute("amount", amount);
+		
 		request.unbind(entity, model, "name", "code", "type"); 
 		 
 	}

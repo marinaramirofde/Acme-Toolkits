@@ -1,7 +1,6 @@
 package acme.features.any.quantity;
 
 import java.util.List;
-import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -57,7 +56,6 @@ public class AnyQuantityShowService implements AbstractShowService<Any, Quantity
         //model.setAttribute("ItemId", entity.getItem().getId());
 		final Double NPrice=this.repository.findPriceOfToolkitByToolkitId(ToolkitId);
 		final List<String> LSPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(ToolkitId);
-		final Map<String,Integer> amount=this.repository.findQuantityOfToolkitByToolkitId(ToolkitId);
 		final String SPrice=LSPrice.get(0);
 		final Money price=new Money();
 		price.setAmount(NPrice);
