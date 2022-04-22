@@ -1,0 +1,9 @@
+authenticated.announcement.form.label.title = Título:
+authenticated.announcement.form.label.critical = Crítico:
+authenticated.announcement.form.label.body = Descripción:
+authenticated.announcement.form.label.link = Info:
+
+authenticated.announcement.list.label.creationMoment = Momento de creación
+authenticated.announcement.list.label.critical = Crítico
+authenticated.announcement.list.label.title = Título
+authenticated.announcement.list.label.body = Descripción

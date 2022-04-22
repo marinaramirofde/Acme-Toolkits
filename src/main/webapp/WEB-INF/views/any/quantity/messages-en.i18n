@@ -1,0 +1,19 @@
+# LO MISMO QUE EN EL FORM Y LIST: "assemblyNotes", "code","description","link","published","title" 
+
+
+any.quantity.form.label.assemblyNotes = Assembly Notes:
+any.quantity.form.label.code = Code:
+any.quantity.form.label.description = Description:
+any.quantity.form.label.link = Link:
+any.quantity.form.label.published = Published:
+any.quantity.form.label.title = Title:
+any.quantity.form.label.item.name = Item Name:
+any.quantity.form.label.item = Item
+any.quantity.form.label.price = Price
+any.quantity.form.label.amountq = Map with Item Name & Amount:
+
+
+any.quantity.list.label.title = Title
+any.quantity.list.label.code = Code
+any.quantity.list.label.description = Description
+any.quantity.list.label.item.name = Name of Item

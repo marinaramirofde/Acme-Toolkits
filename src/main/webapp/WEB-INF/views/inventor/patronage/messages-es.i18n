@@ -1,0 +1,20 @@
+# LO MISMO QUE EN EL FORM Y LIST: "budget", "code", "creationMoment", "endMoment", "info", "legalStuff","startMoment","status","patron.id","company" 
+
+
+inventor.patronage.form.label.budget = Presupuesto:
+inventor.patronage.form.label.code = Codigo:
+inventor.patronage.form.label.creationMoment = Momento de Creacion:
+inventor.patronage.form.label.startMoment = Momento de Inicio:
+inventor.patronage.form.label.endMoment = Momento de Fin:
+inventor.patronage.form.label.info = Informacion:
+inventor.patronage.form.label.status = Estatus:
+inventor.patronage.form.label.patron.id = Id del Patron:
+inventor.patronage.form.label.patron.company = Compañia:
+inventor.patronage.form.label.legalStuff = Cosas Legales:
+inventor.patronage.form.label.patron = Patron
+
+inventor.patronage.list.label.info = Informacion
+inventor.patronage.list.label.code = Codigo
+inventor.patronage.list.label.legalStuff = Cosas Legales
+
+inventor.patronage.form.button.patronageReports = Informes de patrocinio

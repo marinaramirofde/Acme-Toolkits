@@ -20,6 +20,13 @@ master.menu.sign-out = Sign out
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.item.list-all-tools = List All Tools
+master.menu.any.chirp.list-recent-chirps = List Recent Chirps
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.announcement.list = List Recent Announcements
+master.menu.any.chirp.list-recent-chirps = List Recent Chirps
 
 # master.menu.administrator ###################################################
 
@@ -35,17 +42,23 @@ master.menu.administrator.item.list-all-tools= List All Tools
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.item.list-all-tools = List All Tools
+master.menu.authenticated.system-configuration = System Configuration
 
 # master.menu.inventor ########################################################
 
 master.menu.inventor = Inventor 
 master.menu.inventor.item.list-all-tools = List All Tools
 master.menu.inventor.item.list-all-mine-components = List All Mine Components
+master.menu.inventor.patronage.list-all-mine-patronages = List All Mine Patronages
+master.menu.inventor.item.list-all-mine-tools = List All Mine Tools
+master.menu.inventor.toolkits.list = List All Mine Toolkits
+
 
 # master.menu.patron ########################################################
 
 master.menu.patron = Patron
 master.menu.patron.item.list-all-tools = List All Tools
+master.menu.patron.patronage-report.list-mine-patronage-report = List All Mine Patronage Reports
 
 # master.menu.provider ########################################################
 
@@ -65,3 +78,7 @@ master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
+
+# master.menu.any ####################################################
+master.menu.any.toolkit.list-all = List All Toolkits
+

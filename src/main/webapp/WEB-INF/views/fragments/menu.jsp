@@ -6,25 +6,8 @@
 
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
-		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
-			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.authenticated.item.list-all-tools" action="/any/item/list-all-tools"/>
-			<acme:menu-separator/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
-            <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/any/item/list-all-tools"/>
-        </acme:menu-option>
-
-        <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
-            <acme:menu-suboption code="master.menu.inventor.item.list-all-tools" action="/any/item/list-all-tools"/>
-             <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-components" action="/inventor/item/list-all-mine-components"/>
-        <acme:menu-separator/>
-
-
-        </acme:menu-option>
 	
-		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+	<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 
 			<acme:menu-suboption code="54183920Z: Lorenzo Casas, Angel" action="https://www.youtube.com/"/>
 			<acme:menu-suboption code="47557390Z: Avila Sanchez, Rafael" action="https://es.wikipedia.org/" />
@@ -35,12 +18,59 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.item.list-all-tools" action="/any/item/list-all-tools"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.chirp.list-recent-chirps" action="/any/chirp/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+			<acme:menu-separator/>
 		</acme:menu-option>
+		
+		
+		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.item.list-all-tools" action="/any/item/list-all-tools"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.system-configuration" action="/authenticated/system-configuration/show"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.chirp.list-recent-chirps" action="/any/chirp/list"/>
+		</acme:menu-option>
+		
+		
+		
+		
+		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
+            <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/any/item/list-all-tools"/>
+            <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+             <acme:menu-suboption code="master.menu.patron.patronage-report.list-mine-patronage-report" action="/patron/patronage-report/list-patronage-reports"/>
+        </acme:menu-option>
+
+        <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
+            <acme:menu-suboption code="master.menu.inventor.item.list-all-tools" action="/any/item/list-all-tools"/>
+            
+            <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-components" action="/inventor/item/list-all-mine-components"/>
+
+             <acme:menu-suboption code="master.menu.inventor.patronage.list-all-mine-patronages" action="/inventor/patronage/list-all-mine-patronages"/>
+
+             <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-tools" action="/inventor/item/list-all-mine-tools"/>
+
+             <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+             
+             <acme:menu-suboption code="master.menu.inventor.toolkits.list" action="/inventor/toolkit/list"/>
+        <acme:menu-separator/>
+
+
+        </acme:menu-option>
+	
+		
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.item.list-all-tools" action="/any/item/list-all-tools"/>
+			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-initial" action="/administrator/populate-initial"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
 			<acme:menu-separator/>
@@ -56,6 +86,8 @@
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
 		</acme:menu-option>
+		
+		
 	</acme:menu-left>
 
 	<acme:menu-right>

@@ -24,6 +24,8 @@ public class Item extends AbstractEntity{
 	
 	protected static final long serialVersionUID = 1L;
 	
+	protected boolean published;
+	
 	@NotBlank
 	@Length(min=1, max=100)
 	protected String name;
@@ -50,6 +52,7 @@ public class Item extends AbstractEntity{
 	
 	@NotNull
 	protected ItemType type;
+	
 	
 	@ManyToOne(optional = false)
 	@Valid

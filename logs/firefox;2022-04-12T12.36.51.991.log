@@ -1,0 +1,12 @@
+1649759697304	geckodriver	INFO	Listening on 127.0.0.1:43908
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\usuario\\AppData\\Local\\Temp\\rust_mozprofileRVpzkA\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhJost:8081"
+avaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LogiJnaRecipes: "getRveacSicpript error: resourcee://sg: falling back to a rsynchroen/modules/Lous message for:" "http://localhost:8081"
+oginconsole.warManagerParent.jns:m , line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManageLroginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+Parent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  2

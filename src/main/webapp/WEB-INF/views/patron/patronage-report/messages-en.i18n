@@ -1,0 +1,8 @@
+patron.patronage-report.form.label.sequenceNumber = Sequence Number :
+patron.patronage-report.form.label.creationMoment = Creation Moment :
+patron.patronage-report.form.label.memorandum = Memorandum :
+patron.patronage-report.form.label.info = Info :
+
+patron.patronage-report.list.label.patronageId = Patronage Id
+patron.patronage-report.list.label.creationMoment = Creation Moment
+patron.patronage-report.list.label.info = Info
