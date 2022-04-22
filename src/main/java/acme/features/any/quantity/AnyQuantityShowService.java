@@ -1,5 +1,7 @@
 package acme.features.any.quantity;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,6 +44,22 @@ public class AnyQuantityShowService implements AbstractShowService<Any, Quantity
 
 	@Override
 	public void unbind(final Request<Quantity> request, final Quantity entity, final Model model)  {
+
+		assert request != null;
+		assert entity != null;
+		assert model != null;
+		final Integer ToolkitId=entity.getToolkit().getId();
+        //model.setAttribute("ItemId", entity.getItem().getId());
+		final Double NPrice=this.repository.findPriceOfToolkitByToolkitId(ToolkitId);
+		final List<String> LSPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(ToolkitId);
+		final String SPrice=LSPrice.get(0);
+		final Money price=new Money();
+		price.setAmount(NPrice);
+		price.setCurrency(SPrice);
+        model.setAttribute("ToolkitId", ToolkitId);
+        model.setAttribute("price", price);
+		request.unbind(entity, model,"toolkit.assemblyNotes", "toolkit.code","toolkit.description","toolkit.link","toolkit.published","toolkit.title","item.name","item.id");
+		
 //		assert request != null;
 //		assert entity != null;
 //		assert model != null;

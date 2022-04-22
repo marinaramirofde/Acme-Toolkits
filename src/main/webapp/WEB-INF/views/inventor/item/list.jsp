@@ -6,5 +6,9 @@
 <acme:list>
 	<acme:list-column code="inventor.item.list.label.name" path="name" width="20%"/>
 	<acme:list-column code="inventor.item.list.label.code" path="code" width="10%"/>
-	<acme:list-column code="inventor.item.list.label.type" path="type" width="70%"/>	
+	<acme:list-column code="inventor.item.list.label.type" path="type" width="70%"/>
+	
+	<jstl:if test="${command == 'listToolkitItems'}">
+	<acme:list-column code="inventor.item.list.label.amount" path="amount" width="10%"/>	
+	</jstl:if>	
 </acme:list>
