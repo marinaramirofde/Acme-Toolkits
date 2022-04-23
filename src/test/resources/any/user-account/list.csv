@@ -1,0 +1,5 @@
+recordIndex,roleList,name,surname,email
+0,Inventor,Inventor,Two,inventor2@mail.com
+1,Inventor,Inventor,One,inventor1@mail.com
+2,Patron,Patron,One,patron1@mail.com
+3,Patron,Patron,Two,patron2@mail.com
