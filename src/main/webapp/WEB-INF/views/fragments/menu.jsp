@@ -44,7 +44,8 @@
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
             <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/any/item/list-all-tools"/>
             <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
-             <acme:menu-suboption code="master.menu.patron.patronage-report.list-mine-patronage-report" action="/patron/patronage-report/list-patronage-reports"/>
+            <acme:menu-suboption code="master.menu.patron.patronage-report.list-mine-patronage-report" action="/patron/patronage-report/list-patronage-reports"/>
+            <acme:menu-suboption code="master.menu.patron.patronages.list-all-mine-patronages" action="/patron/patronage/list-all-mine-patronages"/>
         </acme:menu-option>
 
         <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">

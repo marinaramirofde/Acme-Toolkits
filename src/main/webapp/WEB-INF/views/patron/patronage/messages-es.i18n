@@ -1,11 +1,21 @@
-# LO MISMO QUE EN EL FORM Y LIST: "company", "info", "statement"
+# LO MISMO QUE EN EL FORM Y LIST: "budget", "code", "creationMoment", "endMoment", "info", "legalStuff","startMoment","status","patron.id","company" 
 
 
-any.patron.form.label.company = Compañia:
-any.patron.form.label.info = Informacion:
-any.patron.form.label.statement = Declaracion:
+patron.patronage.form.label.budget = Presupuesto:
+patron.patronage.form.label.code = Codigo:
+patron.patronage.form.label.creationMoment = Momento de Creacion:
+patron.patronage.form.label.startMoment = Momento de Inicio:
+patron.patronage.form.label.endMoment = Momento de Fin:
+patron.patronage.form.label.info = Informacion:
+patron.patronage.form.label.status = Estatus:
+patron.patronage.form.label.inventor.id = Id del Inventor:
+patron.patronage.form.label.inventor.company = Compañia:
+patron.patronage.form.label.legalStuff = Cosas Legales:
+patron.patronage.form.label.inventor.info = Informacion:
+patron.patronage.form.label.inventor.statement = Declaracion:
+patron.patronage.form.label.inventor.fullName = Nombre Completo del Inventor:
 
+patron.patronage.list.label.info = Informacion
+patron.patronage.list.label.code = Codigo
+patron.patronage.list.label.legalStuff = Cosas Legales
 
-any.patron.list.label.company = Compañia:
-any.patron.list.label.info = Informacion:
-any.patron.list.label.statement = Declaracion:
