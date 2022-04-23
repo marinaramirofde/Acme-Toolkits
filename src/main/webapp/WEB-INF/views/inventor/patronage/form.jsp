@@ -5,7 +5,7 @@
 
 <acme:form readonly="${readonly}">
 
-	<!-- "budget", "code", "creationMoment", "endMoment", "info", "legalStuff","startMoment","status","patron.id"-->	
+	<!-- "budget", "code", "creationMoment", "endMoment", "info", "legalStuff","startMoment","status","patron.fullName","patron.info","patron.statement"-->	
 	<acme:input-moment code="inventor.patronage.form.label.creationMoment" path="creationMoment"/>
 	<acme:input-moment code="inventor.patronage.form.label.endMoment" path="endMoment"/>
 	<acme:input-moment code="inventor.patronage.form.label.startMoment" path="startMoment"/>
@@ -18,9 +18,10 @@
 		<acme:input-option code="ACCEPTED" value="ACCEPTED" selected="${status == 'ACCEPTED'}"/>
 		<acme:input-option code="DENIED" value="DENIED" selected="${status == 'DENIED'}"/>
 	</acme:input-select>
-	<acme:input-textbox code="inventor.patronage.form.label.patron.id" path="patron.id"/>
+	<acme:input-textbox code="inventor.patronage.form.label.patron.fullName" path="patronFullName"/>
 	<acme:input-textbox code="inventor.patronage.form.label.patron.company" path="patron.company"/>
-	<acme:button code="inventor.patronage.form.label.patron" action="/any/patron/show?id=${PatronId}"/>
+	<acme:input-textbox code="inventor.patronage.form.label.patron.info" path="patron.info"/>
+	<acme:input-textbox code="inventor.patronage.form.label.patron.statement" path="patron.statement"/>
 	
 	<acme:button code="inventor.patronage.form.button.patronageReports" action="/inventor/patronage-report/list?masterId=${id}"/>
 	

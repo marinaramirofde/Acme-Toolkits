@@ -12,6 +12,9 @@ inventor.patronage.form.label.patron.id = Id del Patron:
 inventor.patronage.form.label.patron.company = Compañia:
 inventor.patronage.form.label.legalStuff = Cosas Legales:
 inventor.patronage.form.label.patron = Patron
+inventor.patronage.form.label.patron.info = Informacion:
+inventor.patronage.form.label.patron.statement = Declaracion:
+inventor.patronage.form.label.patron.fullName = Nombre Completo del Patron:
 
 inventor.patronage.list.label.info = Informacion
 inventor.patronage.list.label.code = Codigo

@@ -22,6 +22,8 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
 			<acme:menu-separator/>
+		        <acme:menu-suboption code="master.menu.any.user-account.list" action="/any/user-account/list-all-userAccounts"/>
+			<acme:menu-separator/>
 		</acme:menu-option>
 		
 		
@@ -35,7 +37,12 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 			<acme:menu-separator/>
+
+			<acme:menu-suboption code="master.menu.any.user-account.list" action="/any/user-account/list-all-userAccounts"/>
+			
+
 			<acme:menu-suboption code="master.menu.any.chirp.list-recent-chirps" action="/any/chirp/list"/>
+
 		</acme:menu-option>
 		
 		
@@ -66,7 +73,11 @@
 
         </acme:menu-option>
 	
+
 		
+
+		
+
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
