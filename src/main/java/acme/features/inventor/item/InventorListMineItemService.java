@@ -8,12 +8,11 @@ import org.springframework.stereotype.Service;
 import acme.entities.items.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
-import acme.framework.entities.Principal;
 import acme.framework.services.AbstractListService;
 import acme.roles.Inventor;
 
 @Service
-public class InventorToolListMineService implements AbstractListService<Inventor, Item> {
+public class InventorListMineItemService implements AbstractListService<Inventor, Item> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -35,11 +34,7 @@ public class InventorToolListMineService implements AbstractListService<Inventor
 		assert request != null;
 
 		Collection<Item> result;
-		Principal principal;
-
-		principal = request.getPrincipal();
-		result = this.repository.findManyToolsByInventorId(principal.getActiveRoleId());
-
+		result = this.repository.findManyPublishedItem();
 		return result;
 	}
 

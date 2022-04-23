@@ -23,14 +23,14 @@ public class InventorItemShowService implements AbstractShowService<Inventor, It
 	@Override
 	public boolean authorise(final Request<Item> request) {
 		assert request != null;
-		boolean result=false;
-		final int itemId=request.getModel().getInteger("id");
-		final Item item = this.repository.findOneItemById(itemId);
-		final int inventorId = item.getInventor().getId();
-		final int idPrincipal = request.getPrincipal().getActiveRoleId();
 		
-		if(inventorId == idPrincipal) {
-			result=true;
+		boolean result = false;
+		
+		 final int itemId=request.getModel().getInteger("id");
+		 final Item item = this.repository.findOneItemById(itemId);
+		 
+		if(item.isPublished()) {
+			result = true;
 		}
 
 		return result;
