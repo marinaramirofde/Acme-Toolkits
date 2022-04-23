@@ -37,16 +37,9 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 			<acme:menu-separator/>
-
 			<acme:menu-suboption code="master.menu.any.user-account.list" action="/any/user-account/list-all-userAccounts"/>
-			
-
 			<acme:menu-suboption code="master.menu.any.chirp.list-recent-chirps" action="/any/chirp/list"/>
-
 		</acme:menu-option>
-		
-		
-		
 		
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
             <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/any/item/list-all-tools"/>
@@ -56,29 +49,19 @@
 
         <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
             <acme:menu-suboption code="master.menu.inventor.item.list-all-tools" action="/any/item/list-all-tools"/>
-            
-            <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-components" action="/inventor/item/list-all-mine-components"/>
+           
+            <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-items" action="/inventor/item/list-all-mine-items"/>
 
              <acme:menu-suboption code="master.menu.inventor.patronage.list-all-mine-patronages" action="/inventor/patronage/list-all-mine-patronages"/>
 
 			 <acme:menu-suboption code="master.menu.inventor.patronage-reports.list-all-mine-patronage-reports" action="/inventor/patronage-report/list-inventor-patronage-reports"/>
 			 
-             <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-tools" action="/inventor/item/list-all-mine-tools"/>
-
              <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
              
              <acme:menu-suboption code="master.menu.inventor.toolkits.list" action="/inventor/toolkit/list"/>
         <acme:menu-separator/>
-
-
-        </acme:menu-option>
+	   </acme:menu-option>
 	
-
-		
-
-		
-
-
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
