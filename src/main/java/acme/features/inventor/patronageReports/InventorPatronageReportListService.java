@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.patronageReports.PatronageReport;
-import acme.entities.patronages.Patronage;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractListService;
 import acme.roles.Inventor;
 
@@ -18,20 +18,14 @@ public class InventorPatronageReportListService implements AbstractListService<I
 	@Autowired
 	protected InventorPatronageReportRepository repository;
 
+	/**
+	 *  No hace falta añadir nada el Framework se encarga de
+	 *   sasociar las listas al poner AbstractListService
+	 **/
 	@Override
 	public boolean authorise(final Request<PatronageReport> request) {
 		assert request != null;
-		
-		boolean result;
-		int masterId;
-		Patronage patronage;
-		
-		masterId = request.getModel().getInteger("masterId");
-		patronage = this.repository.findOnePatronageByPatronageId(masterId);
-		result = true;
-		if(patronage != null) result = request.isPrincipal(patronage.getInventor());
-
-		return result;
+		return true;
 	}
 
 	@Override
@@ -39,10 +33,9 @@ public class InventorPatronageReportListService implements AbstractListService<I
 		assert request != null;
 		
 		Collection<PatronageReport> result;
-		int masterId;
-
-		masterId = request.getModel().getInteger("masterId");
-		result = this.repository.findManyPatronageReportsByMasterId(masterId);
+		Principal principal;
+		principal = request.getPrincipal();
+		result = this.repository.findManyPatronageReportsByInventorId(principal.getActiveRoleId());
 
 		return result;
 	}
@@ -53,7 +46,8 @@ public class InventorPatronageReportListService implements AbstractListService<I
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model, "sequenceNumber", "creationMoment", "memorandum", "info", "patronage");
+		model.setAttribute("patronageId", entity.getPatronage().getId());
+		request.unbind(entity, model, "creationMoment");
 		
 	}
 

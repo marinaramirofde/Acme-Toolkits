@@ -6,10 +6,28 @@
 
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
+	
+	<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+
+			<acme:menu-suboption code="54183920Z: Lorenzo Casas, Angel" action="https://www.youtube.com/"/>
+			<acme:menu-suboption code="47557390Z: Avila Sanchez, Rafael" action="https://es.wikipedia.org/" />
+			<acme:menu-suboption code="47394372C: Suarez Perea, Daniel" action="http://www.twitter.com/"/>
+			<acme:menu-suboption code="47428674Y: Montalban Martin, Raul" action="http://www.twitch.com/"/>
+			<acme:menu-suboption code="X7517297T: Danko, Siamion" action="https://www.youtube.com/"/>
+			<acme:menu-suboption code="75902954X: Ramiro Fernandez, Marina" action="https://www.pinterest.de/"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.item.list-all-tools" action="/any/item/list-all-tools"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.chirp.list-recent-chirps" action="/any/chirp/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+			<acme:menu-separator/>
+		</acme:menu-option>
+		
+		
 		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.item.list-all-tools" action="/any/item/list-all-tools"/>
-			<acme:menu-separator/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
 			<acme:menu-separator/>
@@ -17,21 +35,32 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 			<acme:menu-separator/>
+
 			<acme:menu-suboption code="master.menu.any.user-account.list" action="/any/user-account/list-all-userAccounts"/>
 			
+
+			<acme:menu-suboption code="master.menu.any.chirp.list-recent-chirps" action="/any/chirp/list"/>
+
 		</acme:menu-option>
+		
+		
+		
 		
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
             <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/any/item/list-all-tools"/>
             <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
+             <acme:menu-suboption code="master.menu.patron.patronage-report.list-mine-patronage-report" action="/patron/patronage-report/list-patronage-reports"/>
         </acme:menu-option>
 
         <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
             <acme:menu-suboption code="master.menu.inventor.item.list-all-tools" action="/any/item/list-all-tools"/>
-             <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-components" action="/inventor/item/list-all-mine-components"/>
+            
+            <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-components" action="/inventor/item/list-all-mine-components"/>
 
              <acme:menu-suboption code="master.menu.inventor.patronage.list-all-mine-patronages" action="/inventor/patronage/list-all-mine-patronages"/>
 
+			 <acme:menu-suboption code="master.menu.inventor.patronage-reports.list-all-mine-patronage-reports" action="/inventor/patronage-report/list-inventor-patronage-reports"/>
+			 
              <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-tools" action="/inventor/item/list-all-mine-tools"/>
 
              <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
@@ -42,6 +71,7 @@
 
         </acme:menu-option>
 	
+
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 
 			<acme:menu-suboption code="54183920Z: Lorenzo Casas, Angel" action="https://www.youtube.com/"/>
@@ -60,8 +90,12 @@
 			<acme:menu-separator/>
 		</acme:menu-option>
 
+		
+
+
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
+			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.item.list-all-tools" action="/any/item/list-all-tools"/>
 			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
@@ -69,6 +103,7 @@
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/shut-down"/>
+			
 		</acme:menu-option>
 		
 		
