@@ -1,0 +1,5 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-23 17:58:31.143","acme.testing.any.userAccount.AnyUserAccountListTest","positiveTest",5543,""[1] recordIndex=0, roleList=Inventor, name=Inventor, surname=Two, email=inventor2@mail.com"","OK"
+"2022-04-23 17:58:34.109","acme.testing.any.userAccount.AnyUserAccountListTest","positiveTest",2535,""[2] recordIndex=1, roleList=Inventor, name=Inventor, surname=One, email=inventor1@mail.com"","OK"
+"2022-04-23 17:58:36.998","acme.testing.any.userAccount.AnyUserAccountListTest","positiveTest",2541,""[3] recordIndex=2, roleList=Patron, name=Patron, surname=One, email=patron1@mail.com"","OK"
+"2022-04-23 17:58:39.929","acme.testing.any.userAccount.AnyUserAccountListTest","positiveTest",2559,""[4] recordIndex=3, roleList=Patron, name=Patron, surname=Two, email=patron2@mail.com"","OK"

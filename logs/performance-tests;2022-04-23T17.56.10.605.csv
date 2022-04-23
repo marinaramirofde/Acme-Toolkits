@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-23 17:48:21.733","acme.testing.any.toolkit.AnyToolkitListTest","positiveTest",2776,""[1] recordIndex=0, title=Assembly Notes 1, code=ABC-123, description=Description 1, name=null, price=true, assemblyNotes=Title 1, link=Component 01, published=19, id=EUR 100.00"","Expected value 'Assembly Notes 1' in attribute 0 of record 0, but found 'Title 1'"

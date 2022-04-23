@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import acme.entities.items.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractListService;
 import acme.roles.Inventor;
 
@@ -32,9 +33,9 @@ public class InventorListMineItemService implements AbstractListService<Inventor
 	@Override
 	public Collection<Item> findMany(final Request<Item> request) {
 		assert request != null;
-
+        final Principal principal= request.getPrincipal();
 		Collection<Item> result;
-		result = this.repository.findManyPublishedItem();
+		result = this.repository.findManyItemsInventorId(principal.getActiveRoleId());
 		return result;
 	}
 

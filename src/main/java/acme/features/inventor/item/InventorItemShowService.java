@@ -29,7 +29,7 @@ public class InventorItemShowService implements AbstractShowService<Inventor, It
 		 final int itemId=request.getModel().getInteger("id");
 		 final Item item = this.repository.findOneItemById(itemId);
 		 
-		if(item.isPublished()) {
+		if(item.getInventor().getId() == request.getPrincipal().getActiveRoleId()) {
 			result = true;
 		}
 

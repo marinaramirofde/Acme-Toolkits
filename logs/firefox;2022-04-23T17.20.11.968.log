@@ -1,0 +1,3 @@
+1650724595115	geckodriver	INFO	Listening on 127.0.0.1:49030
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MRF\\AppData\\Local\\Temp\\rust_mozprofileJ5SYei\\search.json.mozlz4", (void 0)))
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

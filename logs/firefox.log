@@ -1,17 +1,2 @@
-1650386883492	geckodriver	INFO	Listening on 127.0.0.1:39182
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\usuario\\AppData\\Local\\Temp\\rust_mozprofilesrSyZO\\search.json.mozlz4", (void 0)))
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "gJeatvRaeSccripipes: falling back to a synchronous message for:" "http://localhost:8081"
-t error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling backJ atvoa a sySnchrcript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-onous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronoJuasv aScript error: resource://gre/modules/LoginManagerParent.jsm, mleine 136: sTsyapgeeE rfroorr::" "http://l ogcRalhost:8081"
-ecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to aJavaScript error:  rseysnocurce://gre/modules/LoghirnoMnaonuasg emrePsasraegnet .fjosrm:,"  "http://localholines t1:3860:8 1T"yp
-eError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"JavaScript error: resource://gre/modules/LoginM
-anagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650729546220	geckodriver	INFO	Listening on 127.0.0.1:4284
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MRF\\AppData\\Local\\Temp\\rust_mozprofileTnaS6U\\search.json.mozlz4", (void 0)))
