@@ -76,3 +76,4 @@ master.menu.user-account.become-consumer = Hazte consumidor
 
 # master.menu.any ####################################################
 master.menu.any.toolkit.list-all = Listar todos los juegos de herramientas
+master.menu.any.user-account.list = Listar todas las Cuentas de usuario

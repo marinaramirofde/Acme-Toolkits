@@ -77,4 +77,5 @@ master.menu.user-account.become-consumer = Become a consumer
 
 # master.menu.any ####################################################
 master.menu.any.toolkit.list-all = List All Toolkits
+master.menu.any.user-account.list = List All User Accounts
 

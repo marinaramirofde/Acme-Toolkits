@@ -1,0 +1,11 @@
+# LO MISMO QUE EN EL FORM Y LIST:  "roleList", "identity.name", "identity.surname"
+
+
+any.user-account.form.label.identity.email = Correo Electronico:
+any.user-account.form.label.identity.name = Nombre:
+any.user-account.form.label.identity.surname = Apellido:
+
+
+any.user-account.list.label.roleList = Rol:
+any.user-account.list.label.identity.name = Nombre:
+any.user-account.list.label.identity.surname = Apellido:
