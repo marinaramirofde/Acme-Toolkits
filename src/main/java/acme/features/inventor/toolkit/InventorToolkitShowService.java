@@ -1,8 +1,11 @@
 package acme.features.inventor.toolkit;
 
+import java.util.Collection;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.quantities.Quantity;
 import acme.entities.toolkits.Toolkit;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
@@ -17,25 +20,28 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 	
 	@Override
 	public boolean authorise(final Request<Toolkit> request) {
-		
 		assert request != null;
-		boolean result=false;
-		final int toolkitId=request.getModel().getInteger("id");
+		
+		boolean result = false;
+		
+		final int toolkitId = request.getModel().getInteger("id");
 		final Toolkit toolkit = this.repository.findOneToolkitById(toolkitId);
+		
 		final int inventorId = toolkit.getInventor().getId();
 		final int idPrincipal = request.getPrincipal().getActiveRoleId();
 		
 		if(inventorId == idPrincipal) {
-			result=true;
+			result = true;
 		}
 		return result;
 	}
 
 	@Override
 	public Toolkit findOne(final Request<Toolkit> request) {
-		
 		assert request != null;
+		
 		Toolkit result;
+		
 		final int toolkitId = request.getModel().getInteger("id");
 		result = this.repository.findOneToolkitById(toolkitId);	
 		
@@ -50,10 +56,17 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		assert model != null;
 		
 		final int toolkitId = request.getModel().getInteger("id");
-		final Double retailPrice = this.repository.retailPriceOfToolkitById(toolkitId);
-		model.setAttribute("retailPrice", retailPrice);
-
-		request.unbind(entity, model, "code", "title","description","assemblyNotes", "link", "inventor.userAccount.username");
+		
+		final Collection<Quantity> quantities = this.repository.findQuantityByToolkitId(toolkitId);
+		
+		double resultPrice = 0;
+        for(final Quantity quantity: quantities) {
+        	final double itemAmount = quantity.getAmount();
+        	final Double retailPrice = this.repository.retailPriceOfToolkitById(toolkitId);
+        	resultPrice = itemAmount*retailPrice;
+        }
+        model.setAttribute("retailPrice", resultPrice);
+		request.unbind(entity, model, "code", "title","description","assemblyNotes", "link");
 		
 	}
 
