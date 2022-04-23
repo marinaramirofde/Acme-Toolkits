@@ -30,12 +30,14 @@ public class InventorToolkitListService implements AbstractListService<Inventor,
 
 	@Override
 	public Collection<Toolkit> findMany(final Request<Toolkit> request) {
-		
 		assert request != null;
+		
 		Collection<Toolkit> result;
-		final Principal principal = request.getPrincipal();
-		result = this.repository.findManyToolkitsByInventorId(principal.getActiveRoleId());
-
+		
+		Principal principal;
+		principal = request.getPrincipal();
+		final int inventorId = principal.getActiveRoleId();
+		result = this.repository.findManyToolkitsByInventorId(inventorId);
 		return result;
 	}
 
@@ -46,7 +48,7 @@ public class InventorToolkitListService implements AbstractListService<Inventor,
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "code", "title", "description", "assemblyNotes", "link", "inventor.userAccount.username");
+		request.unbind(entity, model, "code", "title");
 		
 	}
 
