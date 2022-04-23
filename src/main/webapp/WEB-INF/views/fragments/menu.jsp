@@ -49,7 +49,7 @@
         </acme:menu-option>
 
         <acme:menu-option code="master.menu.inventor" access="hasRole('Inventor')">
-            <acme:menu-suboption code="master.menu.inventor.item.list-all-tools" action="/any/item/list-all-tools"/>
+            
            
             <acme:menu-suboption code="master.menu.inventor.item.list-all-mine-items" action="/inventor/item/list-all-mine-items"/>
 

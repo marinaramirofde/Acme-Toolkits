@@ -47,7 +47,6 @@ master.menu.authenticated.system-configuration = System Configuration
 # master.menu.inventor ########################################################
 
 master.menu.inventor = Inventor 
-master.menu.inventor.item.list-all-tools = List All Tools
 master.menu.inventor.item.list-all-mine-items = List All Mine Items
 master.menu.inventor.patronage.list-all-mine-patronages = List All Mine Patronages
 master.menu.inventor.toolkits.list = List All Mine Toolkits
