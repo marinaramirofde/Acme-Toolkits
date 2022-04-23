@@ -1,0 +1,6 @@
+administrator.system-configuration.form.label.system-currency = System Currency :
+administrator.system-configuration.form.label.accepted-currencies = Accepted Currencies :
+administrator.system-configuration.form.label.strong-terms = Strong Terms :
+administrator.system-configuration.form.label.strong-threshold = Strong Threshold :
+administrator.system-configuration.form.label.weak-terms = Weak Terms :
+administrator.system-configuration.form.label.weak-threshold = Weak Threshold :
