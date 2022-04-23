@@ -70,6 +70,7 @@
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
+			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.item.list-all-tools" action="/any/item/list-all-tools"/>
 			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
@@ -77,6 +78,7 @@
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/shut-down"/>
+			
 		</acme:menu-option>
 		
 		
