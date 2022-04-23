@@ -44,9 +44,10 @@ master.menu.any.chirp.list-recent-chirps = Listar los chirridos recientes
 master.menu.inventor = Inventor
 master.menu.inventor.item.list-all-tools = Listar todas las herramientas
 master.menu.inventor.item.list-all-mine-components = Listar todos mis componentes
-master.menu.inventor.patronage.list-all-mine-patronages = Listar todos los patrocinios
+master.menu.inventor.patronage.list-all-mine-patronages = Listar todos mis patrocinios
 master.menu.inventor.item.list-all-mine-tools = Listar todas mis herramientas
 master.menu.inventor.toolkits.list = Listar todos mis juegos de herramientas
+master.menu.inventor.patronage-reports.list-all-mine-patronage-reports = Listar todos mis reportes de patrocinios
 
 # master.menu.patron ########################################################
 

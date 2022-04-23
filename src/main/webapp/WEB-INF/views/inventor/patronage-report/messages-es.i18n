@@ -1,8 +1,7 @@
 inventor.patronageReport.form.label.sequenceNumber = Número de secuencia
 inventor.patronageReport.form.label.creationMoment = Momento de creación
-inventor.patronageReport.form.label.memorandum = Memorándum
-inventor.patronageReport.form.label.info = Info
+inventor.patronageReport.form.label.memorandum = Memoria
+inventor.patronageReport.form.label.info = Información
 
-inventor.patronageReport.list.label.sequenceNumber = Número de secuencia
+inventor.patronageReport.list.label.patronageId = Id Patrocinios
 inventor.patronageReport.list.label.creationMoment = Momento de creación
-inventor.patronageReport.list.label.info = Info
