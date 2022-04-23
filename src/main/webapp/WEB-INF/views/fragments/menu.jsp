@@ -22,6 +22,8 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
 			<acme:menu-separator/>
+		        <acme:menu-suboption code="master.menu.any.user-account.list" action="/any/user-account/list-all-userAccounts"/>
+			<acme:menu-separator/>
 		</acme:menu-option>
 		
 		
@@ -72,23 +74,7 @@
         </acme:menu-option>
 	
 
-		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-
-			<acme:menu-suboption code="54183920Z: Lorenzo Casas, Angel" action="https://www.youtube.com/"/>
-			<acme:menu-suboption code="47557390Z: Avila Sanchez, Rafael" action="https://es.wikipedia.org/" />
-			<acme:menu-suboption code="47394372C: Suarez Perea, Daniel" action="http://www.twitter.com/"/>
-			<acme:menu-suboption code="47428674Y: Montalban Martin, Raul" action="http://www.twitch.com/"/>
-			<acme:menu-suboption code="X7517297T: Danko, Siamion" action="https://www.youtube.com/"/>
-			<acme:menu-suboption code="75902954X: Ramiro Fernandez, Marina" action="https://www.pinterest.de/"/>
-			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.item.list-all-tools" action="/any/item/list-all-tools"/>
-			<acme:menu-separator/>
-			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
-			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.any.user-account.list" action="/any/user-account/list-all-userAccounts"/>
-			<acme:menu-separator/>
-		</acme:menu-option>
+		
 
 		
 
