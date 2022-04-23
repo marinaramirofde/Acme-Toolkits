@@ -26,8 +26,10 @@ public class AnyQuantityShowService implements AbstractShowService<Any, Quantity
 	@Override
 	public boolean authorise(final Request<Quantity> request) {
 		assert request != null;
-
-		return true;
+		final int quantityId=request.getModel().getInteger("id");
+		final Quantity quantity=this.repository.findOneToolkitById(quantityId);
+		final boolean result=quantity.getToolkit().isPublished();
+		return result;
 	}
 
 	@Override
