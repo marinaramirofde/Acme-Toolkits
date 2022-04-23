@@ -24,7 +24,6 @@ public class InventorItemController extends AbstractController<Inventor, Item> {
 	@Autowired
 	protected InventorToolkitItemListService inventorToolkitItemListService;
 
-
 	// Constructors -----------------------------------------------------------
 
 
