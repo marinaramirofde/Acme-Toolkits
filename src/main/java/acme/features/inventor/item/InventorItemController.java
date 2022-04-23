@@ -15,6 +15,7 @@ public class InventorItemController extends AbstractController<Inventor, Item> {
 
 	// Internal state ---------------------------------------------------------
 
+
 	@Autowired
 	protected InventorItemShowService			showService;
 
