@@ -54,6 +54,7 @@ master.menu.inventor.patronage-reports.list-all-mine-patronage-reports = Listar 
 master.menu.patron = Patron
 master.menu.patron.item.list-all-tools = Listar todas las herramientas
 master.menu.patron.patronage-report.list-mine-patronage-report = Listar todos mis reportes de patrocinios
+master.menu.patron.patronages.list-all-mine-patronages = Listar todos mis patrocinios
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated = Autenticado

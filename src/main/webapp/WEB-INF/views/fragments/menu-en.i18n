@@ -58,6 +58,7 @@ master.menu.inventor.patronage-reports.list-all-mine-patronage-reports = List Al
 master.menu.patron = Patron
 master.menu.patron.item.list-all-tools = List All Tools
 master.menu.patron.patronage-report.list-mine-patronage-report = List All Mine Patronage Reports
+master.menu.patron.patronages.list-all-mine-patronages = List All Mine Patronage
 
 # master.menu.provider ########################################################
 
