@@ -26,10 +26,11 @@ public class AnyQuantityShowService implements AbstractShowService<Any, Quantity
 	@Override
 	public boolean authorise(final Request<Quantity> request) {
 		assert request != null;
-		final int quantityId=request.getModel().getInteger("id");
-		final Quantity quantity=this.repository.findOneToolkitById(quantityId);
-		final boolean result=quantity.getToolkit().isPublished();
-		return result;
+		
+		final int quantityId = request.getModel().getInteger("id");
+		final Quantity quantity = this.repository.findOneToolkitById(quantityId);
+	
+		return quantity.getToolkit().isPublished();
 	}
 
 	@Override
@@ -51,35 +52,20 @@ public class AnyQuantityShowService implements AbstractShowService<Any, Quantity
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		final Integer ToolkitId=entity.getToolkit().getId();
-        //model.setAttribute("ItemId", entity.getItem().getId());
-		final Double NPrice=this.repository.findPriceOfToolkitByToolkitId(ToolkitId);
-		final List<String> LSPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(ToolkitId);
-		final String SPrice=LSPrice.get(0);
+		
+		final Integer toolkitId = entity.getToolkit().getId();		
+		final Double nPrice=this.repository.findPriceOfToolkitByToolkitId(toolkitId);
+		final List<String> lsPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(toolkitId);
+		final String sPrice = lsPrice.get(0);
 		final Money price=new Money();
-		price.setAmount(NPrice);
-		price.setCurrency(SPrice);
-        model.setAttribute("ToolkitId", ToolkitId);
+		
+		price.setAmount(nPrice);
+		price.setCurrency(sPrice);
+		
+        model.setAttribute("ToolkitId", toolkitId);
         model.setAttribute("price", price);
 		request.unbind(entity, model,"toolkit.assemblyNotes", "toolkit.code","toolkit.description","toolkit.link","toolkit.published","toolkit.title","item.name","item.id");
-		
-//		assert request != null;
-//		assert entity != null;
-//		assert model != null;
-//		final Integer ToolkitId=entity.getToolkit().getId();
-//        //model.setAttribute("ItemId", entity.getItem().getId());
-//		final Double NPrice=this.repository.findPriceOfToolkitByToolkitId(ToolkitId);
-//		final List<String> LSPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(ToolkitId);
-//		final Map<String,Integer> amount =this.repository.findQuantityOfToolkitByToolkitId(ToolkitId);
-//		final String SPrice=LSPrice.get(0);
-//		final Money price=new Money();
-//		price.setAmount(NPrice);
-//		price.setCurrency(SPrice);
-//        model.setAttribute("ToolkitId", ToolkitId);
-//        model.setAttribute("price", price);
-//		request.unbind(entity, model,"toolkit.assemblyNotes", "toolkit.code","toolkit.description","toolkit.link","toolkit.published","toolkit.title","item.name","item.id");
-//		
-		
+	
 		model.setAttribute("confirmation", false);
 		model.setAttribute("readonly", true);
 	}

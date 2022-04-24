@@ -55,9 +55,9 @@ public class AnyUserAccountListAllService implements AbstractListService<Any, Us
 		
 		
 		 
-		final Collection<UserRole> R=entity.getRoles();
+		final Collection<UserRole> r = entity.getRoles();
 		  final StringBuilder cache = new StringBuilder();
-	        for (final UserRole role : R) {
+	        for (final UserRole role : r) {
 	            cache.append(role.getAuthorityName());
 	        }
 
