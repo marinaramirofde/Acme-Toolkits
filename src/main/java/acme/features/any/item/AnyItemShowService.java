@@ -23,10 +23,11 @@ public class AnyItemShowService implements AbstractShowService<Any, Item> {
 	@Override
 	public boolean authorise(final Request<Item> request) {
 		assert request != null;
+		
 		final int itemId=request.getModel().getInteger("id");
 		final Item item=this.repository.findOneItemById(itemId);
-		final boolean result=item.isPublished();
-		return result;
+		
+		return item.isPublished();
 	}
 
 	@Override
