@@ -16,7 +16,7 @@ public class InventorPatronageReportListMineTest extends TestHarness {
 	public void positiveTest(final int recordIndex, final String sequenceNumber, final String creationMoment, final String memorandum,
 		final String info) {
 		super.signIn("inventor1", "inventor1");
-
+        //halo
 		super.clickOnMenu("Inventor", "List All Mine Patronage Reports");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
