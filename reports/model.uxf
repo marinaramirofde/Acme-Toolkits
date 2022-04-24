@@ -165,7 +165,7 @@ bg=yellow
       <x>185</x>
       <y>375</y>
       <w>110</w>
-      <h>35</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Datatype&gt;&gt;
 UserIdentity
@@ -347,7 +347,7 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
+      <x>465</x>
       <y>580</y>
       <w>195</w>
       <h>70</h>
@@ -360,6 +360,7 @@ Toolkit
 + description: String {NotBlank, Length(1, 255)}
 + assemblyNotes: String {NotBlank, Length(1, 255)}
 + info: String {URL}
++ published: boolean
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
@@ -441,6 +442,7 @@ Item
 + description: String {NotBlank, Length(1, 255)}
 + retailPrice: Money {Positive}
 + info: String {URL}
++ published: boolean
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
@@ -559,14 +561,14 @@ m2=1
     <coordinates>
       <x>375</x>
       <y>605</y>
-      <w>95</w>
+      <w>100</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>lt=x-&gt;
 m1=0..*
 m2=1
 has &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -658,10 +660,27 @@ bg=pink</panel_attributes>
     <coordinates>
       <x>70</x>
       <y>215</y>
-      <w>15</w>
+      <w>25</w>
       <h>365</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*
+</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;710.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>90</x>
+      <y>215</y>
+      <w>495</w>
+      <h>375</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;640.0;950.0;650.0;950.0;730.0</additional_attributes>
   </element>
 </diagram>
