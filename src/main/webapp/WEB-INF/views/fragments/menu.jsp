@@ -42,8 +42,6 @@
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
-            <acme:menu-suboption code="master.menu.patron.item.list-all-tools" action="/any/item/list-all-tools"/>
-            <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
             <acme:menu-suboption code="master.menu.patron.patronage-report.list-mine-patronage-report" action="/patron/patronage-report/list-patronage-reports"/>
             <acme:menu-suboption code="master.menu.patron.patronages.list-all-mine-patronages" action="/patron/patronage/list-all-mine-patronages"/>
         </acme:menu-option>
@@ -56,8 +54,6 @@
              <acme:menu-suboption code="master.menu.inventor.patronage.list-all-mine-patronages" action="/inventor/patronage/list-all-mine-patronages"/>
 
 			 <acme:menu-suboption code="master.menu.inventor.patronage-reports.list-all-mine-patronage-reports" action="/inventor/patronage-report/list-inventor-patronage-reports"/>
-			 
-             <acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
              
              <acme:menu-suboption code="master.menu.inventor.toolkits.list" action="/inventor/toolkit/list"/>
         <acme:menu-separator/>
@@ -67,8 +63,6 @@
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.item.list-all-tools" action="/any/item/list-all-tools"/>
-			<acme:menu-suboption code="master.menu.any.toolkit.list-all" action="/any/quantity/list-all-toolkits"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-initial" action="/administrator/populate-initial"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/populate-sample"/>			
 			<acme:menu-separator/>

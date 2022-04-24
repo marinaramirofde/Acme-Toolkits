@@ -3,7 +3,6 @@ inventor.toolkit.form.label.title = Título:
 inventor.toolkit.form.label.description = Descripción:
 inventor.toolkit.form.label.assemblyNotes = Notas de ensamblado:
 inventor.toolkit.form.label.link = Enlace:
-inventor.toolkit.form.label.inventor = Inventor:
 inventor.toolkit.form.label.retailPrice = Precio
 inventor.toolkit.form.button.items = Objetos
 
@@ -12,4 +11,3 @@ inventor.toolkit.list.label.title = Título
 inventor.toolkit.list.label.description = Descripción
 inventor.toolkit.list.label.assemblyNotes = Notas de ensamblado
 inventor.toolkit.list.label.link = Enlace
-inventor.toolkit.list.label.inventor = Inventor
