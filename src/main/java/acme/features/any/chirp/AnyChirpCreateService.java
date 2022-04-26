@@ -46,7 +46,8 @@ public class AnyChirpCreateService implements AbstractCreateService<Any, Chirp> 
 		assert model != null;
 
 		request.unbind(entity, model, "author", "title", "creationMoment", "body", "email");
-		model.setAttribute("confirmation", true);
+		model.setAttribute("confirmation", false);
+		model.setAttribute("readonly", false);
 	}
 
 	@Override
@@ -72,6 +73,11 @@ public class AnyChirpCreateService implements AbstractCreateService<Any, Chirp> 
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		boolean confirmation;
+
+		confirmation = request.getModel().getBoolean("confirmation");
+		errors.state(request, confirmation, "confirmation", "javax.validation.constraints.AssertTrue.message");
 
 	}
 
