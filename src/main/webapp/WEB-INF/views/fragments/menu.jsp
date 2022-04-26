@@ -38,7 +38,10 @@
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.any.user-account.list" action="/any/user-account/list-all-userAccounts"/>
+			
 			<acme:menu-suboption code="master.menu.any.chirp.list-recent-chirps" action="/any/chirp/list"/>
+			
+			
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.patron" access="hasRole('Patron')">
