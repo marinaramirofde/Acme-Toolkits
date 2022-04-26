@@ -14,5 +14,6 @@ public interface AnyChirpRepository extends AbstractRepository {
 
 	@Query("select c from Chirp c where c.creationMoment > :deadline")
 	Collection<Chirp> findRecentChirps(Date deadline);
+	
 
 }
