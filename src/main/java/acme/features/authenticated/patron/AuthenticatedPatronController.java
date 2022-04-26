@@ -1,33 +1,32 @@
-package acme.features.any.chirp;
+package acme.features.authenticated.patron;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import acme.entities.chirps.Chirp;
 import acme.framework.controllers.AbstractController;
-import acme.framework.roles.Any;
+import acme.framework.roles.Authenticated;
+import acme.roles.Patron;
 
 @Controller
-public class AnyChirpController extends AbstractController<Any, Chirp> {
+public class AuthenticatedPatronController extends AbstractController<Authenticated, Patron> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	protected AnyChirpListRecentService		listAllService;
+	protected AuthenticatedPatronCreateService	createService;
 
 	@Autowired
-	protected AnyChirpCreateService			createService;
-	
-	
+	protected AuthenticatedPatronUpdateService	updateService;
+
 	// Constructors -----------------------------------------------------------
 
 
 	@PostConstruct
 	protected void initialise() {
-		super.addCommand("list", this.listAllService);
 		super.addCommand("create", this.createService);
+		super.addCommand("update", this.updateService);
 	}
 
 }
