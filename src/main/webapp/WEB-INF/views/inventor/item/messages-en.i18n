@@ -1,5 +1,3 @@
-# LO MISMO QUE EN EL FORM Y LIST: "name", "code", "technology", "description", "retailPrice", "link","type" 
-
 
 inventor.item.form.label.name = Name:
 inventor.item.form.label.code = Code:
@@ -9,8 +7,16 @@ inventor.item.form.label.retailPrice = RetailPrice:
 inventor.item.form.label.link = Link:
 inventor.item.form.label.type = Type:
 
+inventor.item.form.button.update = Update
+inventor.item.form.button.delete = Delete
+inventor.item.form.button.publish = Publish
+inventor.item.form.button.create = Create
+
+inventor.item.form.error.published = Item published
 
 inventor.item.list.label.amount = Amount
 inventor.item.list.label.name = Name
 inventor.item.list.label.code = Code
 inventor.item.list.label.type = Type
+
+inventor.item.list.button.create  = Create
