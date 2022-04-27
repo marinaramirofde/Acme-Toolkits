@@ -62,6 +62,7 @@ public class InventorPatronageShowService implements AbstractShowService<Invento
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
 			"legalStuff","startMoment","status","patron.id","patron.company",
 			"patron.info","patron.statement");
+		
 		model.setAttribute("confirmation", false);
 		model.setAttribute("readonly", true);
 	}
