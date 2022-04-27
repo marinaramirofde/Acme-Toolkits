@@ -81,8 +81,33 @@ public class InventorPatronageUpdateService implements AbstractUpdateService<Inv
 		assert entity != null;
 		assert errors != null;
 		
+//		@Column(unique = true)
+//		protected String code;
+		if(!errors.hasErrors("code")) {
+			Patronage existing;
+			existing = this.repository.findOnePatronageByCode(entity.getCode());
+			errors.state(request, existing == null || existing.getId() == entity.getId(), "code", "inventor.patronage.form.error.duplicated");
+		}
+		
+//		MONEY
+//		@Digits(integer = 10, fraction = 2)
+//		protected Double			amount;
+		if(!errors.hasErrors("budget")) {
+			errors.state(request, entity.getBudget().getAmount() > 0, "budget", "inventor.patronage.form.error.negative-amount");
+		}
+		
 		// AÑADIR RESTRICCIÓN DE LA FECHA ---------------------------------------------------------------
-		// 	endMoment << startMoment << creationMoment;
+				// 	endMoment << startMoment << creationMoment;
+		if(!errors.hasErrors("startMoment")) {
+//			Calendar calendar;
+//			Date minimumDate;
+//
+//			calendar = entity.getCreationMoment();
+//			calendar.add(Calendar.WEEK_OF_MONTH, 1);
+//			minimumDate = calendar.getTime();
+			
+		//	errors.state(request, endMoment() > entity.getStartMoment() > creationMoment()+1 Month, "startMoment", "inventor.patronage.form.error.time-fail");
+		}
 
 	}
 
