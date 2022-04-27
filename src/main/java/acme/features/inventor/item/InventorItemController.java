@@ -34,7 +34,6 @@ public class InventorItemController extends AbstractController<Inventor, Item> {
 	@Autowired
 	protected InventorItemDeleteService		deleteService;
 
-
 	@Autowired
 	protected InventorItemPublishService	publishService;
 

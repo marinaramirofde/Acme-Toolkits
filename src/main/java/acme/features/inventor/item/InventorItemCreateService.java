@@ -71,15 +71,15 @@ public class InventorItemCreateService implements AbstractCreateService<Inventor
 			money.setCurrency("EUR");
 			money.setAmount(30.00);
 		
-		result.setName("Item ");
+		result.setName("Item Num ");
 		result.setCode("");
-		result.setTechnology("");
+		result.setTechnology("Prueba");
 		result.setDescription("Creando item");
 		result.setRetailPrice(money);
 		result.setLink("https://item.com");
 		result.setType(ItemType.COMPONENT);
 		
-		result.setPublished(true);
+		result.setPublished(false);
 		
 		result.setInventor(inventor);
 

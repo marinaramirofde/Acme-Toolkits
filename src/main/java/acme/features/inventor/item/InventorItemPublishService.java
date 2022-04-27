@@ -38,7 +38,7 @@ public class InventorItemPublishService implements AbstractUpdateService<Invento
 		inventor = item.getInventor();
 		principal = request.getPrincipal();
 		
-		result = item.isPublished() && inventor.getUserAccount().getId() == principal.getAccountId();
+		result = !item.isPublished() && inventor.getUserAccount().getId() == principal.getAccountId();
 
 		return result;
 	}

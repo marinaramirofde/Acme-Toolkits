@@ -7,7 +7,6 @@ import acme.entities.items.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
-import acme.framework.entities.Principal;
 import acme.framework.services.AbstractDeleteService;
 import acme.roles.Inventor;
 
@@ -29,16 +28,12 @@ public class InventorItemDeleteService implements AbstractDeleteService<Inventor
 		boolean result;
 		int itemId;
 		Item item;
-		Inventor inventor;
-		Principal principal;
 
 		itemId = request.getModel().getInteger("id");
 		item = this.repository.findOneItemById(itemId);
 		
-		inventor = item.getInventor();
-		principal = request.getPrincipal();
 		
-		result = inventor.getUserAccount().getId() == principal.getAccountId();
+		result = !item.isPublished() && request.isPrincipal(item.getInventor());
 
 		return result;
 	}
@@ -59,8 +54,7 @@ public class InventorItemDeleteService implements AbstractDeleteService<Inventor
 		assert model != null;
 
 		request.unbind(entity, model, "name", "code", "technology", "description", "retailPrice", "link","type");
-		model.setAttribute("published", true);
-		model.setAttribute("readonly", false);
+
 	}
 
 	@Override
@@ -81,18 +75,7 @@ public class InventorItemDeleteService implements AbstractDeleteService<Inventor
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-		
-//		if (entity.isPublished() == true) {
-//			errors.add("published", "Item is published");
-//		}
-//
-//		boolean published;
-//
-//		if(errors.hasErrors("published")) {
-//			published = request.getModel().getBoolean("published");
-//			errors.state(request, !published, "published", "javax.validation.constraints.AssertTrue.message");
-//		}
-		
+
 	}
 
 	@Override

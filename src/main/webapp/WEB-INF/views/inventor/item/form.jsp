@@ -19,11 +19,14 @@
 		<acme:input-option code="COMPONENT" value="COMPONENT" selected="${type == 'COMPONENT'}"/>
 	</acme:input-select>
 	
-		<acme:submit code="inventor.item.form.button.update" action="/inventor/item/update"/>
-		<acme:submit code="inventor.item.form.button.delete" action="/inventor/item/delete"/>
-	
-
-		<acme:submit code="inventor.item.form.button.create" action="/inventor/item/create"/>
-		<acme:submit code="inventor.item.form.button.publish" action="/inventor/item/publish"/>
-
+	<jstl:choose>	 
+		<jstl:when test="${acme:anyOf(command, 'show, update, publish, delete')}">
+			<acme:submit code="inventor.item.form.button.update" action="/inventor/item/update"/>
+			<acme:submit code="inventor.item.form.button.publish" action="/inventor/item/publish"/>
+			<acme:submit code="inventor.item.form.button.delete" action="/inventor/item/delete"/>
+		</jstl:when>
+		<jstl:when test="${command == 'create'}">
+			<acme:submit code="inventor.item.form.button.create" action="/inventor/item/create"/>
+		</jstl:when>
+	</jstl:choose>
 </acme:form>
