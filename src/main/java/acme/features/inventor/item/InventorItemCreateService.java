@@ -36,6 +36,21 @@ public class InventorItemCreateService implements AbstractCreateService<Inventor
 		assert entity != null;
 		assert errors != null;
 		
+//		@Column(unique=true)
+//		protected String code;
+		if(!errors.hasErrors("code")) {
+			Item existing;
+			existing = this.repository.findOneItemByCode(entity.getCode());
+			errors.state(request, existing == null, "code", "inventor.item.form.error.duplicated");
+		}
+		
+//		@Digits(integer = 10, fraction = 2)
+//		protected Double			amount;
+		if(!errors.hasErrors("retailPrice")) {
+			errors.state(request, entity.getRetailPrice().getAmount() > 0, "retailPrice", "inventor.item.form.error.negative-amount");
+		}
+		
+
 	}
 
 	@Override

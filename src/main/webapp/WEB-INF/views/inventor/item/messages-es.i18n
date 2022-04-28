@@ -12,7 +12,8 @@ inventor.item.form.button.delete = Borrar
 inventor.item.form.button.publish = Publicar
 inventor.item.form.button.create = Crear
 
-inventor.item.form.error.published = Publicado
+inventor.item.form.error.negative-amount = Valor negativo
+inventor.item.form.error.duplicated = Valor duplicado
 
 inventor.item.list.label.amount = Cantidad
 inventor.item.list.label.name = Nombre

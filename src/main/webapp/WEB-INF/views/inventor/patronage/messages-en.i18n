@@ -15,8 +15,11 @@ inventor.patronage.form.label.patron.info = Info:
 inventor.patronage.form.label.patron.statement = Statement:
 inventor.patronage.form.label.patron.fullName = Patron Full Name:
 
+inventor.patronage.form.button.update = Update!
 
-
+inventor.patronage.form.error.duplicated = Duplicated!
+inventor.patronage.form.error.time-fail = Fail, time must be one month later of creation time and a period of time and
+ at least one month after the patronage is created
 
 inventor.patronage.list.label.info = Info
 inventor.patronage.list.label.code = Code
