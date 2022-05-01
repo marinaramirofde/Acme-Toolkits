@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-06 19:04:27.342","acme.testing.administrator.toolkit.AdministratorToolkitListAllTest","positiveTest",11710,""[1] recordIndex=0, title=Title 1, code=ABC-123, assemblyNotes=true, description=Description 1, link=null, published=Assembly Notes 1, reference=Component 01"","Expected value 'true' in input box 'toolkit.assemblyNotes', but 'Assembly Notes 1' was found"

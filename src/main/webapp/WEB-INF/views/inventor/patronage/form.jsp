@@ -34,6 +34,7 @@
 	<acme:input-textbox code="inventor.patronage.form.label.patron.info" path="patron.info"/>
 	<acme:input-textbox code="inventor.patronage.form.label.patron.statement" path="patron.statement"/>
 	
-	<acme:button code="inventor.patronage.form.button.patronageReports" action="/inventor/patronage-report/list?masterId=${id}"/>
+	<acme:button code="inventor.patronage.form.button.patronageReports" action="/inventor/patronage-report/list-inventor-patronage-reports?masterId=${id}"/>
+	<acme:button code="inventor.patronage.form.button.create" action="/inventor/patronage-report/create?masterId=${id}"/>
 	
 </acme:form>

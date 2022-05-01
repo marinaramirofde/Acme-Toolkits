@@ -57,7 +57,6 @@ public class InventorPatronageShowService implements AbstractShowService<Invento
 		
 		final Integer PatronId = entity.getPatron().getId();
 		final String PatronFullName = entity.getPatron().getIdentity().getFullName();
-		
 		model.setAttribute("PatronId", PatronId);
 		model.setAttribute("patronFullName", PatronFullName);
 		
