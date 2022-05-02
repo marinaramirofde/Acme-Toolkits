@@ -14,7 +14,14 @@ patron.patronage.form.label.legalStuff = Cosas Legales:
 patron.patronage.form.label.inventor.info = Informacion:
 patron.patronage.form.label.inventor.statement = Declaracion:
 patron.patronage.form.label.inventor.fullName = Nombre Completo del Inventor:
+patron.patronage.form.button.create = Crear Patrocinio
+patron.patronage.form.button.update = Actualizar Patrocinio
+patron.patronage.form.button.publish = Publicar Patrocinio
+patron.patronage.form.button.delete = Borrar Patrocinio
+patron.patronage.form.label.inventor.id = Inventor Id
 
+
+patron.patronage.list.button.create = Crear Patroncinio
 patron.patronage.list.label.info = Informacion
 patron.patronage.list.label.code = Codigo
 patron.patronage.list.label.legalStuff = Cosas Legales
