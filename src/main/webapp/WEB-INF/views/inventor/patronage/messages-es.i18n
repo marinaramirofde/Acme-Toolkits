@@ -16,6 +16,11 @@ inventor.patronage.form.label.patron.info = Informacion:
 inventor.patronage.form.label.patron.statement = Declaracion:
 inventor.patronage.form.label.patron.fullName = Nombre Completo del Patron:
 
+inventor.patronage.form.button.update = Actualizar!
+inventor.patronage.form.error.duplicated = Está duplicado, usa otro por favor
+inventor.patronage.form.error.time-fail = Mal, debe ser un mes posterior a la fecha de creación y previo a la de fin
+inventor.patronage.form.button.create = Crear Reporte del Patrocinio 
+ 
 inventor.patronage.list.label.info = Informacion
 inventor.patronage.list.label.code = Codigo
 inventor.patronage.list.label.legalStuff = Cosas Legales

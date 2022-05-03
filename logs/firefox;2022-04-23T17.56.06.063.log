@@ -1,3 +1,0 @@
-1650728887458	geckodriver	INFO	Listening on 127.0.0.1:13804
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MRF\\AppData\\Local\\Temp\\rust_mozprofilepRxsyO\\search.json.mozlz4", (void 0)))
-[Parent 14772, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

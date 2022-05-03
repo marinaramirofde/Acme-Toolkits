@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2022-03-05 11:19:02.272,acme.testing.FavouriteLinkTest,favouriteLink,12399,"favouriteLink()",Current URL is 'https://es.wikipedia.org/wiki/Wikipedia:Portada', but 'https://es.wikipedia.org' was expected

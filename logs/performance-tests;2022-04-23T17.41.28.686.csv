@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-23 17:20:27.901","acme.testing.any.chirp.AnyChirpListRecentTest","positiveTest",3235,""[1] recordIndex=0, title=Title 3, creationMoment=2022/03/23 20:00, author=Monica"","OK"
-"2022-04-23 17:20:30.029","acme.testing.any.chirp.AnyChirpListRecentTest","positiveTest",1686,""[2] recordIndex=1, title=Title 4, creationMoment=2022/04/13 00:00, author=Pepa"","OK"
