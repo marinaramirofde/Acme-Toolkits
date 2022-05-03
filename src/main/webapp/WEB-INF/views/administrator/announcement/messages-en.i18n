@@ -1,0 +1,7 @@
+administrator.announcement.form.label.title = Title:
+administrator.announcement.form.label.critical = Critical:
+administrator.announcement.form.label.body = Text:
+administrator.announcement.form.label.link = Info:
+administrator.announcement.form.label.confirmation = Confirmation
+administrator.announcement.form.button.create = Create
+administrator.announcement.form.label.creationMoment = Creation Moment

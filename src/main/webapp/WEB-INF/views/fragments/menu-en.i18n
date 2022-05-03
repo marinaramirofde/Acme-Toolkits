@@ -28,6 +28,7 @@ master.menu.administrator.populate-sample = Populate DB (samples)
 master.menu.administrator.shut-down = Shut down
 master.menu.administrator.item.list-all-tools= List All Tools
 master.menu.administrator.system-configuration = System Configuration
+master.menu.administrator.announcement.create = Create Announcement
 
 # master.menu.authenticated ########################################################
 
