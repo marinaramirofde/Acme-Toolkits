@@ -9,6 +9,7 @@ import acme.entities.items.Item;
 import acme.entities.quantities.Quantity;
 import acme.entities.toolkits.Toolkit;
 import acme.framework.repositories.AbstractRepository;
+import acme.roles.Inventor;
 
 
 
@@ -33,8 +34,17 @@ public interface InventorToolkitRepository extends AbstractRepository{
 	@Query("SELECT q.item FROM Quantity q WHERE q.id = :id")
 	Collection<Item> findManyItemByQuantityId(int id);
 	
+	@Query("SELECT q FROM Inventor q WHERE q.id = :id")
+	Inventor findInventorById(int id);
+	
+	@Query("SELECT q.toolkit FROM Quantity q WHERE q.toolkit.inventor.id = :id")
+	Toolkit findToolkitByInventorId(int id);
+	
 	@Query("select q.amount from Quantity q where q.item.id= :itemId and q.toolkit.id= :toolkitId")
 	Integer findAmountFromItemIdAndToolkitId(int itemId, int toolkitId);
+	
+	@Query("select t from Toolkit t where t.code = :code")
+	Toolkit findOneToolkitByCode(String code);
 
 
 

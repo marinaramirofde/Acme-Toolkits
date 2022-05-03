@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-04 14:17:22.466","acme.testing.inventor.item.InventorComponentListMineTest","positiveTest",17950,""[1] recordIndex=0, name=Component 02, code=BCD-234-Z, technology=Technology 4, description=Description of component 2, retailPrice=EUR 3.50, link=https://www.example.com, type=COMPONENT"","OK"

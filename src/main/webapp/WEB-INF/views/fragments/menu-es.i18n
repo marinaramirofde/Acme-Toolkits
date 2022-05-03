@@ -1,14 +1,4 @@
-# menu-es.i18n
-#
-# Copyright (C) 2012-2022 Rafael Corchuelo.
-#
-# In keeping with the traditional purpose of furthering education and research, it is
-# the policy of the copyright owner to permit non-commercial use and redistribution of
-# this software. It has been tested carefully, but it is not guaranteed for any particular
-# purposes.  The copyright owner does not offer any warranties or representations, nor do
-# they accept any liabilities with respect to them.
-
-﻿# master.menu #################################################################
+# master.menu #################################################################
 
 master.menu.home = Inicio
 master.menu.sign-up = Registrarse
@@ -32,6 +22,7 @@ master.menu.administrator.populate-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-down = Parar el sistema
 master.menu.administrator.item.list-all-tools = Listar todas las herramientas
 master.menu.administrator.system-configuration = Configuración del sistema
+master.menu.administrator.announcement.create = Crear Anuncio
 
 # master.menu.authenticated ########################################################
 
@@ -74,10 +65,16 @@ master.menu.consumer.favourite-link = Enlace favorito
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
+
 master.menu.user-account.provider = Datos de proveedor
 master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
+
+master.menu.user-account.become-inventor = Hacerme inventor
+master.menu.user-account.inventor = Datos como inventor 
+master.menu.user-account.become-patron = Hacerme patrón
+master.menu.user-account.patron = Datos como patrón
 
 # master.menu.any ####################################################
 master.menu.any.toolkit.list-all = Listar todos los juegos de herramientas

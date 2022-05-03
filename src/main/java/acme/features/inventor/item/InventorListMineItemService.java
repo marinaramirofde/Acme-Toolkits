@@ -33,8 +33,10 @@ public class InventorListMineItemService implements AbstractListService<Inventor
 	@Override
 	public Collection<Item> findMany(final Request<Item> request) {
 		assert request != null;
+		
         final Principal principal= request.getPrincipal();
 		Collection<Item> result;
+		
 		result = this.repository.findManyItemsInventorId(principal.getActiveRoleId());
 		return result;
 	}
