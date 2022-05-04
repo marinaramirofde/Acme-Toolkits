@@ -14,7 +14,7 @@ public class PatronPatronageListMineTest extends TestHarness {
 	@CsvFileSource(resources = "/patron/patronage/list-mine.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int recordIndex, final String creationMoment, final String endMoment, final String startMoment,
-		final String code,final String info, final String budget, final String legalStuff, final String status, final String company) {
+		final String code,final String info, final String budget, final String legalStuff, final String status) {
 		super.signIn("patron1", "patron1");
 
 		super.clickOnMenu("Patron", "List All Mine Patronage");
@@ -36,7 +36,6 @@ public class PatronPatronageListMineTest extends TestHarness {
 		super.checkInputBoxHasValue("budget", budget);
 		super.checkInputBoxHasValue("legalStuff", legalStuff);
 		super.checkInputBoxHasValue("status", status);
-		super.checkInputBoxHasValue("inventor.company", company);
 		
 
 

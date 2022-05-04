@@ -14,10 +14,15 @@ patron.patronage.form.label.legalStuff = Legal Stuff:
 patron.patronage.form.label.inventor.info = Info:
 patron.patronage.form.label.inventor.statement = Statement:
 patron.patronage.form.label.inventor.fullName = Inventor Full Name:
+patron.patronage.form.button.create = Create Patronage
+patron.patronage.form.button.update = Update Patronage
+patron.patronage.form.button.publish = Publish Patronage
+patron.patronage.form.button.delete = Delete Patronage
+patron.patronage.form.label.inventor.id = Inventor Id
 
 
 
-
+patron.patronage.list.button.create = Create Patronage
 patron.patronage.list.label.info = Info
 patron.patronage.list.label.code = Code
 patron.patronage.list.label.legalStuff = Legal Stuff

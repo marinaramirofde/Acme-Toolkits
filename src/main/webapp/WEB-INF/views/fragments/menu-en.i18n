@@ -1,13 +1,3 @@
-# menu-en.i18n
-#
-# Copyright (C) 2012-2022 Rafael Corchuelo.
-#
-# In keeping with the traditional purpose of furthering education and research, it is
-# the policy of the copyright owner to permit non-commercial use and redistribution of
-# this software. It has been tested carefully, but it is not guaranteed for any particular
-# purposes.  The copyright owner does not offer any warranties or representations, nor do
-# they accept any liabilities with respect to them.
-
 # master.menu #################################################################
 
 master.menu.home = Home
@@ -38,6 +28,8 @@ master.menu.administrator.populate-sample = Populate DB (samples)
 master.menu.administrator.shut-down = Shut down
 master.menu.administrator.item.list-all-tools= List All Tools
 master.menu.administrator.system-configuration = System Configuration
+master.menu.administrator.announcement.create = Create Announcement
+
 # master.menu.authenticated ########################################################
 
 master.menu.authenticated = Authenticated
@@ -73,10 +65,16 @@ master.menu.consumer.favourite-link = Favourite link
 
 master.menu.user-account = Account
 master.menu.user-account.general-data = General data
+
 master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
+
+master.menu.user-account.become-inventor = Become an inventor
+master.menu.user-account.inventor = Inventor data
+master.menu.user-account.become-patron = Become a patron
+master.menu.user-account.patron = Patron data
 
 # master.menu.any ####################################################
 master.menu.any.toolkit.list-all = List All Toolkits

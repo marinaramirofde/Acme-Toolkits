@@ -7,3 +7,4 @@
 	<acme:list-column code="inventor.patronageReport.list.label.patronageId" path="patronageId"/>
 	<acme:list-column code="inventor.patronageReport.list.label.creationMoment" path="creationMoment"/>
 </acme:list>
+

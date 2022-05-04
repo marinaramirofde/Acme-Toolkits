@@ -8,3 +8,5 @@
 	<acme:list-column code="any.chirp.list.label.creationMoment" path="creationMoment" width="10%"/>
 	<acme:list-column code="any.chirp.list.label.author" path="author" width="70%"/>	
 </acme:list>
+
+<acme:button code="any.chirp.list.button.create" action="/any/chirp/create"/>

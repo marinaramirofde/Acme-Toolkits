@@ -1,2 +1,0 @@
-1650729366518	geckodriver	INFO	Listening on 127.0.0.1:40324
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MRF\\AppData\\Local\\Temp\\rust_mozprofileiE636P\\search.json.mozlz4", (void 0)))

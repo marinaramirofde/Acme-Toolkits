@@ -4,3 +4,4 @@ administrator.system-configuration.form.label.strong-terms = Términos fuertes:
 administrator.system-configuration.form.label.strong-threshold = Límites de fuerza:
 administrator.system-configuration.form.label.weak-terms = Términos débiles:
 administrator.system-configuration.form.label.weak-threshold = Límites débiles:
+administrator.system-configuration.form.button.update = Actualizar

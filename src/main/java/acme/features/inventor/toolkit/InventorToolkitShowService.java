@@ -66,7 +66,9 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
         	resultPrice = itemAmount*retailPrice;
         }
         model.setAttribute("retailPrice", resultPrice);
-		request.unbind(entity, model, "code", "title","description","assemblyNotes", "link");
+		request.unbind(entity, model, "code", "title","description","assemblyNotes", "link","published");
+		
+		model.setAttribute("confirmation", false);
 		
 	}
 
