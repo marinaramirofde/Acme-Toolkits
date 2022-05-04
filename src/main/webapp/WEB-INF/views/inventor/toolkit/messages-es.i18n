@@ -10,8 +10,10 @@ inventor.toolkit.form.button.create = Crear
 inventor.toolkit.form.button.update = Actualizar
 inventor.toolkit.form.button.publish = Publicar
 inventor.toolkit.form.button.delete = Borrar
+inventor.toolkit.form.button.createQuantity = Crear Cantidad
 
 inventor.toolkit.form.error.duplicated = Valor Duplicado
+inventor.toolkit.form.error.noitem = No hay objetos asociados al toolkit no puedes publicar
 
 inventor.toolkit.list.label.code = Código
 inventor.toolkit.list.label.title = Título

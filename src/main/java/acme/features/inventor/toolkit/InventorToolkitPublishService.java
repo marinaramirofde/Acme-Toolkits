@@ -51,6 +51,10 @@ public class InventorToolkitPublishService implements AbstractUpdateService<Inve
 		
 //		@Column(unique=true)
 //		protected String code;
+		final Double retailPrice = this.repository.retailPriceOfToolkitById(entity.getId());
+		if(retailPrice == 0.0) {
+			errors.state(request, retailPrice == 0.0, "retailPrice","inventor.toolkit.form.error.noitem");
+		}
 		if(errors.hasErrors("code")) {
 			Toolkit existing;
 			existing = this.repository.findOneToolkitByCode(entity.getCode());
