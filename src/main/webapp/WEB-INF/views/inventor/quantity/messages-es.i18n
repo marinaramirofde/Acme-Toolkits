@@ -1,0 +1,4 @@
+
+inventor.quantity.form.label.amount = Cantidad
+inventor.quantity.form.label.item.code = Codigo del Objeto
+inventor.quantity.form.button.createQuantity = Crear Cantidad

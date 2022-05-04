@@ -13,6 +13,7 @@
 	<jstl:if test="${command == 'show'}">	
 	<acme:input-textbox code="inventor.toolkit.form.label.retailPrice" path="retailPrice"/>
 	<acme:button code="inventor.toolkit.form.button.items" action="/any/item/list-all-item-toolkit?id=${id}"/>
+	<acme:button code="inventor.toolkit.form.button.createQuantity" action="/inventor/quantity/create?masterId=${id}"/>
 	</jstl:if>
 	<jstl:choose>	 
 		<jstl:when test="${acme:anyOf(command, 'show, update, publish, delete') && published == false}">
