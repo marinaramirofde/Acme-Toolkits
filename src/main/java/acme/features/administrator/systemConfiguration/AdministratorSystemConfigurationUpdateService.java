@@ -36,10 +36,9 @@ public class AdministratorSystemConfigurationUpdateService implements AbstractUp
 	@Override
 	public boolean authorise(final Request<SystemConfiguration> request) {
 		assert request != null;
-	    final Boolean result = request.getPrincipal().hasRole(Administrator.class);
 
 
-		return result;
+		return request.getPrincipal().hasRole(Administrator.class);
 
 	}
 
@@ -74,10 +73,10 @@ public class AdministratorSystemConfigurationUpdateService implements AbstractUp
 	public SystemConfiguration findOne(final Request<SystemConfiguration> request) {
 		assert request != null;
 
-		final SystemConfiguration result = this.repository.findOneSystemConfig();
+	
 
 
-		return result;
+		return this.repository.findOneSystemConfig();
 	}
 
 	@Override

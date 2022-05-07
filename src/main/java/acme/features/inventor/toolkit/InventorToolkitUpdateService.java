@@ -86,10 +86,10 @@ public class InventorToolkitUpdateService implements AbstractUpdateService<Inven
 		assert request != null;
 
 		final Integer id = request.getModel().getInteger("id");
-		final Toolkit result = this.repository.findOneToolkitById(id);
+	
 
 
-		return result;
+		return this.repository.findOneToolkitById(id);
 	}
 
 	@Override

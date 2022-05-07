@@ -46,19 +46,12 @@ public class InventorPatronageReportCreateService implements AbstractCreateServi
 		assert errors != null;
 		
 		boolean confirmation;
-		//String sN1;
-		//String code1;
-		//Patronage patronage1;
-		//sN1 = entity.getSequenceNumber();
-		//code1 = sN1.split(":")[0];
-		//patronage1 = this.repository.findPatronageByCode(code1);
-		//patronage1 = entity.getPatronage();
+		
 		
 		
 
 		confirmation = request.getModel().getBoolean("confirmation");
 		errors.state(request, confirmation, "confirmation", "javax.validation.constraints.AssertTrue.message");
-		//errors.state(request, patronage1!=null, "sequenceNumber","error");
 	}
 
 	@Override
@@ -116,7 +109,6 @@ public class InventorPatronageReportCreateService implements AbstractCreateServi
 		assert request != null;
 		assert entity != null;
 		Date moment;
-
 				
         
 		

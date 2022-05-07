@@ -6,7 +6,7 @@
 <acme:form readonly="${readonly}">
 
 	<!-- "budget", "code", "creationMoment", "endMoment", "info", "legalStuff","startMoment","status","patron.fullName","patron.info","patron.statement"-->	
-	<acme:input-moment code="patron.patronage.form.label.creationMoment" path="creationMoment"/>
+	<acme:input-moment code="patron.patronage.form.label.creationMoment" path="creationMoment" readonly = "true"/>
 	<acme:input-moment code="patron.patronage.form.label.endMoment" path="endMoment"/>
 	<acme:input-moment code="patron.patronage.form.label.startMoment" path="startMoment"/>
 	<acme:input-textbox code="patron.patronage.form.label.code" path="code"/>			

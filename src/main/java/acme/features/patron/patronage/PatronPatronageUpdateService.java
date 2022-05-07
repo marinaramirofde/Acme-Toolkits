@@ -90,10 +90,9 @@ public class PatronPatronageUpdateService implements AbstractUpdateService<Patro
 		assert request != null;
 
 		final Integer id = request.getModel().getInteger("id");
-		final Patronage result = this.repository.findOnePatronageById(id);
 
 
-		return result;
+		return this.repository.findOnePatronageById(id);
 	}
 
 	@Override

@@ -42,6 +42,19 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		if(!errors.hasErrors("code")) {
+			final Patronage existing = this.repository.findOnePatronageByCode(entity.getCode());
+			errors.state(request,existing==null, "code", "patron.patronage.form.error.duplicated-code");
+		}
+		
+		if(!errors.hasErrors("startMoment")) {
+			errors.state(request, entity.getStartMoment().before(entity.getCreationMoment()), "startMoment", "patron.patronage.form.error.invalid-date-start-moment");
+		}
+		
+		if(!errors.hasErrors("endMoment")) {
+			errors.state(request, entity.getEndMoment().after(entity.getCreationMoment()) && entity.getEndMoment().after(entity.getStartMoment()), "endMoment", "patron.patronage.form.error.invalid-date-end-moment");
+		}
 	
 		
 	
@@ -82,6 +95,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 
 		Patronage result;
 		final Date moment = new Date(System.currentTimeMillis() - 1);
+		final Date  startMoment = new Date(System.currentTimeMillis()-10);
 		final Date endMoment = new Date(System.currentTimeMillis() + 3600000);
 		final Money budget= new Money();
 		budget.setAmount(215.5);
@@ -94,7 +108,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
         
 		result = new Patronage();
 		result.setCreationMoment(moment);
-		result.setStartMoment(moment);
+		result.setStartMoment(startMoment);
 		result.setBudget(budget);
 		result.setPatron(patron);
 		result.setEndMoment(endMoment);

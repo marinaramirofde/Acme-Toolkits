@@ -20,6 +20,10 @@ patron.patronage.form.button.publish = Publish Patronage
 patron.patronage.form.button.delete = Delete Patronage
 patron.patronage.form.label.inventor.id = Inventor Id
 
+patron.patronage.form.error.invalid-date-end-moment = The end Moment must be after the start and creation moment
+patron.patronage.form.error.duplicated-code = The code must not be already existing
+patron.patronage.form.error.invalid-date-start-moment = The start Moment must be before the creation moment
+
 
 
 patron.patronage.list.button.create = Create Patronage

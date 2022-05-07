@@ -19,7 +19,6 @@ import acme.entities.toolkits.Toolkit;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
-import acme.framework.entities.Principal;
 import acme.framework.services.AbstractCreateService;
 import acme.roles.Inventor;
 
@@ -80,7 +79,6 @@ public class InventorToolkitCreateService implements AbstractCreateService<Inven
 		assert request != null;
 
 		Toolkit result;
-		final Principal principal;
 		Inventor inventor;
 		final Integer inventorId = request.getPrincipal().getActiveRoleId();
 		inventor = this.repository.findInventorById(inventorId);
