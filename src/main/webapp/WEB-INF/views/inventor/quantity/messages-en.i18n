@@ -2,3 +2,17 @@
 inventor.quantity.form.label.amount = Amount
 inventor.quantity.form.label.item.code = Item Code
 inventor.quantity.form.button.createQuantity = Create Quantity
+inventor.quantity.form.label.name = Name:
+inventor.quantity.form.label.code = Code:
+inventor.quantity.form.label.technology = Technology:
+inventor.quantity.form.label.description = Description:
+inventor.quantity.form.label.retailPrice = RetailPrice:
+inventor.quantity.form.label.link = Link:
+inventor.quantity.form.label.type = Type:
+
+inventor.quantity.form.button.update = Update
+
+inventor.quantity.list.label.name = Name
+inventor.quantity.list.label.code = Code
+inventor.quantity.list.label.type = Type
+inventor.quantity.list.label.amount = Amount

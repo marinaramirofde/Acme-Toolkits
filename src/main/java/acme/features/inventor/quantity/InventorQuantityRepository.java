@@ -1,5 +1,6 @@
 package acme.features.inventor.quantity;
 
+import java.util.Collection;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
@@ -26,6 +27,12 @@ public interface InventorQuantityRepository extends AbstractRepository {
 	
 	@Query("select t from Toolkit t where t.id = :id")
 	Toolkit findOneToolkitById(int id);
+	
+	@Query("SELECT q.item FROM Quantity q WHERE q.id = :id")
+	Collection<Item> findManyItemByQuantityId(int id);
+	
+	@Query("select q.amount from Quantity q where q.item.id= :itemId and q.toolkit.id= :toolkitId")
+	Integer findAmountFromItemIdAndToolkitId(int itemId, int toolkitId);
 	
 	
 

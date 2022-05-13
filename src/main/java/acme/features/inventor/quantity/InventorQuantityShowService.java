@@ -56,7 +56,7 @@ public class InventorQuantityShowService implements AbstractShowService<Inventor
 		assert model != null;
 		
 		
-		request.unbind(entity, model, "amount", "item.code");
+		request.unbind(entity, model, "amount", "item.name", "item.code", "item.technology", "item.description", "item.retailPrice", "item.link","item.type", "item.published");
 		model.setAttribute("confirmation", false);
 
 	}
