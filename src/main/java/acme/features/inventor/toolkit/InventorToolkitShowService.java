@@ -64,11 +64,20 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
         	final double itemAmount = quantity.getAmount();
         	final Double retailPrice = this.repository.retailPriceOfToolkitById(toolkitId);
         	resultPrice = itemAmount*retailPrice;
-        }
+        }	
+        Boolean itemPresence;
+		itemPresence=true;
+		
+		
+		if(resultPrice==0) {
+			itemPresence=false;
+		}
+		model.setAttribute("itemPresence", itemPresence);
         model.setAttribute("retailPrice", resultPrice);
 		request.unbind(entity, model, "code", "title","description","assemblyNotes", "link","published");
 		
 		model.setAttribute("confirmation", false);
+	
 		
 	}
 

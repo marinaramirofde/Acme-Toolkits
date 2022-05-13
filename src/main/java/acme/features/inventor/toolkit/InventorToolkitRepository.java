@@ -46,6 +46,10 @@ public interface InventorToolkitRepository extends AbstractRepository{
 	@Query("select t from Toolkit t where t.code = :code")
 	Toolkit findOneToolkitByCode(String code);
 	
+	@Query("select q.item from Quantity q where q.item.published = true and q.item "
+		+ "not in (select q.item from Quantity q where q.item.type = 'TOOL' and q.toolkit.id =:toolkitId)")
+	Collection<Item> findManyItemNotToolExistingNotPublished(int toolkitId);
+	
 	
 
 
