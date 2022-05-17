@@ -11,7 +11,7 @@
 	<acme:input-textbox code="inventor.toolkit.form.label.assemblyNotes" path="assemblyNotes"/>
 	<acme:input-textbox code="inventor.toolkit.form.label.link" path="link"/>
 	<jstl:if test="${command == 'show'}">	
-	<acme:input-textbox code="inventor.toolkit.form.label.retailPrice" path="retailPrice"/>
+	<acme:input-money code="inventor.toolkit.form.label.retailPrice" path="retailPrice"/>
 	<acme:button code="inventor.toolkit.form.button.items" action="/inventor/quantity/list?id=${id}"/>
 	
 	</jstl:if>

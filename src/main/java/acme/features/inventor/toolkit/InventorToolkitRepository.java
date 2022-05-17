@@ -1,6 +1,7 @@
 package acme.features.inventor.toolkit;
 
 import java.util.Collection;
+import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -50,7 +51,11 @@ public interface InventorToolkitRepository extends AbstractRepository{
 		+ "not in (select q.item from Quantity q where q.item.type = 'TOOL' and q.toolkit.id =:toolkitId)")
 	Collection<Item> findManyItemNotToolExistingNotPublished(int toolkitId);
 	
+	@Query("select sum(q.item.retailPrice.amount*q.amount) from Quantity q where q.toolkit.id = :id")
+	Double findPriceOfToolkitByToolkitId(int id);
 	
+	@Query("select q.item.retailPrice.currency from Quantity q where q.toolkit.id = :id")
+	List<String> findMoneyTypePriceOfToolkitByToolkitId(int id);
 
 
 

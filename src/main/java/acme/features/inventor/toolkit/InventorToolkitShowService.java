@@ -1,6 +1,7 @@
 package acme.features.inventor.toolkit;
 
 import java.util.Collection;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,6 +10,7 @@ import acme.entities.quantities.Quantity;
 import acme.entities.toolkits.Toolkit;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.datatypes.Money;
 import acme.framework.services.AbstractShowService;
 import acme.roles.Inventor;
 
@@ -59,17 +61,22 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		
 		final Collection<Quantity> quantities = this.repository.findQuantityByToolkitId(toolkitId);
 		
-		double resultPrice = 0;
-        for(final Quantity quantity: quantities) {
-        	final double itemAmount = quantity.getAmount();
-        	final Double retailPrice = this.repository.retailPriceOfToolkitById(toolkitId);
-        	resultPrice = itemAmount*retailPrice;
-        }	
+			
+        
+    			
+		final Double nPrice=this.repository.findPriceOfToolkitByToolkitId(toolkitId);
+		final List<String> lsPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(toolkitId);
+		final String sPrice = lsPrice.get(0);
+		final Money resultPrice=new Money();
+		
+		resultPrice.setAmount(nPrice);
+		resultPrice.setCurrency(sPrice);
+		
         Boolean itemPresence;
 		itemPresence=true;
 		
 		
-		if(resultPrice==0) {
+		if(resultPrice.getAmount()==0) {
 			itemPresence=false;
 		}
 		model.setAttribute("itemPresence", itemPresence);

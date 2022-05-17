@@ -12,6 +12,9 @@ inventor.quantity.form.label.type = Type:
 
 inventor.quantity.form.button.update = Update
 
+inventor.quantity.form.error.duplicated = Amount can only be one with a quantity with  item of item type Tool 
+inventor.quantity.form.error.notpublished = The item you choose is not published
+
 inventor.quantity.list.label.name = Name
 inventor.quantity.list.label.code = Code
 inventor.quantity.list.label.type = Type

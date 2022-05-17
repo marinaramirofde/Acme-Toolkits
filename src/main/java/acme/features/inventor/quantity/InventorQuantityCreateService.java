@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.items.Item;
+import acme.entities.items.ItemType;
 import acme.entities.quantities.Quantity;
 import acme.entities.toolkits.Toolkit;
 import acme.framework.components.models.Model;
@@ -46,6 +47,25 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+	
+		
+		if(!errors.hasErrors("amount")) {
+			final Item item = entity.getItem();
+			final Toolkit toolkit = entity.getToolkit();
+			final Quantity q = this.repository.findQuantityFromItemIdAndToolkitId(item.getId(), toolkit.getId());
+			if((q != null && q.getItem().getType()==ItemType.TOOL)
+				||(entity.getAmount()>1 && entity.getItem().getType()==ItemType.TOOL)) {
+				errors.state(request, false, "amount", "inventor.quantity.form.error.duplicated");
+			}
+		}
+		if(!errors.hasErrors("item.code")) {
+			Item existing;
+			existing = this.repository.findItemNotPublishedByItemId(entity.getItem().getId());
+			errors.state(request, existing == null, "item.code", "inventor.quantity.form.error.notpublished");
+			
+			
+		}
 	
 		
 	
@@ -113,13 +133,24 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 				
 		final String itemCode = request.getModel().getString("item.code");
 	    final Item item = this.repository.findOneItemByCode(itemCode);
-		
+	    final Integer itemId = item.getId();
+	    final Integer toolkitId = request.getModel().getInteger("masterId");
+        final Quantity q = this.repository.findQuantityFromItemIdAndToolkitId(itemId, toolkitId);
+       
+        
+        
 		entity.setItem(item);
-
+        if(q!=null) {
+        	q.setAmount(q.getAmount()+entity.getAmount());
+        	this.repository.save(q);
+        }
+        else {
+        	this.repository.save(entity);
+        }
 		
 		
 		
-		this.repository.save(entity);
+		
 	}
 
 	
