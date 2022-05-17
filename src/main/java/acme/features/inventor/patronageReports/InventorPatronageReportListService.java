@@ -35,7 +35,15 @@ public class InventorPatronageReportListService implements AbstractListService<I
 		Collection<PatronageReport> result;
 		Principal principal;
 		principal = request.getPrincipal();
+		final Boolean mId = request.getModel().hasAttribute("masterId");
+		
+		if(Boolean.TRUE.equals(mId)) {
+			final Integer patronageId=request.getModel().getInteger("masterId");
+			result =this.repository.patronageReportWithPatronageId(patronageId);
+		}
+		else {
 		result = this.repository.findManyPatronageReportsByInventorId(principal.getActiveRoleId());
+		}
 
 		return result;
 	}

@@ -1,0 +1,21 @@
+
+inventor.quantity.form.label.amount = Cantidad
+inventor.quantity.form.label.item.code = Codigo del Objeto
+inventor.quantity.form.button.createQuantity = Crear Cantidad
+inventor.quantity.form.label.name = Nombre:
+inventor.quantity.form.label.code = Código:
+inventor.quantity.form.label.technology = Tecnología:
+inventor.quantity.form.label.description = Descripción:
+inventor.quantity.form.label.retailPrice = Precio al por menor:
+inventor.quantity.form.label.link = Link:
+inventor.quantity.form.label.type = Tipo:
+
+inventor.quantity.form.button.update = Actualizar
+
+inventor.quantity.form.error.duplicated = Cantidad solo puede ser uno con tipo de item TOOL(herramienta) 
+inventor.quantity.form.error.notpublished = El Objeto escogido no esta publicado
+
+inventor.quantity.list.label.name = Nombre
+inventor.quantity.list.label.code = Codigo
+inventor.quantity.list.label.type = Tipo
+inventor.quantity.list.label.amount = Cantidad

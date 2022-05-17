@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-12 12:56:17.827","acme.testing.inventor.patronage.InventorPatronageListMineTest","positiveTest",18419,""[1] recordIndex=0, creationMoment=2022/01/12 20:00, endMoment=2022/01/14 20:00, startMoment=2022/01/13 20:00, code=ABC-123, info=null, budget=EUR 1,000.00, legalStuff=This is a test, status=PROPOSED, company=University of Seville"","OK"
-"2022-04-12 12:56:29.477","acme.testing.inventor.patronage.InventorPatronageListMineTest","positiveTest",11085,""[2] recordIndex=1, creationMoment=2022/01/18 20:00, endMoment=2022/01/20 20:00, startMoment=2022/01/19 20:00, code=BCD-123, info=http://www.example.com, budget=EUR 3,500.25, legalStuff=This is a test, status=DENIED, company=University of Cordoba"","OK"

@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-23 16:34:08.531","acme.testing.administrator.item.AdministratorToolListAllTest","positiveTest",10957,""[1] recordIndex=0, name=Tool 01, code=ABC-123, technology=Technology 1, description=Description of tool 1, retailPrice=EUR 20.00, link=null, type=TOOL"","Expected value 'Tool 01' in attribute 0 of record 0, but found 'Component 01'"
-"2022-04-23 16:34:14.87","acme.testing.administrator.item.AdministratorToolListAllTest","positiveTest",5737,""[2] recordIndex=1, name=Tool 02, code=ABC-123-A, technology=Technology 2, description=Description of tool 2, retailPrice=EUR 40.00, link=https://www.example.com, type=TOOL"","Expected value 'Tool 02' in attribute 0 of record 1, but found 'Tool 01'"

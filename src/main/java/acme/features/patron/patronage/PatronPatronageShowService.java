@@ -1,5 +1,7 @@
 package acme.features.patron.patronage;
 
+import java.util.Collection;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -7,6 +9,7 @@ import acme.entities.patronages.Patronage;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractShowService;
+import acme.roles.Inventor;
 import acme.roles.Patron;
 
 @Service
@@ -55,13 +58,14 @@ public class PatronPatronageShowService implements AbstractShowService<Patron, P
 		assert entity != null;
 		assert model != null;
 		final String inventorFullName=entity.getInventor().getIdentity().getFullName();
+		final Collection<Inventor> inventors = this.repository.findAllInventors();
 		model.setAttribute("inventorFullName", inventorFullName);
+		model.setAttribute("inventors", inventors);
 		
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status","inventor.id","inventor.company",
-			"inventor.info","inventor.statement");
+			"legalStuff","startMoment","status","inventor.id","published");
 		model.setAttribute("confirmation", false);
-		model.setAttribute("readonly", true);
+
 	}
 	
 }

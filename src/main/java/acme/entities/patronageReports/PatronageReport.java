@@ -29,6 +29,8 @@ public class PatronageReport extends AbstractEntity {
 
 	//Serialisasion identifier
 	
+
+
 	protected static final long serialVersionUID = 1L;
 	
 	//Atributtes

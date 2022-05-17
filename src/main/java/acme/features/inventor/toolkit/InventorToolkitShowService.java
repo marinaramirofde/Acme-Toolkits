@@ -1,14 +1,14 @@
 package acme.features.inventor.toolkit;
 
-import java.util.Collection;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.quantities.Quantity;
 import acme.entities.toolkits.Toolkit;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.datatypes.Money;
 import acme.framework.services.AbstractShowService;
 import acme.roles.Inventor;
 
@@ -56,17 +56,38 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		assert model != null;
 		
 		final int toolkitId = request.getModel().getInteger("id");
+			
+			
+        Double nPrice;
+    			
+		nPrice=this.repository.findPriceOfToolkitByToolkitId(toolkitId);
+		final List<String> lsPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(toolkitId);
+		String sPrice;
+		if(!lsPrice.isEmpty()) {
+		sPrice = lsPrice.get(0);
+		}
+		else {
+	    sPrice = "EUR";
+	    nPrice=0.0;
+		}
+		final Money resultPrice=new Money();
 		
-		final Collection<Quantity> quantities = this.repository.findQuantityByToolkitId(toolkitId);
+		resultPrice.setAmount(nPrice);
+		resultPrice.setCurrency(sPrice);
 		
-		double resultPrice = 0;
-        for(final Quantity quantity: quantities) {
-        	final double itemAmount = quantity.getAmount();
-        	final Double retailPrice = this.repository.retailPriceOfToolkitById(toolkitId);
-        	resultPrice = itemAmount*retailPrice;
-        }
+        Boolean itemPresence;
+		itemPresence=true;
+		
+		
+		if(resultPrice.getAmount()==0) {
+			itemPresence=false;
+		}
+		model.setAttribute("itemPresence", itemPresence);
         model.setAttribute("retailPrice", resultPrice);
-		request.unbind(entity, model, "code", "title","description","assemblyNotes", "link");
+		request.unbind(entity, model, "code", "title","description","assemblyNotes", "link","published");
+		
+		model.setAttribute("confirmation", false);
+	
 		
 	}
 

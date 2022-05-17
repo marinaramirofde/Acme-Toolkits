@@ -8,3 +8,5 @@
 	<acme:list-column code="patron.patronage.list.label.code" path="code" width="10%"/>
 	<acme:list-column code="patron.patronage.list.label.legalStuff" path="legalStuff" width="70%"/>	
 </acme:list>
+
+<acme:button code="patron.patronage.list.button.create" action="/patron/patronage/create"/>

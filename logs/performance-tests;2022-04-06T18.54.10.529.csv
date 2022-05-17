@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-04-06 18:24:43.71","acme.testing.administrator.toolkit.AdministratorToolkitListAllTest","positiveTest",9327,""[1] recordIndex=0, title=Title 1, code=ABC-123, assemblyNotes=Assembly Notes 1, description=Description 1, link=null, published=true, referenceItem=Toolkit01-Item01"","Expected value 'Description 1' in attribute 2 of record 0, but found 'Component 01'"
-"2022-04-06 18:24:49.084","acme.testing.administrator.toolkit.AdministratorToolkitListAllTest","positiveTest",4791,""[2] recordIndex=1, title=Title 2, code=ABC-123-A, assemblyNotes=Assembly Notes 2, description=Description 2, link=https://www.example.com, published=false, referenceItem=Toolkit02-Item02"","Record index 1 is out of range"

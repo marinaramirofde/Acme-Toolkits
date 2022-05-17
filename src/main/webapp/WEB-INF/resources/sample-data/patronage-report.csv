@@ -1,4 +1,4 @@
 key,sequence-number,creation-moment,memorandum,info,key:patronage
-patronage-report-01,ABC-123:0000,"2022/01/12 20:00",This is a memorandum 1,null,patronage-01
-patronage-report-02,ABC-123-Z:1111,"2022/01/13 20:00",This is a memorandum 2,http://www.example.com,patronage-02
-patronage-report-03,ABC-122-Z:1111,"2022/04/13 20:00",This is a memorandum 3,http://www.example.com,patronage-03
+patronage-report-01,ABC-123:0000,2022/01/12 20:00,This is a memorandum 1,null,patronage-01
+patronage-report-02,ABC-123-A:0000,2022/01/13 20:00,This is a memorandum 2,http://www.example.com,patronage-02
+patronage-report-03,BCD-123:0000,2022/04/13 20:00,This is a memorandum 3,http://www.example.com,patronage-03

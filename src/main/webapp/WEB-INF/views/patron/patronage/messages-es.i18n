@@ -14,7 +14,18 @@ patron.patronage.form.label.legalStuff = Cosas Legales:
 patron.patronage.form.label.inventor.info = Informacion:
 patron.patronage.form.label.inventor.statement = Declaracion:
 patron.patronage.form.label.inventor.fullName = Nombre Completo del Inventor:
+patron.patronage.form.button.create = Crear Patrocinio
+patron.patronage.form.button.update = Actualizar Patrocinio
+patron.patronage.form.button.publish = Publicar Patrocinio
+patron.patronage.form.button.delete = Borrar Patrocinio
+patron.patronage.form.label.inventor.id = Inventor Id
 
+patron.patronage.form.error.duplicated-code = El codigo no tiene que existir ya
+
+patron.patronage.form.error.after-start-date = La fecha de fin debe de ser al menos un mes posterior que la de inicio
+patron.patronage.form.error.min-one-month-later = La fecha de inicio debe de ser al menos un mes posterior que la de creación
+
+patron.patronage.list.button.create = Crear Patroncinio
 patron.patronage.list.label.info = Informacion
 patron.patronage.list.label.code = Codigo
 patron.patronage.list.label.legalStuff = Cosas Legales
