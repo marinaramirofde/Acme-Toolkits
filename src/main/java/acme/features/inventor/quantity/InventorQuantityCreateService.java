@@ -82,8 +82,7 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		final String itemCode = request.getModel().getString("item.code");
 	    final Item item = this.repository.findOneItemByCode(itemCode);
 	    
-	    
-	     
+	   
 	    entity.setItem(item);
 	    
 		
@@ -100,6 +99,7 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		final Collection<Item> items = this.repository.findManyItemNotToolExistingNotPublished(toolkitId);
 		 
 		request.unbind(entity, model, "amount", "item.code");
+		
 		model.setAttribute("readonly", false);
 		model.setAttribute("masterId", toolkitId);
 		model.setAttribute("items",items);
@@ -133,7 +133,6 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		assert request != null;
 		assert entity != null;
 		
-
 				
 		final String itemCode = request.getModel().getString("item.code");
 	    final Item item = this.repository.findOneItemByCode(itemCode);
@@ -150,9 +149,7 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
         else {
         	this.repository.save(entity);
         }
-		
-		
-		
+			
 		
 	}
 

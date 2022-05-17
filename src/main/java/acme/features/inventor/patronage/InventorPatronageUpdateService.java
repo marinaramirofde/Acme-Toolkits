@@ -1,5 +1,8 @@
 package acme.features.inventor.patronage;
 
+import java.util.Date;
+
+import org.apache.commons.lang3.time.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -96,17 +99,14 @@ public class InventorPatronageUpdateService implements AbstractUpdateService<Inv
 			errors.state(request, entity.getBudget().getAmount() > 0, "budget", "inventor.patronage.form.error.negative-amount");
 		}
 		
-		// AÑADIR RESTRICCIÓN DE LA FECHA ---------------------------------------------------------------
-				// 	endMoment << startMoment << creationMoment;
+		
 		if(!errors.hasErrors("startMoment")) {
-//			Calendar calendar;
-//			Date minimumDate;
-//
-//			calendar = entity.getCreationMoment();
-//			calendar.add(Calendar.WEEK_OF_MONTH, 1);
-//			minimumDate = calendar.getTime();
 			
-		//	errors.state(request, endMoment() > entity.getStartMoment() > creationMoment()+1 Month, "startMoment", "inventor.patronage.form.error.time-fail");
+			final Date minStartDate = DateUtils.addMonths(entity.getCreationMoment(), 1);
+			
+			errors.state(request,entity.getStartMoment().after(minStartDate),
+				"startMoment", "patron.patronage.form.error.min-one-month-later");
+			
 		}
 
 	}

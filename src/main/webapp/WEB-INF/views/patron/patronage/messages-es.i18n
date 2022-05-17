@@ -20,9 +20,10 @@ patron.patronage.form.button.publish = Publicar Patrocinio
 patron.patronage.form.button.delete = Borrar Patrocinio
 patron.patronage.form.label.inventor.id = Inventor Id
 
-patron.patronage.form.error.invalid-date-end-moment = La fecha de fin debe ser posterior a la fecha de inicio y creacion
 patron.patronage.form.error.duplicated-code = El codigo no tiene que existir ya
-patron.patronage.form.error.invalid-date-start-moment = La fecha de inicio debe ser un mes anterior a la fecha de creacion
+
+patron.patronage.form.error.after-start-date = La fecha de fin debe de ser al menos un mes posterior que la de inicio
+patron.patronage.form.error.min-one-month-later = La fecha de inicio debe de ser al menos un mes posterior que la de creación
 
 patron.patronage.list.button.create = Crear Patroncinio
 patron.patronage.list.label.info = Informacion

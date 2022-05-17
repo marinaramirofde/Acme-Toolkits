@@ -55,11 +55,7 @@ public class InventorQuantityListService implements AbstractListService<Inventor
 		assert request != null; 
 		assert entity != null; 
 		assert model != null; 
-		
-		final Integer toolkitId = request.getModel().getInteger("id");
-		final Integer QuantityId=entity.getId();
-		
-		
+	
 		request.unbind(entity, model,"amount", "item.name", "item.code", "item.type"); 
 		 
 	}

@@ -1,4 +1,4 @@
 key,status,code,legal-stuff,budget,creation-moment,start-moment,end-moment,info,key:inventor,key:patron,published
-patronage-01,PROPOSED,ABC-123,This is a test,"EUR 1000.00","2022/01/12 20:00","2022/01/13 20:00","2022/01/14 20:00",null,inventor-01,patron-01,false
-patronage-02,ACCEPTED,ABC-123-A,This is a test,"EUR 2000.00","2022/01/15 20:00","2022/01/16 20:00","2022/01/17 20:00",null,inventor-02,patron-01,true
-patronage-03,DENIED,BCD-123,This is a test,"EUR 3500.25","2022/01/18 20:00","2022/01/19 20:00","2022/01/20 20:00",http://www.example.com,inventor-01,patron-02,false
+patronage-01,PROPOSED,ABC-123,This is a test,EUR 1000.00,2022/01/12 20:00,2022/02/13 20:00,2022/07/14 20:00,null,inventor-01,patron-01,false
+patronage-02,ACCEPTED,ABC-123-A,This is a test,EUR 2000.00,2022/01/15 20:00,2022/04/16 20:00,2022/08/17 20:00,null,inventor-02,patron-01,true
+patronage-03,DENIED,BCD-123,This is a test,EUR 3500.25,2022/01/18 20:00,2022/09/19 20:00,2022/10/20 20:00,http://www.example.com,inventor-01,patron-02,false

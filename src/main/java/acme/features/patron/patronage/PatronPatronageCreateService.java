@@ -4,6 +4,7 @@ package acme.features.patron.patronage;
 import java.util.Collection;
 import java.util.Date;
 
+import org.apache.commons.lang3.time.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,6 @@ import acme.entities.patronages.Patronage;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
-import acme.framework.datatypes.Money;
 import acme.framework.services.AbstractCreateService;
 import acme.roles.Inventor;
 import acme.roles.Patron;
@@ -50,11 +50,21 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		}
 		
 		if(!errors.hasErrors("startMoment")) {
-			errors.state(request, entity.getStartMoment().before(entity.getCreationMoment()), "startMoment", "patron.patronage.form.error.invalid-date-start-moment");
+			
+			final Date minCreationDate = DateUtils.addMonths(entity.getCreationMoment(), 1);
+			
+			errors.state(request,entity.getStartMoment().after(minCreationDate),
+				"startMoment", "patron.patronage.form.error.min-one-month-later");
+			
 		}
 		
 		if(!errors.hasErrors("endMoment")) {
-			errors.state(request, entity.getEndMoment().after(entity.getCreationMoment()) && entity.getEndMoment().after(entity.getStartMoment()), "endMoment", "patron.patronage.form.error.invalid-date-end-moment");
+			
+			final Date minStartDate = DateUtils.addMonths(entity.getStartMoment(), 1);
+			
+			errors.state(request,entity.getEndMoment().after(minStartDate),
+				"endMoment", "patron.patronage.form.error.after-start-date");
+			
 		}
 	
 		
@@ -84,9 +94,12 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		assert request != null;
 		assert entity != null;
 		assert model != null;
+		
 		final Collection<Inventor> inventors = this.repository.findAllInventors();
+		
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
 			"legalStuff","startMoment","status","inventor.id");
+		
 		model.setAttribute("readonly", false);
 		model.setAttribute("inventors",inventors);
 	}
@@ -96,33 +109,17 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		assert request != null;
 
 		Patronage result;
-		final Date moment = new Date(System.currentTimeMillis() - 1);
-		final Date  startMoment = new Date(System.currentTimeMillis()-10);
-		final Date endMoment = new Date(System.currentTimeMillis() + 3600000);
-		final Money budget= new Money();
-		budget.setAmount(215.5);
-		budget.setCurrency("EUR");
-	
 		
+		final Date moment = new Date(System.currentTimeMillis() - 1);
+			
         final Integer patronId = request.getPrincipal().getActiveRoleId();
         final Patron patron = this.repository.findOnePatronById(patronId);
-      
+   
         
 		result = new Patronage();
 		result.setCreationMoment(moment);
-		result.setStartMoment(startMoment);
-		result.setBudget(budget);
 		result.setPatron(patron);
-		result.setEndMoment(endMoment);
-		result.setPublished(false);
-		result.setCode("ABB-127");
-		result.setLegalStuff("Example 1");
 		
-
-		
-		
-		
-
 		return result;
 	}
 

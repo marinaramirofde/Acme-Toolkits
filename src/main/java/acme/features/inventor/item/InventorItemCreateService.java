@@ -4,11 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.items.Item;
-import acme.entities.items.ItemType;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
-import acme.framework.datatypes.Money;
 import acme.framework.services.AbstractCreateService;
 import acme.roles.Inventor;
 
@@ -81,21 +79,7 @@ public class InventorItemCreateService implements AbstractCreateService<Inventor
 		inventor = this.repository.findOneInventorById(request.getPrincipal().getActiveRoleId());
 		
 		result = new Item();
-		
-		final Money money = new Money();
-			money.setCurrency("EUR");
-			money.setAmount(30.00);
-		
-		result.setName("Item Num ");
-		result.setCode("");
-		result.setTechnology("Prueba");
-		result.setDescription("Creando item");
-		result.setRetailPrice(money);
-		result.setLink("https://item.com");
-		result.setType(ItemType.COMPONENT);
-		
-		result.setPublished(false);
-		
+				
 		result.setInventor(inventor);
 
 		return result;

@@ -1,12 +1,10 @@
 package acme.features.inventor.toolkit;
 
-import java.util.Collection;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.quantities.Quantity;
 import acme.entities.toolkits.Toolkit;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
@@ -58,9 +56,7 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		assert model != null;
 		
 		final int toolkitId = request.getModel().getInteger("id");
-		
-		final Collection<Quantity> quantities = this.repository.findQuantityByToolkitId(toolkitId);
-		
+			
 			
         Double nPrice;
     			
