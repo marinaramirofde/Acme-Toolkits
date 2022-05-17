@@ -1,6 +1,8 @@
 
 package acme.features.inventor.quantity;
 
+import java.util.Collection;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -94,11 +96,13 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		assert entity != null;
 		assert model != null;
 		
-		final Integer patronageId = request.getModel().getInteger("masterId");
-		
+		final Integer toolkitId = request.getModel().getInteger("masterId");
+		final Collection<Item> items = this.repository.findManyItemNotToolExistingNotPublished(toolkitId);
+		 
 		request.unbind(entity, model, "amount", "item.code");
 		model.setAttribute("readonly", false);
-		model.setAttribute("masterId", patronageId);
+		model.setAttribute("masterId", toolkitId);
+		model.setAttribute("items",items);
 	}
 
 	@Override
@@ -137,7 +141,6 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 	    final Integer toolkitId = request.getModel().getInteger("masterId");
         final Quantity q = this.repository.findQuantityFromItemIdAndToolkitId(itemId, toolkitId);
        
-        
         
 		entity.setItem(item);
         if(q!=null) {

@@ -62,11 +62,18 @@ public class InventorToolkitShowService implements AbstractShowService<Inventor,
 		final Collection<Quantity> quantities = this.repository.findQuantityByToolkitId(toolkitId);
 		
 			
-        
+        Double nPrice;
     			
-		final Double nPrice=this.repository.findPriceOfToolkitByToolkitId(toolkitId);
+		nPrice=this.repository.findPriceOfToolkitByToolkitId(toolkitId);
 		final List<String> lsPrice=this.repository.findMoneyTypePriceOfToolkitByToolkitId(toolkitId);
-		final String sPrice = lsPrice.get(0);
+		String sPrice;
+		if(!lsPrice.isEmpty()) {
+		sPrice = lsPrice.get(0);
+		}
+		else {
+	    sPrice = "EUR";
+	    nPrice=0.0;
+		}
 		final Money resultPrice=new Money();
 		
 		resultPrice.setAmount(nPrice);

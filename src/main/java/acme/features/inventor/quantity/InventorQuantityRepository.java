@@ -40,6 +40,10 @@ public interface InventorQuantityRepository extends AbstractRepository {
 	@Query("select i from Item i where i.id= :itemId and i.published=false")
 	Item findItemNotPublishedByItemId(int itemId);
 	
+	@Query("select i from Item i where i.published = true and i "
+		+ "not in (select q.item from Quantity q where q.item.type = 'TOOL' and q.toolkit.id =:toolkitId)")
+	Collection<Item> findManyItemNotToolExistingNotPublished(int toolkitId);
+	
 
 
 

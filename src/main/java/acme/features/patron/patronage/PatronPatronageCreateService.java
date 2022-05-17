@@ -1,6 +1,7 @@
 
 package acme.features.patron.patronage;
 
+import java.util.Collection;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -70,7 +71,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 	    final Inventor inventor = this.repository.findOneInventorById(inventorId);
 	    
 	    
-	     
+	    
 	    entity.setInventor(inventor);
 	    
 		
@@ -83,10 +84,11 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		
+		final Collection<Inventor> inventors = this.repository.findAllInventors();
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
 			"legalStuff","startMoment","status","inventor.id");
 		model.setAttribute("readonly", false);
+		model.setAttribute("inventors",inventors);
 	}
 
 	@Override

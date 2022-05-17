@@ -18,16 +18,30 @@
 		<acme:input-option code="ACCEPTED" value="ACCEPTED" selected="${status == 'ACCEPTED'}"/>
 		<acme:input-option code="DENIED" value="DENIED" selected="${status == 'DENIED'}"/>
 	</acme:input-select>
-	<acme:input-textbox code="patron.patronage.form.label.inventor.id" path="inventor.id"/>
-	<acme:input-textbox code="patron.patronage.form.label.inventor.fullName" path="inventorFullName"/>
 	
 	<jstl:choose>	 
+	    <jstl:when test="${acme:anyOf(command, 'show') && published == true}">
+	    <acme:input-textbox code="patron.patronage.form.label.inventor.id" path="inventor.id"/>
+	    <acme:input-textbox code="patron.patronage.form.label.inventor.fullName" path="inventorFullName"/>
+	    </jstl:when>
 		<jstl:when test="${acme:anyOf(command, 'show, update, publish, delete') && published == false}">
+			<acme:input-select code="patron.patronage.form.label.inventor.fullName"  path="inventor.id">
+		  	  	<jstl:forEach items="${inventors}" var="inventor">
+		   	  	<acme:input-option code="${inventor.getIdentity().getFullName()}" value="${inventor.getId()}" selected="${inventor.getId()==inventorX}"/>
+		   	  	</jstl:forEach>
+		   	</acme:input-select>
+	        <acme:input-textbox code="patron.patronage.form.label.inventor.fullName" readonly="true" path="inventorFullName"/>
+	
 			<acme:submit code="patron.patronage.form.button.update" action="/patron/patronage/update"/>
 			<acme:submit code="patron.patronage.form.button.publish" action="/patron/patronage/publish"/>
 			<acme:submit code="patron.patronage.form.button.delete" action="/patron/patronage/delete"/>
 		</jstl:when>
 		<jstl:when test="${command == 'create'}">
+		    <acme:input-select code="patron.patronage.form.label.inventor.fullName"  path="inventor.id">
+		  	  	<jstl:forEach items="${inventors}" var="inventor">
+		   	  	<acme:input-option code="${inventor.getIdentity().getFullName()}" value="${inventor.getId()}" selected="${inventor.getId()==inventorX}"/>
+		   	  	</jstl:forEach>
+		   	</acme:input-select>
 			<acme:submit code="patron.patronage.form.button.create" action="/patron/patronage/create"/>
 		</jstl:when>
 	</jstl:choose>
