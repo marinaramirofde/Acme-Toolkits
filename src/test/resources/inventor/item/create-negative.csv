@@ -1,0 +1,10 @@
+recordIndex,name,code,technology,description,retailPrice,link,type
+0,,BCD-234-P,Technology 4,Description of component 2,"EUR 3.50",https://www.example.com,COMPONENT
+0,Tool 02,,Technology 2,Description of tool 2,"EUR 40.00",https://www.example.com,TOOL
+0,Component 02,BCD-234-O,,Description of component 2,"EUR 3.50",https://www.example.com,COMPONENT
+0,Tool 02,ABC-123-W,Technology 2,,"EUR 40.00",https://www.example.com,TOOL
+0,Component 02,BCP-234-Z,Technology 4,Description of component 2,,https://www.example.com,COMPONENT
+0,Tool 02 Con Mas de 100 Caracteres en el nombre del item que tiene como nombre tool 2 y esta repetido ui,ABC-123-A,Technology 2,Description of tool 2,"EUR 40.00",https://www.example.com,TOOL
+0,Component 02,BCD-234-Z,Technology 4 Con Mas de 100 Caracteres en el nombre del item que tiene como nombre tool 2 y esta repetido ui,Description of component 2,"EUR 3.50",https://www.example.com,COMPONENT
+0,Tool 02,ABC-123-A,Technology 2,Description of tool 2 Con Mas de 100 Caracteres en el nombre del item que tiene como nombre tool 2 y esta repetido ui Con Mas de 100 Caracteres en el nombre del item que tiene como nombre tool 2 y esta repetido ui Con Mas de 100 Caracteres en el nombre del item que tiene como nombre tool 2 y esta repetido ui,EUR 40.00,https://www.example.com,TOOL
+0,Tool 0008,BCD-234-P,Technology 4,Description of component 2,"EUR -3.50",https://www.example.com,COMPONENT
