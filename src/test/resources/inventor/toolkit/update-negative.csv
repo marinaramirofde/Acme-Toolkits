@@ -1,0 +1,9 @@
+recordIndex,assemblyNotes,code,description,link,title
+1,,ABC-123-A,Description 2,https://www.example.com,Title 2
+1,Assembly Notes 2,ABC-123,Description 2,https://www.example.com,Title 2
+1,Assembly Notes 2,ABC-1231,Description 2,https://www.example.com,Title 2
+1,Assembly Notes 2,ABC-123-A,,https://www.example.com,Title 2
+1,Assembly Notes 2,ABC-123-A,Description 2,https://www.example.com,
+1,Assembly Notes 2,ABC-123-A,Description 2,porqueno ya sabe,Title 2
+
+
