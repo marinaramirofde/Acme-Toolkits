@@ -69,7 +69,7 @@ public class InventorToolkitPublishTest extends TestHarness {
 	@Order(10)
 	public void negativeTest(final int recordIndex, final String assemblyNotes, final String code, final String description,
 		final String link,final String title) {
-		super.signIn("inventor1", "inventor1");
+		super.signIn("inventor2", "inventor2");
 
 		super.clickOnMenu("Inventor", "List All Mine Toolkits");
 		super.checkListingExists();
@@ -85,9 +85,7 @@ public class InventorToolkitPublishTest extends TestHarness {
 		super.fillInputBoxIn("assemblyNotes", assemblyNotes);
 		super.fillInputBoxIn("link", link);
 		super.fillInputBoxIn("code", code);
-		super.clickOnSubmit("Publish");
-
-		super.checkErrorsExist();
+        super.checkNotButtonExists("Publish");
 
 		super.signOut();
 	}

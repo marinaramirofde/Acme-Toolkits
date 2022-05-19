@@ -35,20 +35,14 @@ public class InventorToolkitDeleteTest extends TestHarness {
 		super.clickOnMenu("Inventor", "List All Mine Toolkits");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
-		
+		super.checkColumnHasValue(recordIndex, 0, code);
+		super.checkColumnHasValue(recordIndex, 1, title);
 
 		super.clickOnListingRecord(recordIndex);
 		super.checkFormExists();
 		
 		
-		
 
-		super.checkListingExists();
-		super.sortListing(0, "asc");
-		super.checkColumnHasValue(recordIndex, 0, code);
-		super.checkColumnHasValue(recordIndex, 1, title);
-
-		super.clickOnListingRecord(recordIndex);
 		super.checkInputBoxHasValue("title", title);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("assemblyNotes", assemblyNotes);
@@ -76,7 +70,6 @@ public class InventorToolkitDeleteTest extends TestHarness {
 		super.clickOnListingRecord(recordIndex);
 		super.checkFormExists();
 		
-		super.clickOnListingRecord(recordIndex);
 		super.checkInputBoxHasValue("title", title);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("assemblyNotes", assemblyNotes);
