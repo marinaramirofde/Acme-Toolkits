@@ -1,0 +1,3 @@
+toolkitRecordIndex,recordIndex,amount,name,code,technology,description,retailPrice,link,type,published
+1,0,2,Tool 01,ABC-123,Technology 1,Description of tool 1,EUR 20.00,,TOOL,true
+1,0,0,Tool 01,ABC-123,Technology 1,Description of tool 1,EUR 20.00,,TOOL,true

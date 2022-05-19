@@ -1,0 +1,9 @@
+recordIndex,assemblyNotes,code,description,link,title
+1,,ABC-122-C,Description 4,https://www.example.com,Title 4
+1,Assembly Notes 4,ABC-123,Description 4,https://www.example.com,Title 4
+1,Assembly Notes 4,ABC-122-C,,https://www.example.com,Title 4
+1,Assembly Notes 4,ABC-122-C,Description 4,https://www.example.com,
+1,Assembly Notes 4,ABC-122-C,Description 4,porqee porqueno?,Title 4
+1,Assembly Notes 4,ABC-1234,Description 4,https://www.example.com,Title 4
+
+
