@@ -15,7 +15,7 @@ public class PatronPatronageListMineTest extends TestHarness {
 	@Order(10)
 	public void positiveTest(final int recordIndex, final String creationMoment, final String endMoment, final String startMoment,
 		final String code,final String info, final String budget, final String legalStuff, final String status) {
-		super.signIn("patron1", "patron1");
+		super.signIn("patron2", "patron2");
 
 		super.clickOnMenu("Patron", "List All Mine Patronage");
 		super.checkListingExists();
