@@ -65,6 +65,7 @@ public class PatronPatronagePublishTest extends TestHarness {
 	    super.checkInputBoxHasValue("budget", budget);
 	    super.checkInputBoxHasValue("legalStuff", legalStuff);
 	    super.checkInputBoxHasValue("status", status);
+		super.checkNotButtonExists("Publish Patronage");
 
 		super.signOut();
 	}
