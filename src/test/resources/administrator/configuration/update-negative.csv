@@ -1,0 +1,13 @@
+recordIndex,systemCurrency,acceptedCurrencies,strongTerms,strongThreshold,weakTerms,weakThreshold
+0,,"EUR,USD,GBP","sex,hard core,viagra,cialis,sexo",10.00,"sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón",25.00
+0,EUR,,"sex,hard core,viagra,cialis,sexo",10.00,"sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón",25.00
+0,EUR,"EUR,USD,GBP",,10.00,"sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón",25.00
+0,EUR,"EUR,USD,GBP","sex,hard core,viagra,cialis,sexo",,"sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón",25.00
+0,EUR,"EUR,USD,GBP","sex,hard core,viagra,cialis,sexo",hello there,"sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón",25.00
+0,EUR,"EUR,USD,GBP","sex,hard core,viagra,cialis,sexo",10.00,,25.00
+0,EUR,"EUR,USD,GBP","sex,hard core,viagra,cialis,sexo",10.00,"sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón",
+0,EUR,"EUR,USD,GBP","sex,hard core,viagra,cialis,sexo",10.00,"sexy,nigeria,you´ve won,one million,Nigeria,has ganado,un millón",hello there again
+
+
+
+
