@@ -2,3 +2,4 @@ key,code,published,title,description,assembly-notes,link,key:inventor
 toolkit-01,ABC-123,true,Title 1,Description 1,Assembly Notes 1,null,inventor-01
 toolkit-02,ABC-123-A,false,Title 2,Description 2,Assembly Notes 2,https://www.example.com,inventor-01
 toolkit-03,ABC-122-B,false,Title 3,Description 3,Assembly Notes 3,https://www.example.com,inventor-02
+toolkit-04,ABC-122-C,false,Title 4,Description 4,Assembly Notes 4,https://www.example.com,inventor-02

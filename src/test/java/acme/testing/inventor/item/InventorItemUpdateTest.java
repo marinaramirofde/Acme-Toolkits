@@ -19,7 +19,8 @@ public class InventorItemUpdateTest extends TestHarness {
 
 		super.clickOnMenu("Inventor", "List All Mine Items");
 		super.checkListingExists();
-		
+		super.clickOnListingRecord(recordIndex);
+		super.checkFormExists();
 		// name, code, technology, description, retailPrice, link, type
 		
 		super.fillInputBoxIn("name", name);
@@ -60,8 +61,8 @@ public class InventorItemUpdateTest extends TestHarness {
 		
 		super.clickOnMenu("Inventor", "List All Mine Items");
 		super.checkListingExists();
-		
-		super.clickOnButton("Create");
+		super.clickOnListingRecord(recordIndex);
+
 		super.checkFormExists();
 
 		super.fillInputBoxIn("name", name);
@@ -71,7 +72,7 @@ public class InventorItemUpdateTest extends TestHarness {
 		super.fillInputBoxIn("retailPrice", retailPrice);
 		super.fillInputBoxIn("link", link);
 		super.fillInputBoxIn("type", type);
-		super.clickOnSubmit("Create");
+		super.clickOnSubmit("Update");
 
 		super.checkErrorsExist();
 

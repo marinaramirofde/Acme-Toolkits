@@ -1,3 +1,3 @@
 recordIndex,assemblyNotes,code,description,link,published,title,price
-0,Assembly Notes 1,ABC-123,Description 1,,true,Title 1,"2,000.00"
-1,Assembly Notes 2,ABC-123-A,Description 2,https://www.example.com,false,Title 2,20.00
+0,Assembly Notes 1,ABC-123,Description 1,,true,Title 1,EUR 100.00
+1,Assembly Notes 2,ABC-123-A,Description 2,https://www.example.com,false,Title 2,EUR 20.00
