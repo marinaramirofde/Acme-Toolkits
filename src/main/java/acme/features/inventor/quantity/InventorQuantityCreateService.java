@@ -134,7 +134,7 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		assert entity != null;
 		
 				
-		/*
+		
 		final Integer itemId =Integer.valueOf( request.getModel().getAttribute("itemId").toString());
 	    final Item item = this.repository.findOneItemById(itemId);
 	    
@@ -151,8 +151,7 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
         else {
         	this.repository.save(entity);
         }
-			*/
-	    this.repository.save(entity);
+			
 		
 	}
 	

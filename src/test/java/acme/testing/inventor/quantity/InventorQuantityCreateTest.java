@@ -32,7 +32,7 @@ public class InventorQuantityCreateTest extends TestHarness {
 	@CsvFileSource(resources = "/inventor/quantity/create-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int toolkitRecordIndex,final int recordIndex, final String amount, final String name, final String code,
-		final String technology,final String description, final String retailPrice, final String link, final String type, final String published) {
+		final String technology,final String description, final String retailPrice, final String link, final String type, final String published, final String itemId) {
 		super.signIn("inventor1", "inventor1");
 
 		super.clickOnMenu("Inventor", "List All Mine Toolkits");
@@ -44,7 +44,7 @@ public class InventorQuantityCreateTest extends TestHarness {
 		
 		super.fillInputBoxIn("amount", amount);
 		final BrowserDriver driver = super.getDriver();
-		driver.locateOne(By.id("item.code")).click();
+		driver.locateOne(By.xpath("//*[@id=\"itemId_proxy\"]/option[" + itemId +"]")).click();		
 		super.clickOnSubmit("Create Quantity");
 
 		super.clickOnButton("Items");
@@ -73,7 +73,7 @@ public class InventorQuantityCreateTest extends TestHarness {
 	@CsvFileSource(resources = "/inventor/quantity/create-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void negativeTest(final int toolkitRecordIndex,final int recordIndex, final String amount, final String name, final String code,
-		final String technology,final String description, final String retailPrice, final String link, final String type, final String published) {
+		final String technology,final String description, final String retailPrice, final String link, final String type, final String published, final String itemId) {
 		super.signIn("inventor1", "inventor1");
 
 		super.clickOnMenu("Inventor", "List All Mine Toolkits");
@@ -84,7 +84,7 @@ public class InventorQuantityCreateTest extends TestHarness {
 		
 		super.fillInputBoxIn("amount", amount);
 		final BrowserDriver driver = super.getDriver();
-		driver.locateOne(By.id("item.code")).click();
+		driver.locateOne(By.xpath("//*[@id=\"itemId_proxy\"]/option[" + itemId +"]")).click();
 		super.clickOnSubmit("Create Quantity");
         super.checkErrorsExist();
 		
