@@ -25,6 +25,9 @@ public interface InventorQuantityRepository extends AbstractRepository {
 	@Query("select t from Item t where t.code = :code")
 	Item findOneItemByCode(String code);
 	
+	@Query("select t from Item t where t.id = :id")
+	Item findOneItemById(int id);
+	
 	@Query("select t from Toolkit t where t.id = :id")
 	Toolkit findOneToolkitById(int id);
 	

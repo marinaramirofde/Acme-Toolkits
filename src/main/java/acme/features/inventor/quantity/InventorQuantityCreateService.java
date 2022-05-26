@@ -79,14 +79,14 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		assert entity != null;
 		assert errors != null;
 		 
-		final String itemCode = request.getModel().getString("item.code");
-	    final Item item = this.repository.findOneItemByCode(itemCode);
+		final Integer itemId =Integer.valueOf( request.getModel().getAttribute("itemId").toString());
+	    final Item item = this.repository.findOneItemById(itemId);
 	    
 	   
 	    entity.setItem(item);
 	    
 		
-	     request.bind(entity, errors, "amount", "item.code"); 
+	     request.bind(entity, errors, "amount", "itemId"); 
 	}
 
 	@Override
@@ -98,7 +98,7 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		final Integer toolkitId = request.getModel().getInteger("masterId");
 		final Collection<Item> items = this.repository.findManyItemNotToolExistingNotPublished(toolkitId);
 		 
-		request.unbind(entity, model, "amount", "item.code");
+		request.unbind(entity, model, "amount");
 		
 		model.setAttribute("readonly", false);
 		model.setAttribute("masterId", toolkitId);
@@ -134,9 +134,11 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
 		assert entity != null;
 		
 				
-		final String itemCode = request.getModel().getString("item.code");
-	    final Item item = this.repository.findOneItemByCode(itemCode);
-	    final Integer itemId = item.getId();
+		/*
+		final Integer itemId =Integer.valueOf( request.getModel().getAttribute("itemId").toString());
+	    final Item item = this.repository.findOneItemById(itemId);
+	    
+	    
 	    final Integer toolkitId = request.getModel().getInteger("masterId");
         final Quantity q = this.repository.findQuantityFromItemIdAndToolkitId(itemId, toolkitId);
        
@@ -149,10 +151,10 @@ public class InventorQuantityCreateService implements AbstractCreateService<Inve
         else {
         	this.repository.save(entity);
         }
-			
+			*/
+	    this.repository.save(entity);
 		
 	}
-
 	
 
 }
