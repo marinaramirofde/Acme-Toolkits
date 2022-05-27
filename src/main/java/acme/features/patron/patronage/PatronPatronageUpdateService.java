@@ -87,7 +87,7 @@ public class PatronPatronageUpdateService implements AbstractUpdateService<Patro
 		assert model != null;
 
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status","inventorId");
+			"legalStuff","startMoment","status");
 	}
 
 	@Override
