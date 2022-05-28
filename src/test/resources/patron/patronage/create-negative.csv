@@ -1,0 +1,9 @@
+recordIndex,code,info,budget,legalStuff,status,badStartDate,badEndDate,inventorId
+3,ABC-123,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0,1
+3,ABC-123-E,,"",This is a test i suppose,PROPOSED,0,0,1
+3,ABC-123-E,,"EUR 1,000.00",,PROPOSED,0,0,1
+3,,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0,1
+3,ABC-123-E,mala info bro,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0,1
+3,ABC-123-E,,"EUR 1,000.00",This is a test i suppose,PROPOSED,1,0,1
+3,ABC-123-E,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,1,1
+
