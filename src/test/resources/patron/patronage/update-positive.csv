@@ -1,2 +1,2 @@
-recordIndex,code,info,budget,legalStuff,status,inventorId
-0,ABC-124,,"EUR 1,000.00",This is a test i suppose,PROPOSED,1
+recordIndex,code,info,budget,legalStuff,status
+0,ABC-124,,"EUR 1,000.00",This is a test i suppose,PROPOSED

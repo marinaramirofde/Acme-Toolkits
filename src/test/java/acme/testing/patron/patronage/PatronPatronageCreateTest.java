@@ -22,9 +22,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.openqa.selenium.By;
 
-import acme.framework.testing.BrowserDriver;
 import acme.testing.TestHarness;
 
 public class PatronPatronageCreateTest extends TestHarness {
@@ -38,7 +36,7 @@ public class PatronPatronageCreateTest extends TestHarness {
 	@CsvFileSource(resources = "/patron/patronage/create-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int recordIndex, final String code, final String info, final String budget,
-		final String legalStuff,final String status,final String inventorId) throws ParseException {
+		final String legalStuff,final String status) throws ParseException {
 		super.signIn("patron1", "patron1");
 
 		super.clickOnMenu("Patron", "List All Mine Patronage");
@@ -72,8 +70,6 @@ public class PatronPatronageCreateTest extends TestHarness {
 	    super.fillInputBoxIn("budget", budget);
 	    super.fillInputBoxIn("legalStuff", legalStuff);
 	    super.fillInputBoxIn("status", status);
-	    final BrowserDriver driver = super.getDriver();
-		driver.locateOne(By.xpath("//*[@id=\"inventorId_proxy\"]/option[" + inventorId +"]")).click();	
 		super.clickOnSubmit("Create Patronage");
 
 		super.checkListingExists();
@@ -99,7 +95,7 @@ public class PatronPatronageCreateTest extends TestHarness {
 	@CsvFileSource(resources = "/patron/patronage/create-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void negativeTest(final int recordIndex, final String code, final String info, final String budget,
-		final String legalStuff,final String status, final int badStartDate, final int badEndDate, final String inventorId) {
+		final String legalStuff,final String status, final int badStartDate, final int badEndDate) {
 		super.signIn("patron1", "patron1");
 
 		super.clickOnMenu("Patron", "List All Mine Patronage");
@@ -143,8 +139,6 @@ public class PatronPatronageCreateTest extends TestHarness {
 	    super.fillInputBoxIn("budget", budget);
 	    super.fillInputBoxIn("legalStuff", legalStuff);
 	    super.fillInputBoxIn("status", status);
-	    final BrowserDriver driver = super.getDriver();
-		driver.locateOne(By.xpath("//*[@id=\"inventorId_proxy\"]/option[" + inventorId +"]")).click();	
 		super.clickOnSubmit("Create Patronage");
 
 		super.checkErrorsExist();
