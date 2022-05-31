@@ -66,7 +66,7 @@ public class PatronPatronagePublishService implements AbstractUpdateService<Patr
 		assert errors != null;
 
 		request.bind(entity, errors,"budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status","inventorId");
+			"legalStuff","startMoment","status","inventor.id");
 	}
 
 	@Override
@@ -76,7 +76,7 @@ public class PatronPatronagePublishService implements AbstractUpdateService<Patr
 		assert model != null;
 
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status");
+			"legalStuff","startMoment","status","inventor.id");
 	}
 
 	@Override

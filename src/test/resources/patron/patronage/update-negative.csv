@@ -1,9 +1,9 @@
-recordIndex,code,info,budget,legalStuff,status,badStartDate,badEndDate,inventorId
-0,ABC-123-A,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0,1
-0,ABC-123,,"",This is a test i suppose,PROPOSED,0,0,1
-0,ABC-123,,"EUR 1,000.00",,PROPOSED,0,0,1
-0,,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0,1
-0,ABC-123,mala info bro,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0,1
-0,ABC-123,,"EUR 1,000.00",This is a test i suppose,PROPOSED,1,0,1
-0,ABC-123,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,1,1
+recordIndex,code,info,budget,legalStuff,status,badStartDate,badEndDate
+0,ABC-123-A,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0
+0,ABC-123,,"",This is a test i suppose,PROPOSED,0,0
+0,ABC-123,,"EUR 1,000.00",,PROPOSED,0,0
+0,,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0
+0,ABC-123,mala info bro,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,0
+0,ABC-123,,"EUR 1,000.00",This is a test i suppose,PROPOSED,1,0
+0,ABC-123,,"EUR 1,000.00",This is a test i suppose,PROPOSED,0,1
 
