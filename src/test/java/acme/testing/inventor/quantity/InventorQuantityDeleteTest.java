@@ -16,12 +16,10 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.openqa.selenium.By;
 
-import acme.framework.testing.BrowserDriver;
 import acme.testing.TestHarness;
 
-public class InventorQuantityCreateTest extends TestHarness {
+public class InventorQuantityDeleteTest extends TestHarness {
 
 	// Lifecycle management ---------------------------------------------------
 
@@ -29,10 +27,10 @@ public class InventorQuantityCreateTest extends TestHarness {
     //"amount", "item.name", "item.code", "item.technology", "item.description", "item.retailPrice", "item.link","item.type", "item.published"
 	
 	@ParameterizedTest
-	@CsvFileSource(resources = "/inventor/quantity/create-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/inventor/quantity/delete-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int toolkitRecordIndex,final int recordIndex, final String amount, final String name, final String code,
-		final String technology,final String description, final String retailPrice, final String link, final String type, final String published, final String itemId) {
+		final String technology,final String description, final String retailPrice, final String link, final String type, final String published) {
 		super.signIn("inventor1", "inventor1");
 
 		super.clickOnMenu("Inventor", "List All Mine Toolkits");
@@ -40,57 +38,51 @@ public class InventorQuantityCreateTest extends TestHarness {
 		super.sortListing(0, "asc");
 		
 		super.clickOnListingRecord(toolkitRecordIndex);
-		super.clickOnButton("Create Quantity");
-		
-		super.fillInputBoxIn("amount", amount);
-		final BrowserDriver driver = super.getDriver();
-		driver.locateOne(By.xpath("//*[@id=\"itemId_proxy\"]/option[" + itemId +"]")).click();		
-		super.clickOnSubmit("Create Quantity");
+
 
 		super.clickOnButton("Items");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
-		super.checkColumnHasValue(recordIndex, 0, name);
-		super.checkColumnHasValue(recordIndex, 1, code);
-		super.checkColumnHasValue(recordIndex, 2, type);
-		super.checkColumnHasValue(recordIndex, 3, amount);
-
 
 		super.clickOnListingRecord(recordIndex);
-		super.checkInputBoxHasValue("amount", amount);
-		super.checkInputBoxHasValue("item.code", code);
-		super.checkInputBoxHasValue("item.name", name);
-		super.checkInputBoxHasValue("item.technology", technology);
-		super.checkInputBoxHasValue("item.retailPrice", retailPrice);
-		super.checkInputBoxHasValue("item.link", link);
-		super.checkInputBoxHasValue("item.type", type);
+		super.checkFormExists();
+		
+		
+		super.clickOnSubmit("Delete");
+		
+		super.checkNotErrorsExist();
+
 		
 
 		super.signOut();
 	}
 	
 	@ParameterizedTest
-	@CsvFileSource(resources = "/inventor/quantity/create-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/inventor/quantity/delete-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void negativeTest(final int toolkitRecordIndex,final int recordIndex, final String amount, final String name, final String code,
-		final String technology,final String description, final String retailPrice, final String link, final String type, final String published, final String itemId) {
+		final String technology,final String description, final String retailPrice, final String link, final String type, final String published) {
 		super.signIn("inventor1", "inventor1");
 
 		super.clickOnMenu("Inventor", "List All Mine Toolkits");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
+		
 		super.clickOnListingRecord(toolkitRecordIndex);
-		super.clickOnButton("Create Quantity");
-		
-		super.fillInputBoxIn("amount", amount);
-		final BrowserDriver driver = super.getDriver();
-		driver.locateOne(By.xpath("//*[@id=\"itemId_proxy\"]/option[" + itemId +"]")).click();
-		super.clickOnSubmit("Create Quantity");
-        super.checkErrorsExist();
-		
-		
-	
 
+
+		super.clickOnButton("Items");
+		super.checkListingExists();
+		super.sortListing(0, "asc");
+
+		super.clickOnListingRecord(recordIndex);
+		super.checkFormExists();
+		
+		
+		
+		super.checkNotButtonExists("Delete");
+		
+		
 
 		super.signOut();
 	}
@@ -98,14 +90,7 @@ public class InventorQuantityCreateTest extends TestHarness {
 	@Test
 	@Order(30)
 	public void hackingTest() {
-		super.checkNotLinkExists("Account");
-		super.navigate("/inventor/quantity/create");
-		super.checkPanicExists();
-
-		super.signIn("patron1", "patron1");
-		super.navigate("/inventor/quantity/create");
-		super.checkPanicExists();
-		super.signOut();
+	// HINT+ a) Update an item with a role different to "Inventor";
 		
 	}
 	// Ancillary methods ------------------------------------------------------

@@ -16,15 +16,18 @@
 	        <acme:input-money code="inventor.quantity.form.label.retailPrice" path="item.retailPrice" readonly = "true"/>
 	        <acme:input-url code="inventor.quantity.form.label.link" path="item.link" readonly = "true"/>	
 	        <acme:input-textbox code="inventor.quantity.form.label.type" path="item.type" readonly = "true"/>
+	        <jstl:if test="${canBeModified==true}">
 		    <acme:submit code="inventor.toolkit.form.button.update" action="/inventor/quantity/update"/>
+		    <acme:submit code="inventor.toolkit.form.button.delete" action="/inventor/quantity/delete"/>
+		    </jstl:if>
 		</jstl:when>
 		<jstl:when test="${command == 'create'}">
-		   	<acme:input-select code="inventor.quantity.form.label.item.code"  path="item.code">
+		   	<acme:input-select code="inventor.quantity.form.label.item.code"  path="itemId">
 		  	  	<jstl:forEach items="${items}" var="item">
-		   	  	<acme:input-option code="${item.getCode()}" value="${item.getCode()}" selected="${item.getCode()==codeX}"/>
+		   	  	<acme:input-option code="${item.getCode()}" value="${item.getId()}" selected="${item.getId()==itemId}"/>
 		   	  	</jstl:forEach>
 		   	</acme:input-select>
-		    <acme:submit code="inventor.quantity.form.button.createQuantity" action="/inventor/quantity/create"/>
+		    <acme:submit code="inventor.quantity.form.button.createQuantity" action="/inventor/quantity/create?masterId=${masterId}"/>
 		</jstl:when>
 	</jstl:choose>
 	

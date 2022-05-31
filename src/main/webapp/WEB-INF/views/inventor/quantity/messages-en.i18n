@@ -11,6 +11,7 @@ inventor.quantity.form.label.link = Link:
 inventor.quantity.form.label.type = Type:
 
 inventor.quantity.form.button.update = Update
+inventor.toolkit.form.button.delete = Delete
 
 inventor.quantity.form.error.duplicated = Amount can only be one with a quantity with  item of item type Tool 
 inventor.quantity.form.error.notpublished = The item you choose is not published
