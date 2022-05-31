@@ -25,9 +25,9 @@
 	    <acme:input-textbox code="patron.patronage.form.label.inventor.fullName" path="inventorFullName"/>
 	    </jstl:when>
 		<jstl:when test="${acme:anyOf(command, 'show, update, publish, delete') && published == false}">
-			<acme:input-select code="patron.patronage.form.label.inventor.fullName"  path="inventor.id">
+			<acme:input-select code="patron.patronage.form.label.inventor.fullName"  path="inventorId">
 		  	  	<jstl:forEach items="${inventors}" var="inventor">
-		   	  	<acme:input-option code="${inventor.getIdentity().getFullName()}" value="${inventor.getId()}" selected="${inventor.getId()==inventorX}"/>
+		   	  	<acme:input-option code="${inventor.getIdentity().getFullName()}" value="${inventor.getId()}" selected="${inventor.getId()==inventorId}"/>
 		   	  	</jstl:forEach>
 		   	</acme:input-select>
 	        <acme:input-textbox code="patron.patronage.form.label.inventor.fullName" readonly="true" path="inventorFullName"/>
@@ -37,9 +37,9 @@
 			<acme:submit code="patron.patronage.form.button.delete" action="/patron/patronage/delete"/>
 		</jstl:when>
 		<jstl:when test="${command == 'create'}">
-		    <acme:input-select code="patron.patronage.form.label.inventor.fullName"  path="inventor.id">
+		    <acme:input-select code="patron.patronage.form.label.inventor.fullName"  path="inventorId">
 		  	  	<jstl:forEach items="${inventors}" var="inventor">
-		   	  	<acme:input-option code="${inventor.getIdentity().getFullName()}" value="${inventor.getId()}" selected="${inventor.getId()==inventorX}"/>
+		   	  	<acme:input-option code="${inventor.getIdentity().getFullName()}" value="${inventor.getId()}" selected="${inventor.getId()==inventorId}"/>
 		   	  	</jstl:forEach>
 		   	</acme:input-select>
 			<acme:submit code="patron.patronage.form.button.create" action="/patron/patronage/create"/>
