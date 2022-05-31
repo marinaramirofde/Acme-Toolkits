@@ -11,6 +11,7 @@ inventor.quantity.form.label.link = Link:
 inventor.quantity.form.label.type = Tipo:
 
 inventor.quantity.form.button.update = Actualizar
+inventor.toolkit.form.button.delete = Borrar
 
 inventor.quantity.form.error.duplicated = Cantidad solo puede ser uno con tipo de item TOOL(herramienta) 
 inventor.quantity.form.error.notpublished = El Objeto escogido no esta publicado

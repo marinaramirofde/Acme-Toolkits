@@ -28,6 +28,9 @@ public class InventorQuantityController extends AbstractController<Inventor, Qua
 	@Autowired
 	protected InventorQuantityUpdateService updateService;
 	
+	@Autowired
+	protected InventorQuantityDeleteService deleteService;
+	
 
 
 	// Constructors -----------------------------------------------------------
@@ -39,6 +42,7 @@ public class InventorQuantityController extends AbstractController<Inventor, Qua
 		super.addCommand("create", this.createService);
 		super.addCommand("list", this.listService);
 		super.addCommand("update", this.updateService);
+		super.addCommand("delete", this.deleteService);
 		
 	}
 

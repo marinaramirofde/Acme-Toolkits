@@ -16,7 +16,10 @@
 	        <acme:input-money code="inventor.quantity.form.label.retailPrice" path="item.retailPrice" readonly = "true"/>
 	        <acme:input-url code="inventor.quantity.form.label.link" path="item.link" readonly = "true"/>	
 	        <acme:input-textbox code="inventor.quantity.form.label.type" path="item.type" readonly = "true"/>
+	        <jstl:if test="${canBeModified==true}">
 		    <acme:submit code="inventor.toolkit.form.button.update" action="/inventor/quantity/update"/>
+		    <acme:submit code="inventor.toolkit.form.button.delete" action="/inventor/quantity/delete"/>
+		    </jstl:if>
 		</jstl:when>
 		<jstl:when test="${command == 'create'}">
 		   	<acme:input-select code="inventor.quantity.form.label.item.code"  path="itemId">

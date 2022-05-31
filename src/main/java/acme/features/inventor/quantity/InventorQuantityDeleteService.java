@@ -20,11 +20,11 @@ import acme.entities.quantities.Quantity;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
-import acme.framework.services.AbstractUpdateService;
+import acme.framework.services.AbstractDeleteService;
 import acme.roles.Inventor;
 
 @Service
-public class InventorQuantityUpdateService implements AbstractUpdateService<Inventor, Quantity> {
+public class InventorQuantityDeleteService implements AbstractDeleteService<Inventor, Quantity> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -100,11 +100,11 @@ public class InventorQuantityUpdateService implements AbstractUpdateService<Inve
 	}
 
 	@Override
-	public void update(final Request<Quantity> request, final Quantity entity) {
+	public void delete(final Request<Quantity> request, final Quantity entity) {
 		assert request != null;
 		assert entity != null;
 
-		this.repository.save(entity);
+		this.repository.delete(entity);
 	}
 
 	

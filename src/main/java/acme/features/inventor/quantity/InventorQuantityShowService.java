@@ -55,9 +55,12 @@ public class InventorQuantityShowService implements AbstractShowService<Inventor
 		assert entity != null;
 		assert model != null;
 		
+        final Boolean result = request.isPrincipal(entity.getToolkit().getInventor()) && !entity.getToolkit().isPublished();
+		model.setAttribute("canBeModified", result);
 		
 		request.unbind(entity, model, "amount", "item.name", "item.code", "item.technology", "item.description", "item.retailPrice", "item.link","item.type", "item.published");
 		model.setAttribute("confirmation", false);
+		
 
 	}
 	
