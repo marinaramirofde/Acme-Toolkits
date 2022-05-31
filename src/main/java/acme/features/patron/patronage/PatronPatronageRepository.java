@@ -1,7 +1,6 @@
 package acme.features.patron.patronage;
 
 import java.util.Collection;
-import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -20,9 +19,6 @@ public interface PatronPatronageRepository extends AbstractRepository {
 	
 	@Query("select i from Inventor i")
 	Collection<Inventor> findAllInventors();
-	
-	@Query("select i from Inventor i")
-	List<Inventor> findManyInventors();
 
 	@Query("select c from Patronage c where c.patron.id = :patronId")
 	Collection<Patronage> findManyPatronagesByPatronId(int patronId);

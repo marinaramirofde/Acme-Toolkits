@@ -19,12 +19,12 @@
 		    <acme:submit code="inventor.toolkit.form.button.update" action="/inventor/quantity/update"/>
 		</jstl:when>
 		<jstl:when test="${command == 'create'}">
-		   	<acme:input-select code="inventor.quantity.form.label.item.code"  path="itemId">
+		   	<acme:input-select code="inventor.quantity.form.label.item.code"  path="item.code">
 		  	  	<jstl:forEach items="${items}" var="item">
-		   	  	<acme:input-option code="${item.getCode()}" value="${item.getId()}" selected="${item.getId()==itemId}"/>
+		   	  	<acme:input-option code="${item.getCode()}" value="${item.getCode()}" selected="${item.getCode()==codeX}"/>
 		   	  	</jstl:forEach>
 		   	</acme:input-select>
-		    <acme:submit code="inventor.quantity.form.button.createQuantity" action="/inventor/quantity/create?masterId=${masterId}"/>
+		    <acme:submit code="inventor.quantity.form.button.createQuantity" action="/inventor/quantity/create"/>
 		</jstl:when>
 	</jstl:choose>
 	

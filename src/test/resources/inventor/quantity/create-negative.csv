@@ -1,6 +1,6 @@
-toolkitRecordIndex,recordIndex,amount,name,code,technology,description,retailPrice,link,type,published,itemId
-1,0,0,Component 01,BCD-234,Technology 3,Description of component 1,EUR 5.00,,COMPONENT,true,1
-1,0,-1,Component 01,BCD-234,Technology 3,Description of component 1,EUR 5.00,,COMPONENT,true,1
+toolkitRecordIndex,recordIndex,amount,name,code,technology,description,retailPrice,link,type,published
+1,0,0,Component 01,BCD-234,Technology 3,Description of component 1,EUR 5.00,,COMPONENT,true
+1,0,-1,Component 01,BCD-234,Technology 3,Description of component 1,EUR 5.00,,COMPONENT,true
 
 
 

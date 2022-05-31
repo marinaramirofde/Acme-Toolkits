@@ -20,7 +20,6 @@ import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractUpdateService;
-import acme.roles.Inventor;
 import acme.roles.Patron;
 
 @Service
@@ -71,13 +70,9 @@ public class PatronPatronageUpdateService implements AbstractUpdateService<Patro
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-		
-		final Integer inventorId = Integer.valueOf(request.getModel().getAttribute("inventorId").toString());
-	    final Inventor inventor = this.repository.findOneInventorById(inventorId);
-	    entity.setInventor(inventor);
 
 		request.bind(entity, errors, "budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status","inventorId");
+			"legalStuff","startMoment","status","inventor.id");
 	}
 
 	@Override
@@ -87,7 +82,7 @@ public class PatronPatronageUpdateService implements AbstractUpdateService<Patro
 		assert model != null;
 
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status");
+			"legalStuff","startMoment","status","inventor.id");
 	}
 
 	@Override

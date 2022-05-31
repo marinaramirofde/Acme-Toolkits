@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.patronages.Patronage;
-import acme.entities.patronages.PatronageStatus;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -78,7 +77,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		assert entity != null;
 		assert errors != null;
 		 
-		final Integer inventorId = Integer.valueOf(request.getModel().getAttribute("inventorId").toString());
+		final Integer inventorId = request.getModel().getInteger("inventor.id");
 	    final Inventor inventor = this.repository.findOneInventorById(inventorId);
 	    
 	    
@@ -87,7 +86,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 	    
 		
 	     request.bind(entity, errors, "budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status","inventorId"); 
+			"legalStuff","startMoment","status","inventor.id"); 
 	}
 
 	@Override
@@ -99,7 +98,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		final Collection<Inventor> inventors = this.repository.findAllInventors();
 		
 		request.unbind(entity, model, "budget", "code", "creationMoment", "endMoment", "info", 
-			"legalStuff","startMoment","status");
+			"legalStuff","startMoment","status","inventor.id");
 		
 		model.setAttribute("readonly", false);
 		model.setAttribute("inventors",inventors);
@@ -120,9 +119,6 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		result = new Patronage();
 		result.setCreationMoment(moment);
 		result.setPatron(patron);
-		result.setStatus(PatronageStatus.PROPOSED);
-		result.setInventor(this.repository.findManyInventors().get(0));
-		
 		
 		return result;
 	}
@@ -133,16 +129,14 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		assert entity != null;
 		Date moment;
 
+				
+        final Integer inventorId = request.getModel().getInteger("inventor.id");
+        final Inventor inventor = this.repository.findOneInventorById(inventorId);
 		
 		moment = new Date(System.currentTimeMillis() - 1);
 		
-		
+		entity.setInventor(inventor);
 		entity.setCreationMoment(moment);
-		
-		if(entity.getStatus()!=PatronageStatus.PROPOSED && entity.getStatus()!=PatronageStatus.ACCEPTED
-			&& entity.getStatus()!=PatronageStatus.DENIED) {
-			entity.setStatus(PatronageStatus.PROPOSED);
-		}
 		
 		
 		
